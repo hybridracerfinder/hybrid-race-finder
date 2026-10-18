@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hybrid Race Finder</title>
+  <meta name="description" content="Carte non officielle des courses hybrides HYROX, ATHX et DEKA, avec filtres par zone, période, statut et course.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/favicon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark"><svg viewBox="0 0 30 22" aria-hidden="true"><path d="M2 20 C2 9 9 3 19 3 H28" fill="none" stroke="#ffe500" stroke-width="3.2" stroke-linecap="round"/><path d="M8 20 C8 12.5 12.5 9 19 9 H28" fill="none" stroke="#ffe500" stroke-width="3.2" stroke-linecap="round"/><path d="M14 20 C14 16 16 15 19 15 H28" fill="none" stroke="#ffe500" stroke-width="3.2" stroke-linecap="round"/></svg></span>
+      <h1>Hybrid Race Finder</h1>
+      <span class="version updated" id="updated"></span>
+    </div>
+    <p class="disclaimer" data-i18n-html="disclaimer"></p>
+  </header>
+
+  <main class="layout">
+    <aside class="panel" id="panel">
+      <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">
+        <svg class="ft-icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M6 10h8M8.5 15h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+        <span data-i18n="filtersBtn">Filtres</span>
+        <span class="ft-active" id="filters-active"></span>
+        <svg class="ft-chevron" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      </button>
+      <section class="filters" id="filters" data-i18n-aria="filters">
+        <div class="filter-group">
+          <div class="filter-head">
+            <h2 data-i18n="zone">Zone géographique</h2>
+            <button class="link-btn" data-reset="continent" data-i18n="all">Tout</button>
+          </div>
+          <div class="chips continents" id="f-continent"></div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-head">
+            <h2 data-i18n="period">Période</h2>
+            <button class="link-btn" data-reset="month" data-i18n="all">Tout</button>
+          </div>
+          <div class="chips months" id="f-month"></div>
+          <p class="hint" data-i18n="hint"></p>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-head">
+            <h2 data-i18n="status">Statut</h2>
+            <button class="link-btn" data-reset="status" data-i18n="all">Tout</button>
+          </div>
+          <div class="chips" id="f-status"></div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-head">
+            <h2 data-i18n="category">Catégorie</h2>
+          </div>
+          <div class="chips" id="f-brand"></div>
+        </div>
+      </section>
+
+      <div class="results-head">
+        <strong id="count">–</strong>
+        <button class="link-btn" id="reset-all" data-i18n="resetAll">Réinitialiser les filtres</button>
+      </div>
+      <ol class="race-list" id="list"></ol>
+    </aside>
+
+    <section class="map-wrap">
+      <div id="map" role="application"></div>
+      <div class="legend">
+        <span><i class="dot dot-buy"></i><span data-i18n="st.buy"></span></span>
+        <span><i class="dot dot-info"></i><span data-i18n="st.info"></span></span>
+        <span><i class="dot dot-tbc"></i><span data-i18n="st.tbc"></span></span>
+        <span><i class="dot dot-exp"></i><span data-i18n="st.exp"></span></span>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="data/races.js"></script>
+  <script src="assets/i18n.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
