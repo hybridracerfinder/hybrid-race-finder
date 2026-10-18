@@ -114,6 +114,15 @@ DEKA_LIST = """
 <div class="card"><a href="/en/race/detail/10979/overview">2026 DEKA FIT &amp; Ultra - Atlanta</a>
 <p>Atlanta, GA</p><p>Nov 07 - 08, 2026</p><a href="/en/race/detail/10979/overview">Register</a></div>
 <div class="card"><a href="/en/race/detail/11111/overview">Spartan Sprint Boston</a><p>Nov 01, 2026</p></div>
+<div class="card"><a href="/en/races/cleveland-ohio"><img></a><p>Oct 30 - 31, 2027</p>
+<a href="/en/races/cleveland-ohio">2027 Cleveland Spartan Trifecta Weekend</a><p>Windham, OH</p>
+<p>Sprint • Super • Beast • Kids</p><p>Also on site: DEKA FIT zone and DEKA MILE</p></div>
+<div class="card"><a href="/en/races/pippingfordpark"><img></a><p>Sep 25 - 26, 2027</p>
+<a href="/en/races/pippingfordpark">2027 London South East Spartan Weekend</a><p>Nutley, East Sussex, TN22 3HW, GB</p>
+<p>DEKA available at the festival</p></div>
+<div class="card"><a href="/en/race/detail/10454/overview"><img></a><p>Nov 28 - 29, 2026</p>
+<a href="/en/race/detail/10454/overview">2026 London West DEKA Trifecta Weekend</a><p>Farnborough, Hampshire, GB</p>
+<p>DEKA MILE • DEKA STRONG • DEKA FIT</p></div>
 """
 
 
@@ -121,8 +130,9 @@ def test_scrape_deka():
     pages = {p: "<html></html>" for p, _ in u.DEKA_PAGES}
     pages[u.DEKA_PAGES[0][0]] = DEKA_LIST
     got = u.scrape_deka(FakeHttp(pages))
-    assert len(got) == 1  # the Spartan race is ignored
-    assert got[0]["url"] == "https://www.spartan.com/en/race/detail/10979/overview"
+    # Spartan obstacle races are ignored, even when DEKA is mentioned in their description
+    assert [g["url"] for g in got] == ["https://www.spartan.com/en/race/detail/10979/overview",
+                                       "https://www.spartan.com/en/race/detail/10454/overview"]
     assert (got[0]["start"], got[0]["end"], got[0]["listing_cta"]) == ("2026-11-07", "2026-11-08", "buy_tickets")
 
 

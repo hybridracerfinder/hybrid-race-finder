@@ -359,13 +359,18 @@ def scrape_deka(http: Http, log=print):
             if key in seen:
                 continue
             text = " ".join(seg["titles"]) + " " + seg["text"]
-            if "deka" not in text.lower():
+            # The DEKA filter page also lists Spartan obstacle races, whose description may mention DEKA.
+            # Keep an event only if DEKA is in its own title: the text of its links, or, when its links have
+            # no text (image only), the first words of its block.
+            titles = [t for t in seg["titles"] if len(t) > 3 and not re.fullmatch(r"(register|sign up|book|more info|learn more)", t, re.I)]
+            title = max(titles, key=len) if titles else seg["text"][:90]
+            if not re.search(r"\bDEKA\b", title, re.I):
                 continue
             start, end = parse_deka_dates(text)
             if not start:
                 continue
             seen.add(key)
-            name = next((t for t in seg["titles"] if "deka" in t.lower()), None)
+            name = title if re.search(r"\bDEKA\b", title, re.I) else None
             if not name:
                 m = re.search(r"((?:19|20)\d{2}\s+)?[^|]*?DEKA[^|]*?(?=\s+[A-Z][a-z]{2}\s+\d{1,2}|$)", text)
                 name = m.group(0).strip() if m else text[:80]
@@ -619,7 +624,7 @@ def main(argv=None):
     http = Http()
     geo = Geocoder(http)
     idx = city_index(races)
-    report = {"date": today, "brands": {}, "errors": []}
+    report = {"date": today, "brands": {}, "errors": [], "warnings": []}
 
     def resolve(city, cc):
         return resolve_city(city, cc, idx, geo)
@@ -667,7 +672,7 @@ def main(argv=None):
         print(f"  {len(upcoming_scraped)} races · +{len(added)} · ~{len(updated)} · -{len(removed)}"
               + (f" · {len(skipped)} new races skipped (city not found)" if skipped else ""))
         for s in skipped:
-            report["errors"].append(f"{BRAND_LABEL[brand]}: new race not added, city not found: {s}")
+            report.setdefault("warnings", []).append(f"{BRAND_LABEL[brand]}: new race not added, city not found: {s}")
 
     races, changes = reconcile(races, today)
     report["reconcile"] = changes
