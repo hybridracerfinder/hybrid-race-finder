@@ -151,21 +151,33 @@ def soup_of(html: str):
     return BeautifulSoup(html, "html.parser")
 
 
-def card_text(anchor, link_re, has_date, max_up=8):
-    """Text of the smallest block around `anchor` that contains a date and no other event link."""
-    node, best = anchor, None
-    for _ in range(max_up):
-        node = node.parent
-        if node is None or node.name in ("body", "html"):
-            break
-        hrefs = {norm_url(a["href"]) for a in node.find_all("a", href=True) if link_re.search(a["href"])}
-        if len(hrefs) > 1:
-            break
-        text = node.get_text(" ", strip=True)
-        best = text
-        if has_date(text):
-            return text
-    return best or anchor.get_text(" ", strip=True)
+def event_segments(soup, link_re, url_of):
+    """Split the page into one text segment per event, in document order.
+
+    Everything between the first link to an event and the first link to the next event belongs to that
+    event (title, dates, venue, the "Buy tickets" / "Enter now" button...). This does not depend on how
+    the site nests its HTML, which is what broke the first version (the button sat in another block
+    than the date and was missed).
+    Returns {key: {"url": ..., "titles": [anchor texts], "text": "..."}} in page order."""
+    from bs4 import NavigableString, Tag
+    segs, current = {}, None
+    for node in soup.descendants:
+        if isinstance(node, Tag) and node.name == "a" and node.get("href"):
+            href = node["href"].split("?")[0].split("#")[0]
+            if link_re.search(href):
+                url = url_of(href)
+                current = norm_url(url)
+                seg = segs.setdefault(current, {"url": url, "titles": [], "text": []})
+                t = node.get_text(" ", strip=True)
+                if t:
+                    seg["titles"].append(t)
+        elif isinstance(node, NavigableString) and current and node.parent.name not in ("script", "style"):
+            t = str(node).strip()
+            if t:
+                segs[current]["text"].append(t)
+    for seg in segs.values():
+        seg["text"] = " ".join(seg["text"])
+    return segs
 
 
 # ---------------------------------------------------------------- date parsers (one per site format)
@@ -252,33 +264,28 @@ def deka_city(name: str) -> str:
 # ---------------------------------------------------------------- scrapers
 # Each returns a list of dicts: brand, url, name, start, end, date_confirmed, listing_cta (+ optional extras)
 
-SOON_RE = re.compile(r"ticket sales open soon|tickets? (?:will )?go(?:es)? live soon|join the waitlist|"
-                     r"ticket notification list|registration opens soon", re.I)
+# Only explicit wording. "Athlete Ticket Notification List" and "waitlist" also appear on pages whose
+# ticket sales are open, so they must not be used (this made every HYROX race blue in the first run).
+SOON_RE = re.compile(r"ticket sales (?:will )?open soon|tickets? (?:will )?go(?:es)? (?:on sale|live) soon|"
+                     r"registration (?:will )?opens? soon|sales open soon", re.I)
 
 
 def scrape_hyrox(http: Http, check_event_pages=True, log=print):
     html = http.get(BRAND_PAGE["hyrox"]).text
     soup = soup_of(html)
     link_re = re.compile(r"hyrox\.com/event/[^/]+/?$|^/event/[^/]+/?$")
-    out, seen = [], set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if not link_re.search(href.split("?")[0]):
+    segs = event_segments(soup, link_re, lambda h: (h if h.startswith("http") else "https://hyrox.com" + h))
+    out = []
+    for key, seg in segs.items():
+        titles = [t for t in seg["titles"] if t.lower() not in ("buy tickets", "find out more")]
+        if not titles:
             continue
-        title = a.get_text(" ", strip=True)
-        if not title or title.lower() in ("buy tickets", "find out more"):
-            continue
-        url = href if href.startswith("http") else "https://hyrox.com" + href
-        key = norm_url(url)
-        if key in seen:
-            continue
-        seen.add(key)
-        text = card_text(a, link_re, lambda t: bool(re.search(r"\d{1,2}\.\s*[A-Za-z]{3}", t)) or "coming soon" in t.lower())
+        text = seg["text"]
         start, end = parse_hyrox_dates(text)
         out.append({
-            "brand": "hyrox", "url": url.rstrip("/") + "/", "name": title,
+            "brand": "hyrox", "url": seg["url"].rstrip("/") + "/", "name": titles[0],
             "start": start, "end": end, "date_confirmed": start is not None,
-            "listing_cta": "buy_tickets" if "buy tickets" in text.lower() else "find_out_more",
+            "listing_cta": "buy_tickets" if re.search(r"\bbuy tickets?\b", text, re.I) else "find_out_more",
             "slug": key.split("/")[-1],
         })
     if check_event_pages:
@@ -311,27 +318,20 @@ def hyrox_meta(http: Http, slug: str):
 def scrape_athx(http: Http, log=print):
     soup = soup_of(http.get(BRAND_PAGE["athx"]).text)
     link_re = re.compile(r"/events/[0-9a-z]{20,}$")
-    out, seen = [], set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"].split("?")[0]
-        if not link_re.search(href):
-            continue
-        url = href if href.startswith("http") else "https://athxgames.com" + href
-        key = norm_url(url)
-        if key in seen:
-            continue
-        text = card_text(a, link_re, lambda t: parse_athx_dates(t)[0] is not None)
+    segs = event_segments(soup, link_re, lambda h: (h if h.startswith("http") else "https://athxgames.com" + h))
+    out = []
+    for key, seg in segs.items():
+        text = " ".join(seg["titles"]) + " " + seg["text"]
         m = re.search(r"\bATHX\s+[A-ZÀ-Ü][A-ZÀ-Ü .'\-]*?\s+(19|20)\d{2}\b", text, flags=re.I)
         if not m:
             continue
-        seen.add(key)
         start, end = parse_athx_dates(text)
         country = next((cc for name, cc in sorted(COUNTRY_EN.items(), key=lambda x: -len(x[0]))
                         if re.search(rf"\b{re.escape(name)}\b", text, flags=re.I)), None)
         out.append({
-            "brand": "athx", "url": url, "name": m.group(0).strip().title().replace("Athx", "ATHX"),
+            "brand": "athx", "url": seg["url"], "name": m.group(0).strip().title().replace("Athx", "ATHX"),
             "start": start, "end": end, "date_confirmed": start is not None,
-            "listing_cta": "buy_tickets" if re.search(r"enter now|register|buy", text, re.I) else "find_out_more",
+            "listing_cta": "buy_tickets" if re.search(r"enter now|register now|buy tickets?", text, re.I) else "find_out_more",
             "_cc": country,
         })
     return out
@@ -354,27 +354,23 @@ def scrape_deka(http: Http, log=print):
             errors.append(str(e))
             continue
         base = re.match(r"https://[^/]+", page).group(0)
-        for a in soup.find_all("a", href=True):
-            href = a["href"].split("?")[0]
-            if not link_re.search(href):
-                continue
-            url = href if href.startswith("http") else base + href
-            key = norm_url(url)
+        segs = event_segments(soup, link_re, lambda h, base=base: (h if h.startswith("http") else base + h))
+        for key, seg in segs.items():
             if key in seen:
                 continue
-            text = card_text(a, link_re, lambda t: parse_deka_dates(t)[0] is not None)
+            text = " ".join(seg["titles"]) + " " + seg["text"]
             if "deka" not in text.lower():
                 continue
             start, end = parse_deka_dates(text)
             if not start:
                 continue
             seen.add(key)
-            name = a.get_text(" ", strip=True)
-            if "deka" not in name.lower():
+            name = next((t for t in seg["titles"] if "deka" in t.lower()), None)
+            if not name:
                 m = re.search(r"((?:19|20)\d{2}\s+)?[^|]*?DEKA[^|]*?(?=\s+[A-Z][a-z]{2}\s+\d{1,2}|$)", text)
                 name = m.group(0).strip() if m else text[:80]
             out.append({
-                "brand": "deka", "url": url, "name": re.sub(r"\s+", " ", name)[:90],
+                "brand": "deka", "url": seg["url"], "name": re.sub(r"\s+", " ", name)[:90],
                 "start": start, "end": end, "date_confirmed": True,
                 "listing_cta": "find_out_more" if re.search(r"sold out|coming soon", text, re.I)
                                else ("buy_tickets" if re.search(r"register|sign up|book", text, re.I) else "find_out_more"),
@@ -453,8 +449,20 @@ def resolve_city(name_city: str, cc: str | None, idx, geo: Geocoder):
 OWNED = ("name", "start", "end", "date_confirmed", "listing_cta", "url")
 
 
-def merge_brand(races, brand, scraped, today, resolve, meta_lookup=None, log=print):
+def on_sale(r):
+    return r.get("listing_cta") == "buy_tickets" and not r.get("ticket_info")
+
+
+def ticket_status_collapsed(prev, scraped):
+    """True when the number of races on sale drops implausibly (the ticket button was not found)."""
+    before = sum(1 for r in prev if on_sale(r))
+    after = sum(1 for s in scraped if s.get("listing_cta") == "buy_tickets" and not s.get("_soon"))
+    return before >= 10 and after < 0.3 * before
+
+
+def merge_brand(races, brand, scraped, today, resolve, meta_lookup=None, log=print, keep_ticket_status=False):
     """Merge the races scraped for one brand into `races` (list, modified in place).
+    With keep_ticket_status=True, the ticket status of known races is left as it was.
     Returns (added, updated, removed, skipped) lists of names."""
     prev = [r for r in races if r["brand"] == brand and r["status"] == "announced"]
     by_url = {norm_url(r["url"]): r for r in prev}
@@ -469,9 +477,11 @@ def merge_brand(races, brand, scraped, today, resolve, meta_lookup=None, log=pri
         if r is not None:
             before = {k: r.get(k) for k in OWNED + ("ticket_info",)}
             for k in OWNED:
+                if keep_ticket_status and k == "listing_cta":
+                    continue
                 if s.get(k) is not None or k in ("start", "end"):
                     r[k] = s.get(k)
-            if s.get("_page_checked"):
+            if s.get("_page_checked") and not keep_ticket_status:
                 if s.get("_soon"):
                     r["ticket_info"] = AUTO_TICKET_INFO
                 else:
@@ -641,7 +651,15 @@ def main(argv=None):
             report["brands"][brand] = {"ok": False, "found": len(upcoming_scraped)}
             continue
         meta = (lambda slug: hyrox_meta(http, slug)) if brand == "hyrox" else None
-        added, updated, removed, skipped = merge_brand(races, brand, scraped, today, resolve, meta)
+        prev_announced = [r for r in races if r["brand"] == brand and r["status"] == "announced"]
+        keep = ticket_status_collapsed(prev_announced, scraped)
+        if keep:
+            msg = (f"{BRAND_LABEL[brand]}: almost no race found on sale (was {sum(map(on_sale, prev_announced))}); "
+                   "the ticket button was probably not recognised, ticket status left unchanged")
+            print("  ! " + msg)
+            report["errors"].append(msg)
+        added, updated, removed, skipped = merge_brand(races, brand, scraped, today, resolve, meta,
+                                                       keep_ticket_status=keep)
         any_ok = True
         report["brands"][brand] = {"ok": True, "found": len(upcoming_scraped), "added": added,
                                    "updated": updated, "removed": removed, "skipped": skipped}

@@ -61,6 +61,11 @@ HYROX_LIST = """
 <p>Date coming soon!</p><a href="https://hyrox.com/event/hyrox-new-york/">Find out more</a></div>
 <div class="event"><h2><a href="https://hyrox.com/event/hyrox-strasbourg/">HYROX Strasbourg</a></h2>
 <p>10. Jun. 2027– 13. Jun. 2027</p><a href="https://hyrox.com/event/hyrox-strasbourg/">Find out more</a></div>
+<div class="grid-item"><div class="media"><a href="https://hyrox.com/event/intersport-hyrox-hamburg/"><img src="h.jpg"></a></div>
+<div class="body"><div class="head"><span>HAM</span><h2><a href="https://hyrox.com/event/intersport-hyrox-hamburg/">INTERSPORT HYROX Hamburg</a></h2>
+<div class="date">28. Oct. 2026– 1. Nov. 2026</div></div>
+<div class="buttons"><div class="btn-wrap"><a class="btn" href="https://hyrox.com/event/intersport-hyrox-hamburg/">Buy Tickets</a></div></div></div></div>
+<footer><a href="https://hyrox.com/faq/">FAQ</a> © HYROX</footer>
 """
 
 
@@ -70,6 +75,9 @@ def test_scrape_hyrox():
         "https://hyrox.com/event/hyrox-toulouse-s26-27/": "<p>Buy Tickets here</p><p>Event Location: MEETT, Toulouse</p>",
         "https://hyrox.com/event/hyrox-new-york/": "<p>Coming soon</p>",
         "https://hyrox.com/event/hyrox-strasbourg/": "<p><b>Ticket sales open soon.</b> Join the waitlist</p>",
+        # page of a race on sale: also has a 'Ticket Notification List' button -> must stay 'on sale'
+        "https://hyrox.com/event/intersport-hyrox-hamburg/": "<a href='https://da.hyrox.com/x'>Athlete Tickets</a>"
+            "<a href='https://x.sibforms.com/y'>Athlete Ticket Notification List</a><p>Event Location: Hamburg Messe</p>",
     }
     got = {r["slug"]: r for r in u.scrape_hyrox(FakeHttp(pages))}
     t = got["hyrox-toulouse-s26-27"]
@@ -77,6 +85,9 @@ def test_scrape_hyrox():
     assert t["_soon"] is False and t["venue"] == "MEETT, Toulouse"
     assert got["hyrox-new-york"]["date_confirmed"] is False
     assert got["hyrox-strasbourg"]["_soon"] is True
+    h = got["intersport-hyrox-hamburg"]
+    assert (h["name"], h["start"], h["end"], h["listing_cta"], h["_soon"]) == (
+        "INTERSPORT HYROX Hamburg", "2026-10-28", "2026-11-01", "buy_tickets", False)
 
 
 ATHX_LIST = """
@@ -84,6 +95,9 @@ ATHX_LIST = """
 <p>Excel London</p><p>United Kingdom</p><span>Enter now</span></div></a>
 <a href="/events/01km0bfarc0dcs952s4rmtgd47"><div><h3>ATHX HOUSTON 2026</h3><p>17 Oct 2026</p><p>Reliant Park</p>
 <p>United States</p></div></a>
+<div class="card"><div class="top"><a href="/events/01krwy3qs5q0357mrpx9b4qxtf"><img alt=""></a></div>
+<div class="info"><a href="/events/01krwy3qs5q0357mrpx9b4qxtf"><h3>ATHX PARIS 2027</h3></a><p>13 - 14 Feb 2027</p>
+<p>Paris Event Centre</p><p>France</p></div><div class="actions"><button>Enter now</button></div></div>
 """
 
 
@@ -92,6 +106,7 @@ def test_scrape_athx():
     assert [(r["name"], r["start"], r["listing_cta"], r["_cc"]) for r in got] == [
         ("ATHX London 2027", "2027-01-23", "buy_tickets", "GB"),
         ("ATHX Houston 2026", "2026-10-17", "find_out_more", "US"),
+        ("ATHX Paris 2027", "2027-02-13", "buy_tickets", "FR"),
     ]
 
 
@@ -215,6 +230,17 @@ def test_source_removal_and_safety():
     scraped = [s for s in scraped if s["slug"] != "hyrox-bari"]
     _, _, removed, _ = u.merge_brand(races, "hyrox", scraped, today, resolve=lambda c, cc: None)
     assert removed == ["HYROX Bari"]
+
+
+def test_ticket_status_safeguard():
+    races, today = db(), "2026-10-18"
+    scraped = hyrox_scraped(races, today)
+    for x in scraped:                                  # parsing went wrong: no race on sale any more
+        x["listing_cta"] = "find_out_more"
+    prev = [r for r in races if r["brand"] == "hyrox" and r["status"] == "announced"]
+    assert u.ticket_status_collapsed(prev, scraped)
+    u.merge_brand(races, "hyrox", scraped, today, resolve=lambda c, cc: None, keep_ticket_status=True)
+    assert status(find(races, "intersport-hyrox-hamburg")) == "buy (yellow)"
 
 
 if __name__ == "__main__":
