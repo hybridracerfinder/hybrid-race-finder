@@ -43,12 +43,14 @@ jobs:
             git push
           fi
 
-      - name: Report problems (sends you an e-mail if a site could not be read)
+      - name: Report problems (fails, and e-mails you, only if a site could not be read)
         run: |
           python - <<'PY'
           import json, sys
           report = json.load(open("data/update_report.json", encoding="utf-8"))
+          for line in report.get("warnings", []):
+              print("::notice::" + line)   # information only: a new race to add by hand
           for line in report.get("errors", []):
-              print("::warning::" + line)
+              print("::warning::" + line)  # a site could not be read: the run fails and you get an e-mail
           sys.exit(1 if report.get("errors") else 0)
           PY
