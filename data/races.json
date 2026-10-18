@@ -10,17 +10,20 @@
     },
     "count": 195,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-10-17",
+    "updated_at": "2026-10-18",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-10-15"
+        "checked_on": "2026-10-18",
+        "races": 101
       },
       "athx": {
-        "checked_on": "2026-10-17"
+        "checked_on": "2026-10-18",
+        "races": 34
       },
       "deka": {
-        "checked_on": "2026-10-17"
+        "checked_on": "2026-10-18",
+        "races": 23
       }
     }
   },
@@ -44,7 +47,8 @@
       "url": "https://hyrox.com/event/hyrox-valencia/",
       "lat": 39.4699,
       "lng": -0.3763,
-      "cc": "ES"
+      "cc": "ES",
+      "venue": "Av. de les Fires, s/n, Pobles de l'Oest, 46035 València, Valencia, España"
     },
     {
       "id": "hyrox-sao-paulo-2",
@@ -65,7 +69,8 @@
       "url": "https://hyrox.com/event/hyrox-sao-paulo-2/",
       "lat": -23.5505,
       "lng": -46.6333,
-      "cc": "BR"
+      "cc": "BR",
+      "venue": "Av. Olavo Fontoura, 1209 - Santana, São Paulo - SP, 02001-900"
     },
     {
       "id": "hyrox-youngstars-valencia",
@@ -86,7 +91,8 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-valencia/",
       "lat": 39.4699,
       "lng": -0.3763,
-      "cc": "ES"
+      "cc": "ES",
+      "venue": "Av. de les Fires, s/n, Pobles de l'Oest, 46035 València, Valencia (Hall 2, Level 3)"
     },
     {
       "id": "hyrox-tampa",
@@ -107,7 +113,8 @@
       "url": "https://hyrox.com/event/hyrox-tampa/",
       "lat": 27.9506,
       "lng": -82.4572,
-      "cc": "US"
+      "cc": "US",
+      "venue": "333 S Franklin St, Tampa, FL 33602"
     },
     {
       "id": "hyrox-abu-dhabi",
@@ -128,7 +135,8 @@
       "url": "https://hyrox.com/event/hyrox-abu-dhabi/",
       "lat": 24.4539,
       "lng": 54.3773,
-      "cc": "AE"
+      "cc": "AE",
+      "venue": "ADNEC Centre Abu Dhabi,  Al Khaleej Al Arabi St - Al Rawdah - W59 01 - Abu Dhabi - United Arab Emirates"
     },
     {
       "id": "hyrox-birmingham",
@@ -149,7 +157,8 @@
       "url": "https://hyrox.com/event/hyrox-birmingham/",
       "lat": 52.4862,
       "lng": -1.8904,
-      "cc": "GB"
+      "cc": "GB",
+      "venue": "NEC - Pendigo Way, Marston Green, Birmingham B40 1NT"
     },
     {
       "id": "intersport-hyrox-hamburg",
@@ -170,11 +179,12 @@
       "url": "https://hyrox.com/event/intersport-hyrox-hamburg/",
       "lat": 53.5511,
       "lng": 9.9937,
-      "cc": "DE"
+      "cc": "DE",
+      "venue": "Hamburg Messe (B6), Karolinenstraße, Hamburg, Germany"
     },
     {
       "id": "hyrox-nice-s26-27",
-      "name": "TRAINSWEATEAT HYROX Nice",
+      "name": "TRAINSWEATEAT HYROX NICE",
       "city": {
         "fr": "Nice",
         "en": "Nice",
@@ -191,7 +201,8 @@
       "url": "https://hyrox.com/event/hyrox-nice-s26-27/",
       "lat": 43.7102,
       "lng": 7.262,
-      "cc": "FR"
+      "cc": "FR",
+      "venue": "Parv. de l'Europe, 06000 Nice"
     },
     {
       "id": "hyrox-mexico-city",
@@ -212,7 +223,8 @@
       "url": "https://hyrox.com/event/hyrox-mexico-city/",
       "lat": 19.4326,
       "lng": -99.1332,
-      "cc": "MX"
+      "cc": "MX",
+      "venue": "Av. del Conscripto 311, Lomas de Sotelo, Hipódromo de las Américas, Miguel Hidalgo, 11610 Ciudad de México, CDMX"
     },
     {
       "id": "hyrox-shanghai-1031",
@@ -233,7 +245,8 @@
       "url": "https://hyrox.com/event/hyrox-shanghai-1031/",
       "lat": 31.2304,
       "lng": 121.4737,
-      "cc": "CN"
+      "cc": "CN",
+      "venue": "No. 1099 Guozhan Road, Pudong New Area, Shanghai, China"
     },
     {
       "id": "hyrox-youngstars-birmingham",
@@ -254,7 +267,8 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-birmingham/",
       "lat": 52.4862,
       "lng": -1.8904,
-      "cc": "GB"
+      "cc": "GB",
+      "venue": "NEC - Pendigo Way, Marston Green, Birmingham B40 1NT"
     },
     {
       "id": "hyrox-dublin",
@@ -275,7 +289,8 @@
       "url": "https://hyrox.com/event/hyrox-dublin/",
       "lat": 53.3498,
       "lng": -6.2603,
-      "cc": "IE"
+      "cc": "IE",
+      "venue": "Royal Dublin Society (RDS), Simmonscourt Road, Ballsbridge, Dublin, D04 E6N6"
     },
     {
       "id": "hyrox-dusseldorf",
@@ -296,7 +311,8 @@
       "url": "https://hyrox.com/event/hyrox-dusseldorf/",
       "lat": 51.2277,
       "lng": 6.7735,
-      "cc": "DE"
+      "cc": "DE",
+      "venue": "Merkur Spiel Arena, Arena-Straße 1, 40474 Düsseldorf, Germany"
     },
     {
       "id": "hyrox-barcelona-2",
@@ -317,7 +333,8 @@
       "url": "https://hyrox.com/event/hyrox-barcelona-2/",
       "lat": 41.3874,
       "lng": 2.1686,
-      "cc": "ES"
+      "cc": "ES",
+      "venue": "Av. Joan Carles I, 64, 08908 Barcelona, España"
     },
     {
       "id": "hyrox-denver",
@@ -338,7 +355,8 @@
       "url": "https://hyrox.com/event/hyrox-denver/",
       "lat": 39.7392,
       "lng": -104.9903,
-      "cc": "US"
+      "cc": "US",
+      "venue": "5115 Race Ct, Denver, CO 80216 | Stockyards Event Center"
     },
     {
       "id": "hyrox-seoul",
@@ -359,7 +377,8 @@
       "url": "https://hyrox.com/event/hyrox-seoul/",
       "lat": 37.5665,
       "lng": 126.978,
-      "cc": "KR"
+      "cc": "KR",
+      "venue": "KINTEX (Korea International Exhibition Center), 217-60, Kintex-ro, Ilsanseo-gu, Goyang-si, Gyeonggi-do, 10390, South Kor"
     },
     {
       "id": "hyrox-cairo",
@@ -380,7 +399,8 @@
       "url": "https://hyrox.com/event/hyrox-cairo/",
       "lat": 30.0444,
       "lng": 31.2357,
-      "cc": "EG"
+      "cc": "EG",
+      "venue": "Egypt's International Exhibition Center Hall 4, El-Moshir Tantawy Axis, Al Hay Al Asher, Nasr City, Cairo Governorate 44"
     },
     {
       "id": "hyrox-dallas",
@@ -401,11 +421,12 @@
       "url": "https://hyrox.com/event/hyrox-dallas/",
       "lat": 32.7767,
       "lng": -96.797,
-      "cc": "US"
+      "cc": "US",
+      "venue": "650 S Griffin St, Dallas, Texas 75202 | Halls B & C"
     },
     {
       "id": "hyrox-poznan",
-      "name": "HYROX Poznań",
+      "name": "HYROX POZNAŃ",
       "city": {
         "fr": "Poznań",
         "en": "Poznań",
@@ -422,7 +443,8 @@
       "url": "https://hyrox.com/event/hyrox-poznan/",
       "lat": 52.4064,
       "lng": 16.9252,
-      "cc": "PL"
+      "cc": "PL",
+      "venue": "Poznań International Fair, Głogowska 14 street, 60-734 Poznań"
     },
     {
       "id": "hyrox-guangzhou",
@@ -443,7 +465,8 @@
       "url": "https://hyrox.com/event/hyrox-guangzhou/",
       "lat": 23.1291,
       "lng": 113.2644,
-      "cc": "CN"
+      "cc": "CN",
+      "venue": "No. 1000 Xinggang East Road, Haizhu District, Guangzhou, China"
     },
     {
       "id": "hyrox-rio-de-janeiro",
@@ -464,7 +487,8 @@
       "url": "https://hyrox.com/event/hyrox-rio-de-janeiro/",
       "lat": -22.9068,
       "lng": -43.1729,
-      "cc": "BR"
+      "cc": "BR",
+      "venue": "Av. Salvador Allende, 6555 - Barra Olímpica, Rio de Janeiro - RJ, 22783-127"
     },
     {
       "id": "aia-hyrox-singapore",
@@ -485,7 +509,8 @@
       "url": "https://hyrox.com/event/aia-hyrox-singapore/",
       "lat": 1.3521,
       "lng": 103.8198,
-      "cc": "SG"
+      "cc": "SG",
+      "venue": "Singapore EXPO - 1 Expo Dr, Singapore 486150"
     },
     {
       "id": "virgin-active-hyrox-johannesburg-26-27",
@@ -506,7 +531,8 @@
       "url": "https://hyrox.com/event/virgin-active-hyrox-johannesburg-26-27/",
       "lat": -26.2041,
       "lng": 28.0473,
-      "cc": "ZA"
+      "cc": "ZA",
+      "venue": "Johannesburg Expo Centre, Nasrec Road, Corner Rand Show Road, Johannesburg, 2091, South Africa"
     },
     {
       "id": "hyrox-utrecht",
@@ -527,11 +553,12 @@
       "url": "https://hyrox.com/event/hyrox-utrecht/",
       "lat": 52.0907,
       "lng": 5.1214,
-      "cc": "NL"
+      "cc": "NL",
+      "venue": "Jaarbeurs Utrecht, Jaarbeursplein 6, 3521 AL Utrecht"
     },
     {
       "id": "hyrox-gujarat",
-      "name": "IndusInd Bank HYROX Gujarat",
+      "name": "INDUSIND BANK HYROX GUJARAT",
       "city": {
         "fr": "Gujarat",
         "en": "Gujarat",
@@ -553,7 +580,8 @@
         "en": "Approximate location (Gujarat state)",
         "de": "Ungefähre Position (Bundesstaat Gujarat)"
       },
-      "cc": "IN"
+      "cc": "IN",
+      "venue": "Helipad Exhibition Center, Gandhinagar, Gujarat"
     },
     {
       "id": "hyrox-dubai",
@@ -574,7 +602,8 @@
       "url": "https://hyrox.com/event/hyrox-dubai/",
       "lat": 25.2048,
       "lng": 55.2708,
-      "cc": "AE"
+      "cc": "AE",
+      "venue": "Dubai Exhibition Centre (DEC), Boulevard 2020 Madinat Al Mataar, Dubai, United Arab Emirates"
     },
     {
       "id": "hyrox-youngstars-utrecht",
@@ -595,7 +624,8 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-utrecht/",
       "lat": 52.0907,
       "lng": 5.1214,
-      "cc": "NL"
+      "cc": "NL",
+      "venue": "Jaarbeurs Utrecht, Jaarbeursplein 6, 3521 AL Utrecht"
     },
     {
       "id": "hyrox-youngstars-singapore",
@@ -616,7 +646,8 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-singapore/",
       "lat": 1.3521,
       "lng": 103.8198,
-      "cc": "SG"
+      "cc": "SG",
+      "venue": "Singapore EXPO - 1 Expo Dr, Singapore 486150"
     },
     {
       "id": "hyrox-london-excel",
@@ -637,7 +668,8 @@
       "url": "https://hyrox.com/event/hyrox-london-excel/",
       "lat": 51.5074,
       "lng": -0.1278,
-      "cc": "GB"
+      "cc": "GB",
+      "venue": "ExCel - 1 Western Gateway, Royal Victoria Dock, London, E16 1XL"
     },
     {
       "id": "hyrox-anaheim-26-27",
@@ -658,7 +690,8 @@
       "url": "https://hyrox.com/event/hyrox-anaheim-26-27/",
       "lat": 33.8366,
       "lng": -117.9143,
-      "cc": "US"
+      "cc": "US",
+      "venue": "Anaheim Convention Center"
     },
     {
       "id": "hyrox-milan",
@@ -679,7 +712,8 @@
       "url": "https://hyrox.com/event/hyrox-milan/",
       "lat": 45.4642,
       "lng": 9.19,
-      "cc": "IT"
+      "cc": "IT",
+      "venue": "Viale Porta Ovest, 20017 Rho (Metropolitan City of Milan), Italy"
     },
     {
       "id": "hyrox-youngstars-london-excel",
@@ -700,7 +734,8 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-london-excel/",
       "lat": 51.5074,
       "lng": -0.1278,
-      "cc": "GB"
+      "cc": "GB",
+      "venue": "ExCel - 1 Western Gateway, Royal Victoria Dock, London, E16 1XL"
     },
     {
       "id": "hyrox-youngstars-anaheim",
@@ -721,11 +756,12 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-anaheim/",
       "lat": 33.8366,
       "lng": -117.9143,
-      "cc": "US"
+      "cc": "US",
+      "venue": "Anaheim Convention Center, 800 West Katella"
     },
     {
       "id": "30454",
-      "name": "24/7 Fitness HYROX Sanya",
+      "name": "24/7 FITNESS HYROX Sanya",
       "city": {
         "fr": "Sanya",
         "en": "Sanya",
@@ -742,7 +778,8 @@
       "url": "https://hyrox.com/event/30454/",
       "lat": 18.2528,
       "lng": 109.5119,
-      "cc": "CN"
+      "cc": "CN",
+      "venue": "No. 33 Jianglin Road, Haitang District, Sanya"
     },
     {
       "id": "hyrox-melbourne",
@@ -763,7 +800,8 @@
       "url": "https://hyrox.com/event/hyrox-melbourne/",
       "lat": -37.8136,
       "lng": 144.9631,
-      "cc": "AU"
+      "cc": "AU",
+      "venue": "Melbourne Convention and Exhibition Centre - 1 Convention Centre Pl, South Wharf VIC 3006, Australia"
     },
     {
       "id": "hyrox-nashville",
@@ -784,7 +822,8 @@
       "url": "https://hyrox.com/event/hyrox-nashville/",
       "lat": 36.1627,
       "lng": -86.7816,
-      "cc": "US"
+      "cc": "US",
+      "venue": "201 Rep. John Lewis Way S, Nashville, TN 37203"
     },
     {
       "id": "intersport-hyrox-stockholm-arena",
@@ -805,7 +844,8 @@
       "url": "https://hyrox.com/event/intersport-hyrox-stockholm-arena/",
       "lat": 59.3293,
       "lng": 18.0686,
-      "cc": "SE"
+      "cc": "SE",
+      "venue": "Strawberry Arena, Råsta Strandväg 1,  169 79 Solna, Sweden."
     },
     {
       "id": "fitness-first-hyrox-frankfurt",
@@ -826,7 +866,8 @@
       "url": "https://hyrox.com/event/fitness-first-hyrox-frankfurt/",
       "lat": 50.1109,
       "lng": 8.6821,
-      "cc": "DE"
+      "cc": "DE",
+      "venue": "Messe Frankfurt (Hall 3.1), Ludwig-Erhard-Anlage 1, 60327 Frankfurt, Germany"
     },
     {
       "id": "hyrox-kuala-lumpur",
@@ -847,11 +888,12 @@
       "url": "https://hyrox.com/event/hyrox-kuala-lumpur/",
       "lat": 3.139,
       "lng": 101.6869,
-      "cc": "MY"
+      "cc": "MY",
+      "venue": "Malaysia International Trade and Exhibition Centre - Kompleks MITEC, 8, Jalan Dutamas 2, Kompleks Kerajaan, 50480 Kuala"
     },
     {
       "id": "hyrox-paris-s26-27",
-      "name": "Fitness Park HYROX Paris",
+      "name": "FITNESS PARK HYROX PARIS",
       "city": {
         "fr": "Paris",
         "en": "Paris",
@@ -868,7 +910,8 @@
       "url": "https://hyrox.com/event/hyrox-paris-s26-27/",
       "lat": 48.8566,
       "lng": 2.3522,
-      "cc": "FR"
+      "cc": "FR",
+      "venue": "1 Place de la Porte de Versailles, 75015 Paris"
     },
     {
       "id": "hyrox-gent",
@@ -889,7 +932,8 @@
       "url": "https://hyrox.com/event/hyrox-gent/",
       "lat": 51.0543,
       "lng": 3.7174,
-      "cc": "BE"
+      "cc": "BE",
+      "venue": "Flanders Expo, Maaltekouter 1, 9051 Gent, Belgium"
     },
     {
       "id": "hyrox-vancouver",
@@ -910,11 +954,12 @@
       "url": "https://hyrox.com/event/hyrox-vancouver/",
       "lat": 49.2827,
       "lng": -123.1207,
-      "cc": "CA"
+      "cc": "CA",
+      "venue": "1055 Canada Pl Vancouver, BC V6C 0C3 | Halls A, B, & C"
     },
     {
       "id": "hyrox-helsinki-2",
-      "name": "HYROX Helsinki",
+      "name": "HYROX HELSINKI",
       "city": {
         "fr": "Helsinki",
         "en": "Helsinki",
@@ -931,7 +976,8 @@
       "url": "https://hyrox.com/event/hyrox-helsinki-2/",
       "lat": 60.1699,
       "lng": 24.9384,
-      "cc": "FI"
+      "cc": "FI",
+      "venue": "Messukeskus Helsinki - Expo and Convention Centre, Messuaukio 1 street, ZIP - 00520, Helsinki, Finland"
     },
     {
       "id": "hyrox-youngstars-paris",
@@ -952,7 +998,8 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-paris/",
       "lat": 48.8566,
       "lng": 2.3522,
-      "cc": "FR"
+      "cc": "FR",
+      "venue": "1 Place de la Porte de Versailles, 75015 Paris"
     },
     {
       "id": "hyrox-hong-kong",
@@ -973,11 +1020,12 @@
       "url": "https://hyrox.com/event/hyrox-hong-kong/",
       "lat": 22.3193,
       "lng": 114.1694,
-      "cc": "HK"
+      "cc": "HK",
+      "venue": "Asiaworld-Expo, 1 Airport Expo Blvd, Chek Lap Kok, Hong Kong"
     },
     {
       "id": "hyrox-noida",
-      "name": "HYROX Noida",
+      "name": "Hyrox Noida",
       "city": {
         "fr": "Noida",
         "en": "Noida",
@@ -994,7 +1042,8 @@
       "url": "https://hyrox.com/event/hyrox-noida/",
       "lat": 28.5355,
       "lng": 77.391,
-      "cc": "IN"
+      "cc": "IN",
+      "venue": "IEML (India Expo Mart), Knowledge Park II, Greater Noida, Uttar Pradesh"
     },
     {
       "id": "hyrox-manchester",
@@ -1015,7 +1064,8 @@
       "url": "https://hyrox.com/event/hyrox-manchester/",
       "lat": 53.4808,
       "lng": -2.2426,
-      "cc": "GB"
+      "cc": "GB",
+      "venue": "Manchester Central Convention Complex, Windmill Street, M2 3GX"
     },
     {
       "id": "byd-hyrox-osaka",
@@ -1036,7 +1086,8 @@
       "url": "https://hyrox.com/event/byd-hyrox-osaka/",
       "lat": 34.6937,
       "lng": 135.5023,
-      "cc": "JP"
+      "cc": "JP",
+      "venue": "INTEX Osaka, Suminoe-ku, Osaka, Osaka Prefecture, Japan"
     },
     {
       "id": "hyrox-amsterdam",
@@ -1057,7 +1108,8 @@
       "url": "https://hyrox.com/event/hyrox-amsterdam/",
       "lat": 52.3676,
       "lng": 4.9041,
-      "cc": "NL"
+      "cc": "NL",
+      "venue": "Europaplein 24, 1078 GZ Amsterdam"
     },
     {
       "id": "hyrox-youngstars-amsterdam",
@@ -1078,7 +1130,8 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-amsterdam/",
       "lat": 52.3676,
       "lng": 4.9041,
-      "cc": "NL"
+      "cc": "NL",
+      "venue": "Europaplein 24, 1078 GZ Amsterdam"
     },
     {
       "id": "hyrox-verona",
@@ -1099,11 +1152,12 @@
       "url": "https://hyrox.com/event/hyrox-verona/",
       "lat": 45.4384,
       "lng": 10.9916,
-      "cc": "IT"
+      "cc": "IT",
+      "venue": "Fiera di Verona - Viale del Lavoro, 8, 37135, Verona (VR)"
     },
     {
       "id": "hyrox-toulouse-s26-27",
-      "name": "LUCIS HYROX Toulouse",
+      "name": "LUCIS HYROX TOULOUSE",
       "city": {
         "fr": "Toulouse",
         "en": "Toulouse",
@@ -1147,7 +1201,8 @@
       "url": "https://hyrox.com/event/hyrox-auckland/",
       "lat": -36.8485,
       "lng": 174.7633,
-      "cc": "NZ"
+      "cc": "NZ",
+      "venue": "Auckland Showgrounds - 217 Green Lane West, Epsom, Auckland 1051, New Zealand"
     },
     {
       "id": "hyrox-bilbao",
@@ -1168,7 +1223,8 @@
       "url": "https://hyrox.com/event/hyrox-bilbao/",
       "lat": 43.263,
       "lng": -2.935,
-      "cc": "ES"
+      "cc": "ES",
+      "venue": "Azkue Kalea, 1, 48902 San Vicente de Barakaldo, Bizkaia"
     },
     {
       "id": "hyrox-youngstars-toulouse",
@@ -1189,7 +1245,8 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-toulouse/",
       "lat": 43.6047,
       "lng": 1.4442,
-      "cc": "FR"
+      "cc": "FR",
+      "venue": "Av. Concorde, 31840 Aussonne"
     },
     {
       "id": "hyrox-bangkok",
@@ -1210,7 +1267,8 @@
       "url": "https://hyrox.com/event/hyrox-bangkok/",
       "lat": 13.7563,
       "lng": 100.5018,
-      "cc": "TH"
+      "cc": "TH",
+      "venue": "Bangkok International Trade & Exhibition Centre - 88 Debaratna Rd, Bang Na Tai, Bang Na, Bangkok 10260, Thailand"
     },
     {
       "id": "hyrox-chicago-26-27",
@@ -1231,7 +1289,8 @@
       "url": "https://hyrox.com/event/hyrox-chicago-26-27/",
       "lat": 41.8781,
       "lng": -87.6298,
-      "cc": "US"
+      "cc": "US",
+      "venue": "600 E Grand Ave, Chicago, IL 60611"
     },
     {
       "id": "hyrox-basel",
@@ -1252,11 +1311,12 @@
       "url": "https://hyrox.com/event/hyrox-basel/",
       "lat": 47.5596,
       "lng": 7.5886,
-      "cc": "CH"
+      "cc": "CH",
+      "venue": "Messe Basel, Messeplatz 10, 4005 Basel, Switzerland"
     },
     {
       "id": "hyrox-katowice",
-      "name": "DAFI HYROX Katowice",
+      "name": "DAFI HYROX KATOWICE",
       "city": {
         "fr": "Katowice",
         "en": "Katowice",
@@ -1273,7 +1333,8 @@
       "url": "https://hyrox.com/event/hyrox-katowice/",
       "lat": 50.2649,
       "lng": 19.0238,
-      "cc": "PL"
+      "cc": "PL",
+      "venue": "International Congress Centre, Plac Sławika i Antalla 1 40-163 Katowice, Poland"
     },
     {
       "id": "hyrox-vienna",
@@ -1294,7 +1355,8 @@
       "url": "https://hyrox.com/event/hyrox-vienna/",
       "lat": 48.2082,
       "lng": 16.3738,
-      "cc": "AT"
+      "cc": "AT",
+      "venue": "Vienna Congress and Convention Center, Hall A, Trabrennstraße 7, 1020 Vienna, Austria"
     },
     {
       "id": "hyrox-cancun",
@@ -1315,7 +1377,8 @@
       "url": "https://hyrox.com/event/hyrox-cancun/",
       "lat": 21.1619,
       "lng": -86.8515,
-      "cc": "MX"
+      "cc": "MX",
+      "venue": "Av. Rbla. Fonatur, Zona Hotelera, 77500 Cancún, Q.R., México"
     },
     {
       "id": "inbody-hyrox-phoenix-26-27",
@@ -1336,7 +1399,8 @@
       "url": "https://hyrox.com/event/inbody-hyrox-phoenix-26-27/",
       "lat": 33.4484,
       "lng": -112.074,
-      "cc": "US"
+      "cc": "US",
+      "venue": "1 Cardinals Drive, Glendale, Arizona, USA"
     },
     {
       "id": "hyrox-mechelen",
@@ -1357,7 +1421,8 @@
       "url": "https://hyrox.com/event/hyrox-mechelen/",
       "lat": 51.0259,
       "lng": 4.4776,
-      "cc": "BE"
+      "cc": "BE",
+      "venue": "Plattebeekstraat 1, 2800 Mechelen, Belgium"
     },
     {
       "id": "hyrox-hanoi",
@@ -1378,7 +1443,8 @@
       "url": "https://hyrox.com/event/hyrox-hanoi/",
       "lat": 21.0278,
       "lng": 105.8342,
-      "cc": "VN"
+      "cc": "VN",
+      "venue": "Vietnam Exposition Center, Tu Lien Bridge Road, Dong Hoi Commune, Dong Anh District, Hanoi, Vietnam"
     },
     {
       "id": "hyrox-glasgow-2",
@@ -1399,7 +1465,8 @@
       "url": "https://hyrox.com/event/hyrox-glasgow-2/",
       "lat": 55.8642,
       "lng": -4.2518,
-      "cc": "GB"
+      "cc": "GB",
+      "venue": "Scottish Event Campus (SEC), Exhibition Way, Glasgow G3 8YW"
     },
     {
       "id": "hyrox-taipei",
@@ -1420,7 +1487,8 @@
       "url": "https://hyrox.com/event/hyrox-taipei/",
       "lat": 25.033,
       "lng": 121.5654,
-      "cc": "TW"
+      "cc": "TW",
+      "venue": "Taipei Nangang Exhibition Centre, Hall 1, No.1, Jingmao 2nd Rd., Nangang District, Taipei City 11568, Taiwan"
     },
     {
       "id": "hyrox-las-vegas-26-27",
@@ -1437,11 +1505,12 @@
       "end": "2027-03-14",
       "date_confirmed": true,
       "status": "announced",
-      "listing_cta": "find_out_more",
+      "listing_cta": "buy_tickets",
       "url": "https://hyrox.com/event/hyrox-las-vegas-26-27/",
       "lat": 36.1699,
       "lng": -115.1398,
-      "cc": "US"
+      "cc": "US",
+      "venue": "3150 Paradise Rd, Las Vegas, NV 89109"
     },
     {
       "id": "hyrox-madrid",
@@ -1462,7 +1531,8 @@
       "url": "https://hyrox.com/event/hyrox-madrid/",
       "lat": 40.4168,
       "lng": -3.7038,
-      "cc": "ES"
+      "cc": "ES",
+      "venue": "Av. del Partenón, 5, Barajas, 28042 Madrid"
     },
     {
       "id": "hyrox-guadalajara",
@@ -1483,7 +1553,8 @@
       "url": "https://hyrox.com/event/hyrox-guadalajara/",
       "lat": 20.6597,
       "lng": -103.3496,
-      "cc": "MX"
+      "cc": "MX",
+      "venue": "Av. Mariano Otero 1499, Verde Valle, 44550 Guadalajara, Jal., México"
     },
     {
       "id": "hyrox-buenos-aires",
@@ -1504,7 +1575,8 @@
       "url": "https://hyrox.com/event/hyrox-buenos-aires/",
       "lat": -34.6037,
       "lng": -58.3816,
-      "cc": "AR"
+      "cc": "AR",
+      "venue": "Av. Sarmiento 2704, C1425 Cdad. Autónoma de Buenos Aires, Argentina"
     },
     {
       "id": "hyrox-copenhagen",
@@ -1521,11 +1593,12 @@
       "end": "2027-03-28",
       "date_confirmed": true,
       "status": "announced",
-      "listing_cta": "find_out_more",
+      "listing_cta": "buy_tickets",
       "url": "https://hyrox.com/event/hyrox-copenhagen/",
       "lat": 55.6761,
       "lng": 12.5683,
-      "cc": "DK"
+      "cc": "DK",
+      "venue": "Bella Center, Center Blvd. 5, 2300 København, Denmark"
     },
     {
       "id": "sweat-pals-hyrox-miami-beach-26-27",
@@ -1546,11 +1619,12 @@
       "url": "https://hyrox.com/event/sweat-pals-hyrox-miami-beach-26-27/",
       "lat": 25.7907,
       "lng": -80.13,
-      "cc": "US"
+      "cc": "US",
+      "venue": "1901 Convention Ctr Dr, Miami Beach, FL 33139, USA"
     },
     {
       "id": "virgin-active-hyrox-cape-town",
-      "name": "Virgin Active HYROX Cape Town",
+      "name": "Virgin Active HYROX Cape Town ||",
       "city": {
         "fr": "Le Cap",
         "en": "Cape Town",
@@ -1567,7 +1641,8 @@
       "url": "https://hyrox.com/event/virgin-active-hyrox-cape-town/",
       "lat": -33.9249,
       "lng": 18.4241,
-      "cc": "ZA"
+      "cc": "ZA",
+      "venue": "Convention Square, 1 Lower long street, Cape Town City Centre, Cape Town, 8001"
     },
     {
       "id": "hyrox-youngstars-miami-beach",
@@ -1584,11 +1659,12 @@
       "end": "2027-03-28",
       "date_confirmed": true,
       "status": "announced",
-      "listing_cta": "find_out_more",
+      "listing_cta": "buy_tickets",
       "url": "https://hyrox.com/event/hyrox-youngstars-miami-beach/",
       "lat": 25.7907,
       "lng": -80.13,
-      "cc": "US"
+      "cc": "US",
+      "venue": "1901 Convention Ctr Dr, Miami Beach, FL 33139"
     },
     {
       "id": "hyrox-brisbane",
@@ -1609,7 +1685,8 @@
       "url": "https://hyrox.com/event/hyrox-brisbane/",
       "lat": -27.4698,
       "lng": 153.0251,
-      "cc": "AU"
+      "cc": "AU",
+      "venue": "Brisbane Convention & Exhibition Centre, Merivale St, South Brisbane QLD 4101"
     },
     {
       "id": "hyrox-rotterdam",
@@ -1630,7 +1707,8 @@
       "url": "https://hyrox.com/event/hyrox-rotterdam/",
       "lat": 51.9244,
       "lng": 4.4777,
-      "cc": "NL"
+      "cc": "NL",
+      "venue": "Ahoyweg 10, 3084 BA Rotterdam, Netherlands"
     },
     {
       "id": "hyrox-houston-26-27",
@@ -1651,7 +1729,8 @@
       "url": "https://hyrox.com/event/hyrox-houston-26-27/",
       "lat": 29.7604,
       "lng": -95.3698,
-      "cc": "US"
+      "cc": "US",
+      "venue": "NRG Park, 1 Fannin St, Houston, TX 77054, USA"
     },
     {
       "id": "hyrox-bari",
@@ -1672,7 +1751,8 @@
       "url": "https://hyrox.com/event/hyrox-bari/",
       "lat": 41.1171,
       "lng": 16.8719,
-      "cc": "IT"
+      "cc": "IT",
+      "venue": "Nuova Fiera del Levante"
     },
     {
       "id": "hyrox-youngstars-houston",
@@ -1693,11 +1773,12 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-houston/",
       "lat": 29.7604,
       "lng": -95.3698,
-      "cc": "US"
+      "cc": "US",
+      "venue": "VENUE INFORMATION COMING SOON"
     },
     {
       "id": "hyrox-warsaw-26-27",
-      "name": "Medicover Sport HYROX Warsaw",
+      "name": "MEDICOVER SPORT HYROX WARSAW",
       "city": {
         "fr": "Varsovie",
         "en": "Warsaw",
@@ -1714,11 +1795,12 @@
       "url": "https://hyrox.com/event/hyrox-warsaw-26-27/",
       "lat": 52.2297,
       "lng": 21.0122,
-      "cc": "PL"
+      "cc": "PL",
+      "venue": "PGE Narodowy, Prince Józef Poniatowski Avenue 1, Warsaw, 03-901, Poland"
     },
     {
       "id": "hyrox-paris-grand-palais-s26-27",
-      "name": "Maybelline HYROX Paris Grand Palais",
+      "name": "MAYBELLINE HYROX PARIS GRAND PALAIS",
       "city": {
         "fr": "Paris",
         "en": "Paris",
@@ -1735,7 +1817,8 @@
       "url": "https://hyrox.com/event/hyrox-paris-grand-palais-s26-27/",
       "lat": 48.8566,
       "lng": 2.3522,
-      "cc": "FR"
+      "cc": "FR",
+      "venue": "3 Avenue Winston-Churchill, 75008, Paris"
     },
     {
       "id": "all-inclusive-fitness-hyrox-cologne",
@@ -1756,7 +1839,8 @@
       "url": "https://hyrox.com/event/all-inclusive-fitness-hyrox-cologne/",
       "lat": 50.9375,
       "lng": 6.9603,
-      "cc": "DE"
+      "cc": "DE",
+      "venue": "Koelnmesse/FIBO, Messeplatz 1, Hall 10.1. - Entrance East, 50679 Cologne, Germany"
     },
     {
       "id": "hyrox-malaga",
@@ -1777,7 +1861,8 @@
       "url": "https://hyrox.com/event/hyrox-malaga/",
       "lat": 36.7213,
       "lng": -4.4214,
-      "cc": "ES"
+      "cc": "ES",
+      "venue": "Palacio de Ferias y Congresos, Av. de José Ortega y Gasset, 201, Cruz de Humilladero, 29006 Málaga"
     },
     {
       "id": "hyrox-nagoya",
@@ -1798,11 +1883,12 @@
       "url": "https://hyrox.com/event/hyrox-nagoya/",
       "lat": 35.1815,
       "lng": 136.9066,
-      "cc": "JP"
+      "cc": "JP",
+      "venue": "Port Messe Nagoya Exhibition Hall - 3 Chome-2-1 Kinjofuto, Minato Ward, Nagoya, Aichi 455-0848, Japan"
     },
     {
       "id": "hyrox-helsinki",
-      "name": "HYROX Helsinki",
+      "name": "HYROX HELSINKI",
       "city": {
         "fr": "Helsinki",
         "en": "Helsinki",
@@ -1819,7 +1905,8 @@
       "url": "https://hyrox.com/event/hyrox-helsinki/",
       "lat": 60.1699,
       "lng": 24.9384,
-      "cc": "FI"
+      "cc": "FI",
+      "venue": "Helsinki Expo and Convention Centre, Messuaukio 1, 00520 Helsinki, Finland"
     },
     {
       "id": "hyrox-monterrey",
@@ -1840,11 +1927,12 @@
       "url": "https://hyrox.com/event/hyrox-monterrey/",
       "lat": 25.6866,
       "lng": -100.3161,
-      "cc": "MX"
+      "cc": "MX",
+      "venue": "Av Fundidora 501, Obrera, 64010 Monterrey, N.L., México"
     },
     {
       "id": "hyrox-ottawa-26-27",
-      "name": "HYROX Ottawa",
+      "name": "BIOTHERM HYROX Ottawa",
       "city": {
         "fr": "Ottawa",
         "en": "Ottawa",
@@ -1861,7 +1949,8 @@
       "url": "https://hyrox.com/event/hyrox-ottawa-26-27/",
       "lat": 45.4215,
       "lng": -75.6972,
-      "cc": "CA"
+      "cc": "CA",
+      "venue": "VENUE INFORMATION COMING SOON"
     },
     {
       "id": "factor_-hyrox-atlanta",
@@ -1882,7 +1971,8 @@
       "url": "https://hyrox.com/event/factor_-hyrox-atlanta/",
       "lat": 33.749,
       "lng": -84.388,
-      "cc": "US"
+      "cc": "US",
+      "venue": "285 Andrew Young International Blvd NW, Atlanta, GA 30313"
     },
     {
       "id": "hyrox-youngstars-atlanta",
@@ -1903,11 +1993,12 @@
       "url": "https://hyrox.com/event/hyrox-youngstars-atlanta/",
       "lat": 33.749,
       "lng": -84.388,
-      "cc": "US"
+      "cc": "US",
+      "venue": "LOCATION TO BE ANNOUNCED"
     },
     {
       "id": "hyrox-krakow-26-27",
-      "name": "HYROX Kraków",
+      "name": "HYROX KRAKÓW",
       "city": {
         "fr": "Cracovie",
         "en": "Kraków",
@@ -1924,11 +2015,12 @@
       "url": "https://hyrox.com/event/hyrox-krakow-26-27/",
       "lat": 50.0647,
       "lng": 19.945,
-      "cc": "PL"
+      "cc": "PL",
+      "venue": "EXPO Kraków, Galicyjska 9 street, 31-586 Kraków, Poland"
     },
     {
       "id": "hyrox-lyon-s26-27",
-      "name": "HYROX Lyon",
+      "name": "HYROX LYON",
       "city": {
         "fr": "Lyon",
         "en": "Lyon",
@@ -1945,11 +2037,17 @@
       "url": "https://hyrox.com/event/hyrox-lyon-s26-27/",
       "lat": 45.764,
       "lng": 4.8357,
-      "cc": "FR"
+      "cc": "FR",
+      "ticket_info": {
+        "fr": "Ouverture de la billetterie prochainement (liste d'attente)",
+        "en": "Ticket sales opening soon (waitlist)",
+        "de": "Ticketverkauf startet bald (Warteliste)"
+      },
+      "venue": "Bd de l'Europe, 69680 Chassieu"
     },
     {
       "id": "hyrox-bengaluru",
-      "name": "HYROX Bengaluru",
+      "name": "Hyrox Bengaluru",
       "city": {
         "fr": "Bangalore",
         "en": "Bengaluru",
@@ -1958,15 +2056,16 @@
       "brand": "hyrox",
       "continent": "asia-pacific",
       "type": "adults",
-      "start": "2027-05-12",
-      "end": "2027-05-16",
+      "start": "2027-05-19",
+      "end": "2027-05-23",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "find_out_more",
       "url": "https://hyrox.com/event/hyrox-bengaluru/",
       "lat": 12.9716,
       "lng": 77.5946,
-      "cc": "IN"
+      "cc": "IN",
+      "venue": "Bangalore International Exhibition Centre (BIEC) Hall 4 BIEC, 10th Mile, Tumkur Road 562162 Bengaluru"
     },
     {
       "id": "hyrox-incheon",
@@ -1987,7 +2086,8 @@
       "url": "https://hyrox.com/event/hyrox-incheon/",
       "lat": 37.4563,
       "lng": 126.7052,
-      "cc": "KR"
+      "cc": "KR",
+      "venue": "Songdo Convensia Convention Center - South Korea, Incheon, Yeonsu-gu, Songdo-dong, Central-ro, 123 컨벤시아 M01"
     },
     {
       "id": "hyrox-san-diego-26-27",
@@ -2008,7 +2108,8 @@
       "url": "https://hyrox.com/event/hyrox-san-diego-26-27/",
       "lat": 32.7157,
       "lng": -117.1611,
-      "cc": "US"
+      "cc": "US",
+      "venue": "111 Harbor Dr, San Diego, CA 92101, USA"
     },
     {
       "id": "hyrox-cardiff-2",
@@ -2029,7 +2130,8 @@
       "url": "https://hyrox.com/event/hyrox-cardiff-2/",
       "lat": 51.4816,
       "lng": -3.1791,
-      "cc": "GB"
+      "cc": "GB",
+      "venue": "Principality Stadium, Westgate St, Cardiff, CF10 1NS"
     },
     {
       "id": "hyrox-portland-26-27",
@@ -2050,11 +2152,12 @@
       "url": "https://hyrox.com/event/hyrox-portland-26-27/",
       "lat": 45.5152,
       "lng": -122.6784,
-      "cc": "US"
+      "cc": "US",
+      "venue": "777 NE Martin Luther King Jr Blvd, Portland, OR 97232"
     },
     {
       "id": "cisalfa-hyrox-rimini",
-      "name": "Cisalfa HYROX Rimini",
+      "name": "HYROX Rimini",
       "city": {
         "fr": "Rimini",
         "en": "Rimini",
@@ -2071,11 +2174,12 @@
       "url": "https://hyrox.com/event/cisalfa-hyrox-rimini/",
       "lat": 44.0678,
       "lng": 12.5695,
-      "cc": "IT"
+      "cc": "IT",
+      "venue": "Fiera di Rimini, Via Costantino il Grande, 47921, Rimini (RN)"
     },
     {
       "id": "hyrox-riga",
-      "name": "HYROX Riga",
+      "name": "HYROX RIGA",
       "city": {
         "fr": "Riga",
         "en": "Riga",
@@ -2092,7 +2196,8 @@
       "url": "https://hyrox.com/event/hyrox-riga/",
       "lat": 56.9496,
       "lng": 24.1052,
-      "cc": "LV"
+      "cc": "LV",
+      "venue": "Ķīpsala International Exhibition Centre Ķīpsalas iela 8, Kurzemes rajons, Rīga, LV-1048, Latvia"
     },
     {
       "id": "puma-hyrox-world-championships-hong-kong",
@@ -2116,7 +2221,8 @@
       "tags": [
         "championnat-du-monde"
       ],
-      "cc": "HK"
+      "cc": "HK",
+      "venue": "Asiaworld-Expo, 1 Airport Expo Blvd, Chek Lap Kok, Hong Kong"
     },
     {
       "id": "hyrox-new-york",
@@ -2137,11 +2243,12 @@
       "url": "https://hyrox.com/event/hyrox-new-york/",
       "lat": 40.7128,
       "lng": -74.006,
-      "cc": "US"
+      "cc": "US",
+      "venue": "VENUE INFORMATION COMING SOON"
     },
     {
       "id": "athx-01k8b7nxgwcr70a86vqf2y6ck4",
-      "name": "ATHX Amsterdam 2026",
+      "name": "ATHX Los Angeles 2026",
       "city": {
         "fr": "Amsterdam",
         "en": "Amsterdam",
@@ -2163,7 +2270,7 @@
     },
     {
       "id": "athx-01kxmxwwhpb0jatysf8kb8gz5a",
-      "name": "ATHX Los Angeles 2026",
+      "name": "ATHX Finals 2026",
       "city": {
         "fr": "Los Angeles",
         "en": "Los Angeles",
@@ -2172,8 +2279,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2185,7 +2292,7 @@
     },
     {
       "id": "athx-01kk1b7p4a1pzebw5dd7q2z7wn",
-      "name": "ATHX Finals 2026",
+      "name": "ATHX London 2027",
       "city": {
         "fr": "Lisbonne",
         "en": "Lisbon",
@@ -2194,8 +2301,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2026-11-27",
-      "end": "2026-11-29",
+      "start": "2027-01-23",
+      "end": "2027-01-24",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "find_out_more",
@@ -2210,7 +2317,7 @@
     },
     {
       "id": "athx-01krwxxbqkjzzbhpdj52356qkc",
-      "name": "ATHX London 2027",
+      "name": "ATHX San Diego 2027",
       "city": {
         "fr": "Londres",
         "en": "London",
@@ -2220,7 +2327,7 @@
       "continent": "europe",
       "type": "adults",
       "start": "2027-01-23",
-      "end": "2027-01-24",
+      "end": "2027-01-23",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2232,7 +2339,7 @@
     },
     {
       "id": "athx-01m3q7jv27nmxge7qrghrkb0m4",
-      "name": "ATHX San Diego 2027",
+      "name": "ATHX Las Vegas 2027",
       "city": {
         "fr": "San Diego",
         "en": "San Diego",
@@ -2241,8 +2348,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-01-23",
-      "end": "2027-01-23",
+      "start": "2027-02-06",
+      "end": "2027-02-06",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2254,7 +2361,7 @@
     },
     {
       "id": "athx-01m3q8sdq1s3qr7fsjbf2rg18c",
-      "name": "ATHX Las Vegas 2027",
+      "name": "ATHX Paris 2027",
       "city": {
         "fr": "Las Vegas",
         "en": "Las Vegas",
@@ -2263,8 +2370,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-02-06",
-      "end": "2027-02-06",
+      "start": "2027-02-13",
+      "end": "2027-02-14",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2279,7 +2386,7 @@
     },
     {
       "id": "athx-01krwy3qs5q0357mrpx9b4qxtf",
-      "name": "ATHX Paris 2027",
+      "name": "ATHX Valencia 2027",
       "city": {
         "fr": "Paris",
         "en": "Paris",
@@ -2288,8 +2395,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-02-13",
-      "end": "2027-02-14",
+      "start": "2027-02-20",
+      "end": "2027-02-20",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2301,7 +2408,7 @@
     },
     {
       "id": "athx-01krwy548m3x7bt4j8bvvmr8j8",
-      "name": "ATHX Valencia 2027",
+      "name": "ATHX Milan 2027",
       "city": {
         "fr": "Valencia",
         "en": "Valencia",
@@ -2310,8 +2417,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-02-20",
-      "end": "2027-02-20",
+      "start": "2027-03-06",
+      "end": "2027-03-07",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2323,7 +2430,7 @@
     },
     {
       "id": "athx-01ktkx9y8tf4a4g88n2jrprvxb",
-      "name": "ATHX Milan 2027",
+      "name": "ATHX Denver 2027",
       "city": {
         "fr": "Milan",
         "en": "Milan",
@@ -2332,8 +2439,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-03-06",
-      "end": "2027-03-07",
+      "start": "2027-03-13",
+      "end": "2027-03-13",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2345,7 +2452,7 @@
     },
     {
       "id": "athx-01m3qb3fstj70qb6kgdxspt43f",
-      "name": "ATHX Denver 2027",
+      "name": "ATHX Brussels 2027",
       "city": {
         "fr": "Denver",
         "en": "Denver",
@@ -2354,8 +2461,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-03-13",
-      "end": "2027-03-13",
+      "start": "2027-03-20",
+      "end": "2027-03-20",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2370,7 +2477,7 @@
     },
     {
       "id": "athx-01krwy5v1j0w519tw157rjf94m",
-      "name": "ATHX Brussels 2027",
+      "name": "ATHX St Gallen 2027",
       "city": {
         "fr": "Bruxelles",
         "en": "Brussels",
@@ -2379,8 +2486,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-03-20",
-      "end": "2027-03-20",
+      "start": "2027-04-10",
+      "end": "2027-04-10",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2392,7 +2499,7 @@
     },
     {
       "id": "athx-01krwy682mdagrw81v49eryjfh",
-      "name": "ATHX St Gallen 2027",
+      "name": "ATHX Stuttgart 2027",
       "city": {
         "fr": "St-Gall",
         "en": "St. Gallen",
@@ -2401,8 +2508,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-04-10",
-      "end": "2027-04-10",
+      "start": "2027-04-17",
+      "end": "2027-04-17",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2414,7 +2521,7 @@
     },
     {
       "id": "athx-01krwy6n4pfbcrvdntsnxx1ve5",
-      "name": "ATHX Stuttgart 2027",
+      "name": "ATHX Houston 2027",
       "city": {
         "fr": "Stuttgart",
         "en": "Stuttgart",
@@ -2436,7 +2543,7 @@
     },
     {
       "id": "athx-01m52cq7h7hmngw4w6v1ptbfd9",
-      "name": "ATHX Houston 2027",
+      "name": "ATHX Vienna 2027",
       "city": {
         "fr": "Houston",
         "en": "Houston",
@@ -2445,8 +2552,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-04-17",
-      "end": "2027-04-17",
+      "start": "2027-04-24",
+      "end": "2027-04-24",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2458,7 +2565,7 @@
     },
     {
       "id": "athx-01krwy752qn8epq15qbfn1kjnm",
-      "name": "ATHX Vienna 2027",
+      "name": "ATHX Madrid 2027",
       "city": {
         "fr": "Vienne",
         "en": "Vienna",
@@ -2467,8 +2574,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-04-24",
-      "end": "2027-04-24",
+      "start": "2027-05-08",
+      "end": "2027-05-09",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2480,7 +2587,7 @@
     },
     {
       "id": "athx-01krwy7hrp6bp8ndj7p1487n0n",
-      "name": "ATHX Madrid 2027",
+      "name": "ATHX Frankfurt 2027",
       "city": {
         "fr": "Madrid",
         "en": "Madrid",
@@ -2489,8 +2596,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-05-08",
-      "end": "2027-05-09",
+      "start": "2027-05-22",
+      "end": "2027-05-22",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2502,7 +2609,7 @@
     },
     {
       "id": "athx-01krwy8bb5rcgrnwpbcczzbray",
-      "name": "ATHX Frankfurt 2027",
+      "name": "ATHX Montpellier 2027",
       "city": {
         "fr": "Francfort",
         "en": "Frankfurt",
@@ -2511,8 +2618,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-05-22",
-      "end": "2027-05-22",
+      "start": "2027-05-28",
+      "end": "2027-05-29",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2524,7 +2631,7 @@
     },
     {
       "id": "athx-01ktkxbvzg4bf5b0xp1vr4rgc9",
-      "name": "ATHX Montpellier 2027",
+      "name": "ATHX Glasgow 2027",
       "city": {
         "fr": "Montpellier",
         "en": "Montpellier",
@@ -2533,8 +2640,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-05-28",
-      "end": "2027-05-29",
+      "start": "2027-06-05",
+      "end": "2027-06-06",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2546,7 +2653,7 @@
     },
     {
       "id": "athx-01krwy8tkc67qrvhyxrkf7rr2a",
-      "name": "ATHX Glasgow 2027",
+      "name": "ATHX Dublin 2027",
       "city": {
         "fr": "Glasgow",
         "en": "Glasgow",
@@ -2555,8 +2662,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-06-05",
-      "end": "2027-06-06",
+      "start": "2027-06-12",
+      "end": "2027-06-13",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2568,7 +2675,7 @@
     },
     {
       "id": "athx-01krwy9mpydvy1btj6mg0n24d3",
-      "name": "ATHX Dublin 2027",
+      "name": "ATHX Miami 2027",
       "city": {
         "fr": "Dublin",
         "en": "Dublin",
@@ -2578,7 +2685,7 @@
       "continent": "europe",
       "type": "adults",
       "start": "2027-06-12",
-      "end": "2027-06-13",
+      "end": "2027-06-12",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2590,7 +2697,7 @@
     },
     {
       "id": "athx-01m49ena5z6exns2wbwhz0as69",
-      "name": "ATHX Miami 2027",
+      "name": "ATHX Lisbon 2027",
       "city": {
         "fr": "Miami Beach",
         "en": "Miami Beach",
@@ -2599,8 +2706,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-06-12",
-      "end": "2027-06-12",
+      "start": "2027-06-26",
+      "end": "2027-06-27",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2612,7 +2719,7 @@
     },
     {
       "id": "athx-01krwyacecyw2jbmn851f35kkt",
-      "name": "ATHX Lisbon 2027",
+      "name": "ATHX Malmö 2027",
       "city": {
         "fr": "Lisbonne",
         "en": "Lisbon",
@@ -2621,8 +2728,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-06-26",
-      "end": "2027-06-27",
+      "start": "2027-07-31",
+      "end": "2027-07-31",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2634,7 +2741,7 @@
     },
     {
       "id": "athx-01m4r73y2nbndczzrhkh09xccc",
-      "name": "ATHX Malmö 2027",
+      "name": "ATHX Berlin 2027",
       "city": {
         "fr": "Malmö",
         "en": "Malmö",
@@ -2643,8 +2750,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-07-31",
-      "end": "2027-07-31",
+      "start": "2027-08-14",
+      "end": "2027-08-15",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2656,7 +2763,7 @@
     },
     {
       "id": "athx-01krwybw82cd8h9reednq08rdy",
-      "name": "ATHX Berlin 2027",
+      "name": "ATHX Nashville 2027",
       "city": {
         "fr": "Berlin",
         "en": "Berlin",
@@ -2666,7 +2773,7 @@
       "continent": "europe",
       "type": "adults",
       "start": "2027-08-14",
-      "end": "2027-08-15",
+      "end": "2027-08-14",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2678,7 +2785,7 @@
     },
     {
       "id": "athx-01m3qe0s9k2yzb4grc3qs0149m",
-      "name": "ATHX Nashville 2027",
+      "name": "ATHX Birmingham 2027",
       "city": {
         "fr": "Nashville",
         "en": "Nashville",
@@ -2687,8 +2794,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-08-14",
-      "end": "2027-08-14",
+      "start": "2027-08-20",
+      "end": "2027-08-22",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2703,7 +2810,7 @@
     },
     {
       "id": "athx-01krwycnfs1czxhzqvvsqtcjhh",
-      "name": "ATHX Birmingham 2027",
+      "name": "ATHX Hamburg 2027",
       "city": {
         "fr": "Birmingham",
         "en": "Birmingham",
@@ -2712,8 +2819,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-08-20",
-      "end": "2027-08-22",
+      "start": "2027-08-28",
+      "end": "2027-08-28",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2725,7 +2832,7 @@
     },
     {
       "id": "athx-01krwydvc664nvf2am0tdtkscp",
-      "name": "ATHX Hamburg 2027",
+      "name": "ATHX New York 2027",
       "city": {
         "fr": "Hambourg",
         "en": "Hamburg",
@@ -2747,7 +2854,7 @@
     },
     {
       "id": "athx-01m32wkpzn6npbb75agmenytbe",
-      "name": "ATHX New York 2027",
+      "name": "ATHX Rome 2027",
       "city": {
         "fr": "New York",
         "en": "New York",
@@ -2756,8 +2863,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-08-28",
-      "end": "2027-08-28",
+      "start": "2027-09-04",
+      "end": "2027-09-04",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2769,7 +2876,7 @@
     },
     {
       "id": "athx-01m4r799gbhp53p6zjz8sayapk",
-      "name": "ATHX Rome 2027",
+      "name": "ATHX Marseille 2027",
       "city": {
         "fr": "Rome",
         "en": "Rome",
@@ -2778,8 +2885,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-09-04",
-      "end": "2027-09-04",
+      "start": "2027-09-10",
+      "end": "2027-09-11",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2791,7 +2898,7 @@
     },
     {
       "id": "athx-01krwye8tdjj9gscaw7xht2sme",
-      "name": "ATHX Marseille 2027",
+      "name": "ATHX Chicago 2027",
       "city": {
         "fr": "Marseille",
         "en": "Marseille",
@@ -2800,7 +2907,7 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-09-10",
+      "start": "2027-09-11",
       "end": "2027-09-11",
       "date_confirmed": true,
       "status": "announced",
@@ -2813,7 +2920,7 @@
     },
     {
       "id": "athx-01m3qf0k52z2eq2s87gjn3ea61",
-      "name": "ATHX Chicago 2027",
+      "name": "ATHX Turin 2027",
       "city": {
         "fr": "Chicago",
         "en": "Chicago",
@@ -2822,8 +2929,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-09-11",
-      "end": "2027-09-11",
+      "start": "2027-09-25",
+      "end": "2027-09-25",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2838,7 +2945,7 @@
     },
     {
       "id": "athx-01krwyezkbkvf4rdk2em6nj7z4",
-      "name": "ATHX Turin 2027",
+      "name": "ATHX Amsterdam 2027",
       "city": {
         "fr": "Turin",
         "en": "Turin",
@@ -2847,8 +2954,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-09-25",
-      "end": "2027-09-25",
+      "start": "2027-10-02",
+      "end": "2027-10-03",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2860,7 +2967,7 @@
     },
     {
       "id": "athx-01krwyg5j85v7nrbwh5eak1tb9",
-      "name": "ATHX Amsterdam 2027",
+      "name": "ATHX Liverpool 2027",
       "city": {
         "fr": "Amsterdam",
         "en": "Amsterdam",
@@ -2869,8 +2976,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-10-02",
-      "end": "2027-10-03",
+      "start": "2027-10-09",
+      "end": "2027-10-10",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2882,7 +2989,7 @@
     },
     {
       "id": "athx-01krwyfbxhpxxdyn42cas8bcd1",
-      "name": "ATHX Liverpool 2027",
+      "name": "ATHX Bilbao 2027",
       "city": {
         "fr": "Liverpool",
         "en": "Liverpool",
@@ -2891,8 +2998,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-10-09",
-      "end": "2027-10-10",
+      "start": "2027-11-06",
+      "end": "2027-11-06",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2903,30 +3010,8 @@
       "cc": "GB"
     },
     {
-      "id": "athx-01krwygz93demx24426v8p3xr5",
-      "name": "ATHX Bilbao 2027",
-      "city": {
-        "fr": "Bilbao",
-        "en": "Bilbao",
-        "de": "Bilbao"
-      },
-      "brand": "athx",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2027-11-06",
-      "end": "2027-11-06",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://athxgames.com/events/01krwygz93demx24426v8p3xr5",
-      "venue": "Bilbao Exhibition Centre",
-      "lat": 43.263,
-      "lng": -2.935,
-      "cc": "ES"
-    },
-    {
       "id": "deka-atlanta-2026",
-      "name": "DEKA FIT & Ultra Atlanta",
+      "name": "Nov 07 - 08, 2026 2026 DEKA FIT & Ultra - Atlanta Atlanta, GA DEKA FIT",
       "city": {
         "fr": "Atlanta",
         "en": "Atlanta",
@@ -2947,7 +3032,7 @@
     },
     {
       "id": "deka-wc-2026",
-      "name": "DEKA World Championship 2026",
+      "name": "Dec 10 - 13, 2026 2026 DEKA World Championship Fort Worth, TX DEKA MILE • DEKA STRONG • DE",
       "city": {
         "fr": "Fort Worth",
         "en": "Fort Worth",
@@ -2972,7 +3057,7 @@
     },
     {
       "id": "deka-new-york-2027",
-      "name": "DEKA FIT & Ultra New York",
+      "name": "Jan 01 - 31, 2027 2027 DEKA FIT & Ultra - New York DEKA FIT",
       "city": {
         "fr": "New York",
         "en": "New York",
@@ -2998,7 +3083,7 @@
     },
     {
       "id": "deka-denver-2027",
-      "name": "DEKA FIT & Ultra Denver",
+      "name": "Mar 27, 2027 2027 DEKA FIT & Ultra - Denver Denver, CO DEKA FIT",
       "city": {
         "fr": "Denver",
         "en": "Denver",
@@ -3019,7 +3104,7 @@
     },
     {
       "id": "deka-sacramento-2027",
-      "name": "DEKA FIT & Ultra Sacramento",
+      "name": "Apr 24 - 25, 2027 2027 DEKA FIT & Ultra - Sacramento, CA Sacramento, CA DEKA FIT",
       "city": {
         "fr": "Sacramento",
         "en": "Sacramento",
@@ -3040,7 +3125,7 @@
     },
     {
       "id": "deka-anaheim-2027",
-      "name": "DEKA FIT & Ultra Anaheim",
+      "name": "May 08 - 09, 2027 2027 DEKA FIT & Ultra - Anaheim, CA Anaheim, CA DEKA FIT",
       "city": {
         "fr": "Anaheim",
         "en": "Anaheim",
@@ -3061,7 +3146,7 @@
     },
     {
       "id": "deka-washington-2027",
-      "name": "DEKA FIT & Ultra Washington DC",
+      "name": "Oct 01 - 03, 2027 2027 DEKA FIT & Ultra - Washington DC DEKA FIT",
       "city": {
         "fr": "Washington",
         "en": "Washington, D.C.",
@@ -3082,7 +3167,7 @@
     },
     {
       "id": "deka-london-west-2026",
-      "name": "London West DEKA Trifecta Weekend",
+      "name": "Nov 28 - 29, 2026 2026 London West DEKA Trifecta Weekend Farnborough, Hampshire, GB DEKA M",
       "city": {
         "fr": "Farnborough",
         "en": "Farnborough",
@@ -3103,7 +3188,7 @@
     },
     {
       "id": "deka-emea-2027",
-      "name": "DEKA EMEA Championship 2027",
+      "name": "May 28 - 30, 2027 2027 DEKA EMEA Championship Liverpool Waterfront, UK, GB DEKA MILE • DEK",
       "city": {
         "fr": "Liverpool",
         "en": "Liverpool",
@@ -3128,7 +3213,7 @@
     },
     {
       "id": "deka-east-midlands-2027",
-      "name": "DEKA FIT East Midlands",
+      "name": "Sep 11 - 12, 2027 2027 DEKA FIT East Midlands Derby, GB DEKA FIT TEAM • DEKA FIT",
       "city": {
         "fr": "Derby",
         "en": "Derby",
@@ -3149,7 +3234,7 @@
     },
     {
       "id": "deka-guadalajara-2026",
-      "name": "DEKA Guadalajara",
+      "name": "Oct 24 - 25, 2026 DEKA GUADALAJARA 2026 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE",
       "city": {
         "fr": "Guadalajara (ES)",
         "en": "Guadalajara (Spain)",
@@ -3170,7 +3255,7 @@
     },
     {
       "id": "deka-alicante-2026",
-      "name": "DEKA Alicante",
+      "name": "Oct 31 - 01, 2026 DEKA ALICANTE 2026 Alicante, Comunidad Valenciana, ES DEKA MILE • DEKA F",
       "city": {
         "fr": "Alicante",
         "en": "Alicante",
@@ -3191,7 +3276,7 @@
     },
     {
       "id": "deka-tenerife-2026",
-      "name": "DEKA Tenerife",
+      "name": "Nov 21 - 22, 2026 DEKA TENERIFE 2026 Tenerife, Islas Canarias, ES DEKA MILE • DEKA STRONG ",
       "city": {
         "fr": "Tenerife",
         "en": "Tenerife",
@@ -3212,7 +3297,7 @@
     },
     {
       "id": "deka-torremolinos-2027",
-      "name": "DEKA Torremolinos (Málaga)",
+      "name": "Feb 27 - 28, 2027 DEKA TORREMOLINOS (MÁLAGA) 2027 Torremolinos, Andalucía, ES DEKA FIT TEA",
       "city": {
         "fr": "Torremolinos",
         "en": "Torremolinos",
@@ -3233,7 +3318,7 @@
     },
     {
       "id": "deka-toledo-2027",
-      "name": "DEKA Toledo",
+      "name": "Mar 06 - 07, 2027 DEKA TOLEDO - UNIVERSIDAD DE CASTILLA-LA MANCHA 2027 Toledo, Castilla-La",
       "city": {
         "fr": "Tolède",
         "en": "Toledo",
@@ -3255,7 +3340,7 @@
     },
     {
       "id": "deka-barcelona-spring-2027",
-      "name": "DEKA Barcelona Primavera",
+      "name": "Mar 20 - 21, 2027 DEKA BARCELONA 2027 PRIMAVERA Barcelona, Cataluña, ES DEKA MILE • DEKA S",
       "city": {
         "fr": "Barcelone",
         "en": "Barcelona",
@@ -3276,7 +3361,7 @@
     },
     {
       "id": "deka-valencia-2027",
-      "name": "DEKA Valencia",
+      "name": "Apr 03 - 04, 2027 DEKA VALENCIA 2027 Valencia, Comunidad Valenciana, ES DEKA MILE • DEKA F",
       "city": {
         "fr": "Valencia",
         "en": "Valencia",
@@ -3297,7 +3382,7 @@
     },
     {
       "id": "deka-ibiza-2027",
-      "name": "DEKA Ibiza",
+      "name": "Apr 17 - 18, 2027 DEKA IBIZA 2027 Sant Agustí des Vedrà, Islas Baleares, ES DEKA MILE • DE",
       "city": {
         "fr": "Ibiza",
         "en": "Ibiza",
@@ -3319,7 +3404,7 @@
     },
     {
       "id": "deka-vigo-2027",
-      "name": "DEKA Vigo",
+      "name": "Jun 26 - 27, 2027 DEKA VIGO 2027 Vigo, Galicia, ES DEKA MILE • DEKA FIT TEAM • DEKA FIT • ",
       "city": {
         "fr": "Vigo",
         "en": "Vigo",
@@ -3340,7 +3425,7 @@
     },
     {
       "id": "deka-madrid-2027",
-      "name": "DEKA Madrid",
+      "name": "Jul 10 - 11, 2027 DEKA MADRID 2027 Madrid, Comunidad de Madrid, ES DEKA MILE • DEKA STRONG",
       "city": {
         "fr": "Madrid",
         "en": "Madrid",
@@ -3361,7 +3446,7 @@
     },
     {
       "id": "deka-barcelona-autumn-2027",
-      "name": "DEKA Barcelona Otoño",
+      "name": "Sep 25 - 26, 2027 DEKA BARCELONA 2027 OTOÑO Barcelona, Cataluña, ES DEKA MILE • DEKA FIT T",
       "city": {
         "fr": "Barcelone",
         "en": "Barcelona",
@@ -3379,6 +3464,28 @@
       "lat": 41.3874,
       "lng": 2.1686,
       "cc": "ES"
+    },
+    {
+      "id": "hyrox-youngstars-hong-kong",
+      "name": "HYROX Youngstars Hong Kong",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Hong Kong",
+        "en": "Hong Kong",
+        "de": "Hongkong"
+      },
+      "cc": "HK",
+      "continent": "asia-pacific",
+      "type": "youngstars",
+      "start": "2027-01-09",
+      "end": "2027-01-10",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "find_out_more",
+      "url": "https://hyrox.com/event/hyrox-youngstars-hong-kong/",
+      "lat": 22.3193,
+      "lng": 114.1694,
+      "venue": "Asiaworld-Expo, 1 Airport Expo Blvd, Chek Lap Kok, Hong Kong"
     },
     {
       "id": "expected-st-gallen",

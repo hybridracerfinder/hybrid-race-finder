@@ -1,1 +1,121 @@
-{"date": "2026-10-17", "brands": {}, "errors": [], "reconcile": []}
+{
+ "date": "2026-10-18",
+ "brands": {
+  "hyrox": {
+   "ok": true,
+   "found": 101,
+   "added": [
+    "HYROX Youngstars Hong Kong"
+   ],
+   "updated": [
+    "TRAINSWEATEAT HYROX NICE",
+    "HYROX POZNAŃ",
+    "INDUSIND BANK HYROX GUJARAT",
+    "24/7 FITNESS HYROX Sanya",
+    "FITNESS PARK HYROX PARIS",
+    "HYROX HELSINKI",
+    "Hyrox Noida",
+    "LUCIS HYROX TOULOUSE",
+    "DAFI HYROX KATOWICE",
+    "HYROX Las Vegas",
+    "BIOTHERM HYROX Copenhagen",
+    "Virgin Active HYROX Cape Town ||",
+    "HYROX Youngstars Miami Beach",
+    "MEDICOVER SPORT HYROX WARSAW",
+    "MAYBELLINE HYROX PARIS GRAND PALAIS",
+    "HYROX HELSINKI",
+    "BIOTHERM HYROX Ottawa",
+    "HYROX KRAKÓW",
+    "HYROX LYON",
+    "Hyrox Bengaluru",
+    "HYROX Rimini",
+    "HYROX RIGA"
+   ],
+   "removed": [],
+   "skipped": []
+  },
+  "athx": {
+   "ok": true,
+   "found": 34,
+   "added": [],
+   "updated": [
+    "ATHX Los Angeles 2026",
+    "ATHX Finals 2026",
+    "ATHX London 2027",
+    "ATHX San Diego 2027",
+    "ATHX Las Vegas 2027",
+    "ATHX Paris 2027",
+    "ATHX Valencia 2027",
+    "ATHX Milan 2027",
+    "ATHX Denver 2027",
+    "ATHX Brussels 2027",
+    "ATHX St Gallen 2027",
+    "ATHX Stuttgart 2027",
+    "ATHX Houston 2027",
+    "ATHX Vienna 2027",
+    "ATHX Madrid 2027",
+    "ATHX Frankfurt 2027",
+    "ATHX Montpellier 2027",
+    "ATHX Glasgow 2027",
+    "ATHX Dublin 2027",
+    "ATHX Miami 2027",
+    "ATHX Lisbon 2027",
+    "ATHX Malmö 2027",
+    "ATHX Berlin 2027",
+    "ATHX Nashville 2027",
+    "ATHX Birmingham 2027",
+    "ATHX Hamburg 2027",
+    "ATHX New York 2027",
+    "ATHX Rome 2027",
+    "ATHX Marseille 2027",
+    "ATHX Chicago 2027",
+    "ATHX Turin 2027",
+    "ATHX Amsterdam 2027",
+    "ATHX Liverpool 2027",
+    "ATHX Bilbao 2027"
+   ],
+   "removed": [
+    "ATHX Bilbao 2027"
+   ],
+   "skipped": []
+  },
+  "deka": {
+   "ok": true,
+   "found": 23,
+   "added": [],
+   "updated": [
+    "Nov 07 - 08, 2026 2026 DEKA FIT & Ultra - Atlanta Atlanta, GA DEKA FIT",
+    "Dec 10 - 13, 2026 2026 DEKA World Championship Fort Worth, TX DEKA MILE • DEKA STRONG • DE",
+    "Jan 01 - 31, 2027 2027 DEKA FIT & Ultra - New York DEKA FIT",
+    "Mar 27, 2027 2027 DEKA FIT & Ultra - Denver Denver, CO DEKA FIT",
+    "Apr 24 - 25, 2027 2027 DEKA FIT & Ultra - Sacramento, CA Sacramento, CA DEKA FIT",
+    "May 08 - 09, 2027 2027 DEKA FIT & Ultra - Anaheim, CA Anaheim, CA DEKA FIT",
+    "Oct 01 - 03, 2027 2027 DEKA FIT & Ultra - Washington DC DEKA FIT",
+    "Nov 28 - 29, 2026 2026 London West DEKA Trifecta Weekend Farnborough, Hampshire, GB DEKA M",
+    "May 28 - 30, 2027 2027 DEKA EMEA Championship Liverpool Waterfront, UK, GB DEKA MILE • DEK",
+    "Sep 11 - 12, 2027 2027 DEKA FIT East Midlands Derby, GB DEKA FIT TEAM • DEKA FIT",
+    "Oct 24 - 25, 2026 DEKA GUADALAJARA 2026 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE",
+    "Oct 31 - 01, 2026 DEKA ALICANTE 2026 Alicante, Comunidad Valenciana, ES DEKA MILE • DEKA F",
+    "Nov 21 - 22, 2026 DEKA TENERIFE 2026 Tenerife, Islas Canarias, ES DEKA MILE • DEKA STRONG ",
+    "Feb 27 - 28, 2027 DEKA TORREMOLINOS (MÁLAGA) 2027 Torremolinos, Andalucía, ES DEKA FIT TEA",
+    "Mar 06 - 07, 2027 DEKA TOLEDO - UNIVERSIDAD DE CASTILLA-LA MANCHA 2027 Toledo, Castilla-La",
+    "Mar 20 - 21, 2027 DEKA BARCELONA 2027 PRIMAVERA Barcelona, Cataluña, ES DEKA MILE • DEKA S",
+    "Apr 03 - 04, 2027 DEKA VALENCIA 2027 Valencia, Comunidad Valenciana, ES DEKA MILE • DEKA F",
+    "Apr 17 - 18, 2027 DEKA IBIZA 2027 Sant Agustí des Vedrà, Islas Baleares, ES DEKA MILE • DE",
+    "Jun 26 - 27, 2027 DEKA VIGO 2027 Vigo, Galicia, ES DEKA MILE • DEKA FIT TEAM • DEKA FIT • ",
+    "Jul 10 - 11, 2027 DEKA MADRID 2027 Madrid, Comunidad de Madrid, ES DEKA MILE • DEKA STRONG",
+    "Sep 25 - 26, 2027 DEKA BARCELONA 2027 OTOÑO Barcelona, Cataluña, ES DEKA MILE • DEKA FIT T"
+   ],
+   "removed": [],
+   "skipped": [
+    "Oct 30 - 31, 2027 2027 Cleveland Spartan Trifecta Weekend Windham, OH Sprint • Super • Bea (https://www.spartan.com/en/races/cleveland-ohio)",
+    "Sep 25 - 26, 2027 2027 London South East Spartan Weekend Nutley, East Sussex, TN22 3HW, GB (https://uk.spartan.com/en/races/pippingfordpark)"
+   ]
+  }
+ },
+ "errors": [
+  "DEKA: new race not added, city not found: Oct 30 - 31, 2027 2027 Cleveland Spartan Trifecta Weekend Windham, OH Sprint • Super • Bea (https://www.spartan.com/en/races/cleveland-ohio)",
+  "DEKA: new race not added, city not found: Sep 25 - 26, 2027 2027 London South East Spartan Weekend Nutley, East Sussex, TN22 3HW, GB (https://uk.spartan.com/en/races/pippingfordpark)"
+ ],
+ "reconcile": []
+}
