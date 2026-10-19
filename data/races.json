@@ -8,92 +8,26 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 195,
+    "count": 194,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-10-18",
+    "updated_at": "2026-10-19",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-10-18",
-        "races": 101
+        "checked_on": "2026-10-19",
+        "races": 98
       },
       "athx": {
-        "checked_on": "2026-10-18",
+        "checked_on": "2026-10-19",
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-10-18",
+        "checked_on": "2026-10-19",
         "races": 21
       }
     }
   },
   "races": [
-    {
-      "id": "hyrox-valencia",
-      "name": "HYROX Valencia",
-      "city": {
-        "fr": "Valencia",
-        "en": "Valencia",
-        "de": "Valencia"
-      },
-      "brand": "hyrox",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2026-10-15",
-      "end": "2026-10-18",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-valencia/",
-      "lat": 39.4699,
-      "lng": -0.3763,
-      "cc": "ES",
-      "venue": "Av. de les Fires, s/n, Pobles de l'Oest, 46035 València, Valencia, España"
-    },
-    {
-      "id": "hyrox-sao-paulo-2",
-      "name": "HYROX São Paulo",
-      "city": {
-        "fr": "São Paulo",
-        "en": "São Paulo",
-        "de": "São Paulo"
-      },
-      "brand": "hyrox",
-      "continent": "south-america",
-      "type": "adults",
-      "start": "2026-10-17",
-      "end": "2026-10-18",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-sao-paulo-2/",
-      "lat": -23.5505,
-      "lng": -46.6333,
-      "cc": "BR",
-      "venue": "Av. Olavo Fontoura, 1209 - Santana, São Paulo - SP, 02001-900"
-    },
-    {
-      "id": "hyrox-youngstars-valencia",
-      "name": "HYROX Youngstars Valencia",
-      "city": {
-        "fr": "Valencia",
-        "en": "Valencia",
-        "de": "Valencia"
-      },
-      "brand": "hyrox",
-      "continent": "europe",
-      "type": "youngstars",
-      "start": "2026-10-17",
-      "end": "2026-10-18",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-youngstars-valencia/",
-      "lat": 39.4699,
-      "lng": -0.3763,
-      "cc": "ES",
-      "venue": "Av. de les Fires, s/n, Pobles de l'Oest, 46035 València, Valencia (Hall 2, Level 3)"
-    },
     {
       "id": "hyrox-tampa",
       "name": "MyFitnessPal HYROX Tampa",
@@ -4634,6 +4568,64 @@
       "url": "https://hyrox.com/find-my-race/",
       "lat": 47.4979,
       "lng": 19.0402,
+      "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-hyrox-es-valencia",
+      "name": "HYROX Valencia",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Valencia",
+        "en": "Valencia",
+        "de": "Valencia"
+      },
+      "cc": "ES",
+      "continent": "europe",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        10
+      ],
+      "last_edition": {
+        "start": "2026-10-15",
+        "end": "2026-10-18",
+        "venue": "Av. de les Fires, s/n, Pobles de l'Oest, 46035 València, Valencia, España"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": 39.4699,
+      "lng": -0.3763,
+      "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-hyrox-br-s-o-paulo",
+      "name": "HYROX São Paulo",
+      "brand": "hyrox",
+      "city": {
+        "fr": "São Paulo",
+        "en": "São Paulo",
+        "de": "São Paulo"
+      },
+      "cc": "BR",
+      "continent": "south-america",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        10
+      ],
+      "last_edition": {
+        "start": "2026-10-17",
+        "end": "2026-10-18",
+        "venue": "Av. Olavo Fontoura, 1209 - Santana, São Paulo - SP, 02001-900"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": -23.5505,
+      "lng": -46.6333,
       "expected_month": "2027-10"
     }
   ]
