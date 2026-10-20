@@ -1,20 +1,26 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 98,
    "added": [],
-   "updated": [],
+   "updated": [
+    "BOSS PARFUMS HYROX POZNAŃ"
+   ],
    "removed": [],
    "skipped": []
   },
   "athx": {
    "ok": true,
    "found": 34,
-   "added": [],
+   "added": [
+    "ATHX Malmö 2027"
+   ],
    "updated": [],
-   "removed": [],
+   "removed": [
+    "ATHX Malmö 2027"
+   ],
    "skipped": []
   },
   "deka": {
@@ -28,9 +34,5 @@
  },
  "errors": [],
  "warnings": [],
- "reconcile": [
-  "finished, now 'not announced': HYROX Valencia",
-  "finished, now 'not announced': HYROX São Paulo",
-  "finished, removed: HYROX Youngstars Valencia"
- ]
+ "reconcile": []
 }

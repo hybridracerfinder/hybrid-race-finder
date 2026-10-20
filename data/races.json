@@ -10,19 +10,19 @@
     },
     "count": 194,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-10-19",
+    "updated_at": "2026-10-20",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-20",
         "races": 98
       },
       "athx": {
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-20",
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-20",
         "races": 21
       }
     }
@@ -360,7 +360,7 @@
     },
     {
       "id": "hyrox-poznan",
-      "name": "HYROX POZNAŃ",
+      "name": "BOSS PARFUMS HYROX POZNAŃ",
       "city": {
         "fr": "Poznań",
         "en": "Poznań",
@@ -2652,28 +2652,6 @@
       "cc": "US"
     },
     {
-      "id": "athx-01krwyacecyw2jbmn851f35kkt",
-      "name": "ATHX Malmö 2027",
-      "city": {
-        "fr": "Lisbonne",
-        "en": "Lisbon",
-        "de": "Lissabon"
-      },
-      "brand": "athx",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2027-07-31",
-      "end": "2027-07-31",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://athxgames.com/events/01krwyacecyw2jbmn851f35kkt",
-      "venue": "FIL Lisbon",
-      "lat": 38.7223,
-      "lng": -9.1393,
-      "cc": "PT"
-    },
-    {
       "id": "athx-01m4r73y2nbndczzrhkh09xccc",
       "name": "ATHX Berlin 2027",
       "city": {
@@ -3420,6 +3398,27 @@
       "lat": 22.3193,
       "lng": 114.1694,
       "venue": "Asiaworld-Expo, 1 Airport Expo Blvd, Chek Lap Kok, Hong Kong"
+    },
+    {
+      "id": "athx-01m4r770hm4c8sv6pt8gy673fr",
+      "name": "ATHX Malmö 2027",
+      "brand": "athx",
+      "city": {
+        "fr": "Malmö",
+        "en": "Malmö",
+        "de": "Malmö"
+      },
+      "cc": "SE",
+      "continent": "europe",
+      "type": "adults",
+      "start": "2027-07-31",
+      "end": "2027-07-31",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "buy_tickets",
+      "url": "https://athxgames.com/events/01m4r770hm4c8sv6pt8gy673fr",
+      "lat": 55.605,
+      "lng": 13.0038
     },
     {
       "id": "expected-st-gallen",
