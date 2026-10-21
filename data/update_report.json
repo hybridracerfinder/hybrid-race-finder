@@ -1,12 +1,14 @@
 {
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 98,
    "added": [],
    "updated": [
-    "BOSS PARFUMS HYROX POZNAŃ"
+    "AIA HYROX Hanoi",
+    "Sweatpals HYROX Miami Beach",
+    "JR Central HYROX Nagoya"
    ],
    "removed": [],
    "skipped": []
@@ -14,13 +16,9 @@
   "athx": {
    "ok": true,
    "found": 34,
-   "added": [
-    "ATHX Malmö 2027"
-   ],
+   "added": [],
    "updated": [],
-   "removed": [
-    "ATHX Malmö 2027"
-   ],
+   "removed": [],
    "skipped": []
   },
   "deka": {
