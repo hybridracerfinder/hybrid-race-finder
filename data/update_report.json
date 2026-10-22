@@ -1,14 +1,12 @@
 {
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 98,
    "added": [],
    "updated": [
-    "AIA HYROX Hanoi",
-    "Sweatpals HYROX Miami Beach",
-    "JR Central HYROX Nagoya"
+    "HYROX Málaga"
    ],
    "removed": [],
    "skipped": []
@@ -25,7 +23,9 @@
    "ok": true,
    "found": 21,
    "added": [],
-   "updated": [],
+   "updated": [
+    "Nov 21 - 22, 2026 DEKA TENERIFE 2026 Santa Cruz de Tenerife, Islas Canarias, ES DEKA MILE "
+   ],
    "removed": [],
    "skipped": []
   }
