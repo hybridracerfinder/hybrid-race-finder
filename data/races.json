@@ -10,19 +10,19 @@
     },
     "count": 194,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-10-22",
+    "updated_at": "2026-10-23",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-10-22",
+        "checked_on": "2026-10-23",
         "races": 98
       },
       "athx": {
-        "checked_on": "2026-10-22",
+        "checked_on": "2026-10-23",
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-10-22",
+        "checked_on": "2026-10-23",
         "races": 21
       }
     }
@@ -3393,7 +3393,7 @@
       "end": "2027-01-10",
       "date_confirmed": true,
       "status": "announced",
-      "listing_cta": "find_out_more",
+      "listing_cta": "buy_tickets",
       "url": "https://hyrox.com/event/hyrox-youngstars-hong-kong/",
       "lat": 22.3193,
       "lng": 114.1694,

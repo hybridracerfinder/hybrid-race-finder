@@ -1,12 +1,12 @@
 {
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 98,
    "added": [],
    "updated": [
-    "HYROX Málaga"
+    "HYROX Youngstars Hong Kong"
    ],
    "removed": [],
    "skipped": []
@@ -23,9 +23,7 @@
    "ok": true,
    "found": 21,
    "added": [],
-   "updated": [
-    "Nov 21 - 22, 2026 DEKA TENERIFE 2026 Santa Cruz de Tenerife, Islas Canarias, ES DEKA MILE "
-   ],
+   "updated": [],
    "removed": [],
    "skipped": []
   }
