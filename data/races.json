@@ -10,19 +10,19 @@
     },
     "count": 194,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-10-23",
+    "updated_at": "2026-10-24",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-10-24",
         "races": 98
       },
       "athx": {
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-10-24",
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-10-24",
         "races": 21
       }
     }
@@ -2069,7 +2069,7 @@
     },
     {
       "id": "hyrox-portland-26-27",
-      "name": "HYROX Portland",
+      "name": "The Feed HYROX Portland",
       "city": {
         "fr": "Portland",
         "en": "Portland",
