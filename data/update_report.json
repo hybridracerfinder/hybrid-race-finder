@@ -1,9 +1,9 @@
 {
- "date": "2026-10-25",
+ "date": "2026-10-26",
  "brands": {
   "hyrox": {
    "ok": true,
-   "found": 98,
+   "found": 96,
    "added": [],
    "updated": [],
    "removed": [],
@@ -23,10 +23,18 @@
    "added": [],
    "updated": [],
    "removed": [],
-   "skipped": []
+   "skipped": [
+    "Oct 23 - 24, 2027 DEKA GUADALAJARA 2027 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE (https://es.spartan.com/en/race/detail/11767/overview)"
+   ]
   }
  },
  "errors": [],
- "warnings": [],
- "reconcile": []
+ "warnings": [
+  "DEKA: new race not added, city not found: Oct 23 - 24, 2027 DEKA GUADALAJARA 2027 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE (https://es.spartan.com/en/race/detail/11767/overview)"
+ ],
+ "reconcile": [
+  "finished, now 'not announced': MyFitnessPal HYROX Tampa",
+  "finished, now 'not announced': HYROX Abu Dhabi",
+  "finished, now 'not announced': Oct 24 - 25, 2026 DEKA GUADALAJARA 2026 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE"
+ ]
 }

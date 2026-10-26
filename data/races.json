@@ -10,68 +10,24 @@
     },
     "count": 194,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-10-25",
+    "updated_at": "2026-10-26",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-10-25",
-        "races": 98
+        "checked_on": "2026-10-26",
+        "races": 96
       },
       "athx": {
-        "checked_on": "2026-10-25",
+        "checked_on": "2026-10-26",
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-10-25",
+        "checked_on": "2026-10-26",
         "races": 21
       }
     }
   },
   "races": [
-    {
-      "id": "hyrox-tampa",
-      "name": "MyFitnessPal HYROX Tampa",
-      "city": {
-        "fr": "Tampa",
-        "en": "Tampa",
-        "de": "Tampa"
-      },
-      "brand": "hyrox",
-      "continent": "north-america",
-      "type": "adults",
-      "start": "2026-10-22",
-      "end": "2026-10-25",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-tampa/",
-      "lat": 27.9506,
-      "lng": -82.4572,
-      "cc": "US",
-      "venue": "333 S Franklin St, Tampa, FL 33602"
-    },
-    {
-      "id": "hyrox-abu-dhabi",
-      "name": "HYROX Abu Dhabi",
-      "city": {
-        "fr": "Abu Dhabi",
-        "en": "Abu Dhabi",
-        "de": "Abu Dhabi"
-      },
-      "brand": "hyrox",
-      "continent": "asia-pacific",
-      "type": "adults",
-      "start": "2026-10-23",
-      "end": "2026-10-25",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-abu-dhabi/",
-      "lat": 24.4539,
-      "lng": 54.3773,
-      "cc": "AE",
-      "venue": "ADNEC Centre Abu Dhabi,  Al Khaleej Al Arabi St - Al Rawdah - W59 01 - Abu Dhabi - United Arab Emirates"
-    },
     {
       "id": "hyrox-birmingham",
       "name": "HYROX Birmingham",
@@ -3145,27 +3101,6 @@
       "cc": "GB"
     },
     {
-      "id": "deka-guadalajara-2026",
-      "name": "Oct 24 - 25, 2026 DEKA GUADALAJARA 2026 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE",
-      "city": {
-        "fr": "Guadalajara (ES)",
-        "en": "Guadalajara (Spain)",
-        "de": "Guadalajara (Spanien)"
-      },
-      "brand": "deka",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2026-10-24",
-      "end": "2026-10-25",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "find_out_more",
-      "url": "https://es.spartan.com/en/races/deka-guadalajara",
-      "lat": 40.6332,
-      "lng": -3.1669,
-      "cc": "ES"
-    },
-    {
       "id": "deka-alicante-2026",
       "name": "Oct 31 - 01, 2026 DEKA ALICANTE 2026 Alicante, Comunidad Valenciana, ES DEKA MILE • DEKA F",
       "city": {
@@ -4625,6 +4560,93 @@
       "url": "https://hyrox.com/find-my-race/",
       "lat": -23.5505,
       "lng": -46.6333,
+      "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-hyrox-us-tampa",
+      "name": "HYROX Tampa",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Tampa",
+        "en": "Tampa",
+        "de": "Tampa"
+      },
+      "cc": "US",
+      "continent": "north-america",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        10
+      ],
+      "last_edition": {
+        "start": "2026-10-22",
+        "end": "2026-10-25",
+        "venue": "333 S Franklin St, Tampa, FL 33602"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": 27.9506,
+      "lng": -82.4572,
+      "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-hyrox-ae-abu-dhabi",
+      "name": "HYROX Abu Dhabi",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Abu Dhabi",
+        "en": "Abu Dhabi",
+        "de": "Abu Dhabi"
+      },
+      "cc": "AE",
+      "continent": "asia-pacific",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        10
+      ],
+      "last_edition": {
+        "start": "2026-10-23",
+        "end": "2026-10-25",
+        "venue": "ADNEC Centre Abu Dhabi,  Al Khaleej Al Arabi St - Al Rawdah - W59 01 - Abu Dhabi - United Arab Emirates"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": 24.4539,
+      "lng": 54.3773,
+      "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-deka-es-guadalajara-spain-",
+      "name": "DEKA Guadalajara (ES)",
+      "brand": "deka",
+      "city": {
+        "fr": "Guadalajara (ES)",
+        "en": "Guadalajara (Spain)",
+        "de": "Guadalajara (Spanien)"
+      },
+      "cc": "ES",
+      "continent": "europe",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        10
+      ],
+      "last_edition": {
+        "start": "2026-10-24",
+        "end": "2026-10-25",
+        "venue": null
+      },
+      "url": "https://www.spartan.com/en/deka",
+      "lat": 40.6332,
+      "lng": -3.1669,
       "expected_month": "2027-10"
     }
   ]
