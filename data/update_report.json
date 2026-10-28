@@ -1,13 +1,13 @@
 {
- "date": "2026-10-27",
+ "date": "2026-10-28",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 97,
-   "added": [
-    "HYROX São Paulo"
+   "added": [],
+   "updated": [
+    "JR Central HYROX Nagoya"
    ],
-   "updated": [],
    "removed": [],
    "skipped": []
   },
@@ -34,7 +34,5 @@
  "warnings": [
   "DEKA: new race not added, city not found: Oct 23 - 24, 2027 DEKA GUADALAJARA 2027 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE (https://es.spartan.com/en/race/detail/11767/overview)"
  ],
- "reconcile": [
-  "announced again, removed from 'not announced': HYROX São Paulo"
- ]
+ "reconcile": []
 }
