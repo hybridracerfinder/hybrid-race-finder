@@ -1,12 +1,13 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 97,
    "added": [],
    "updated": [
-    "JR Central HYROX Nagoya"
+    "Academy HYROX Houston",
+    "HYROX Youngstars Houston"
    ],
    "removed": [],
    "skipped": []
