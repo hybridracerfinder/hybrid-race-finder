@@ -8,21 +8,21 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 194,
+    "count": 193,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-10-29",
+    "updated_at": "2026-10-30",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-10-29",
+        "checked_on": "2026-10-30",
         "races": 97
       },
       "athx": {
-        "checked_on": "2026-10-29",
+        "checked_on": "2026-10-30",
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-10-29",
+        "checked_on": "2026-10-30",
         "races": 21
       }
     }
@@ -347,7 +347,7 @@
       "brand": "hyrox",
       "continent": "asia-pacific",
       "type": "adults",
-      "start": "2026-11-21",
+      "start": "2026-11-20",
       "end": "2026-11-22",
       "date_confirmed": true,
       "status": "announced",
@@ -3289,27 +3289,6 @@
       "url": "https://es.spartan.com/en/races/deka-madrid-2027",
       "lat": 40.4168,
       "lng": -3.7038,
-      "cc": "ES"
-    },
-    {
-      "id": "deka-barcelona-autumn-2027",
-      "name": "Sep 25 - 26, 2027 DEKA BARCELONA 2027 OTOÑO Barcelona, Cataluña, ES DEKA MILE • DEKA FIT T",
-      "city": {
-        "fr": "Barcelone",
-        "en": "Barcelona",
-        "de": "Barcelona"
-      },
-      "brand": "deka",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2027-09-25",
-      "end": "2027-09-26",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "find_out_more",
-      "url": "https://es.spartan.com/en/races/deka-barcelona-otono-2027",
-      "lat": 41.3874,
-      "lng": 2.1686,
       "cc": "ES"
     },
     {

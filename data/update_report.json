@@ -1,13 +1,12 @@
 {
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 97,
    "added": [],
    "updated": [
-    "Academy HYROX Houston",
-    "HYROX Youngstars Houston"
+    "HYROX Guangzhou"
    ],
    "removed": [],
    "skipped": []
@@ -25,14 +24,18 @@
    "found": 21,
    "added": [],
    "updated": [],
-   "removed": [],
+   "removed": [
+    "Sep 25 - 26, 2027 DEKA BARCELONA 2027 OTOÑO Barcelona, Cataluña, ES DEKA MILE • DEKA FIT T"
+   ],
    "skipped": [
+    "Sep 25 - 26, 2027 DEKA BARCELONA 2027 OTOÑO Barcelona, Cataluña, ES DEKA MILE • DEKA FIT T (https://es.spartan.com/en/races/deka-barcelona-otono)",
     "Oct 23 - 24, 2027 DEKA GUADALAJARA 2027 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE (https://es.spartan.com/en/race/detail/11767/overview)"
    ]
   }
  },
  "errors": [],
  "warnings": [
+  "DEKA: new race not added, city not found: Sep 25 - 26, 2027 DEKA BARCELONA 2027 OTOÑO Barcelona, Cataluña, ES DEKA MILE • DEKA FIT T (https://es.spartan.com/en/races/deka-barcelona-otono)",
   "DEKA: new race not added, city not found: Oct 23 - 24, 2027 DEKA GUADALAJARA 2027 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE (https://es.spartan.com/en/race/detail/11767/overview)"
  ],
  "reconcile": []
