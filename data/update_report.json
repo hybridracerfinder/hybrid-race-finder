@@ -1,12 +1,13 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 97,
    "added": [],
    "updated": [
-    "HYROX Guangzhou"
+    "HYROX Guangzhou",
+    "Decathlon HYROX Utrecht"
    ],
    "removed": [],
    "skipped": []
@@ -24,9 +25,7 @@
    "found": 21,
    "added": [],
    "updated": [],
-   "removed": [
-    "Sep 25 - 26, 2027 DEKA BARCELONA 2027 OTOÑO Barcelona, Cataluña, ES DEKA MILE • DEKA FIT T"
-   ],
+   "removed": [],
    "skipped": [
     "Sep 25 - 26, 2027 DEKA BARCELONA 2027 OTOÑO Barcelona, Cataluña, ES DEKA MILE • DEKA FIT T (https://es.spartan.com/en/races/deka-barcelona-otono)",
     "Oct 23 - 24, 2027 DEKA GUADALAJARA 2027 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE (https://es.spartan.com/en/race/detail/11767/overview)"
