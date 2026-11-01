@@ -8,21 +8,21 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 193,
+    "count": 192,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-10-31",
+    "updated_at": "2026-11-01",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-10-31",
-        "races": 97
+        "checked_on": "2026-11-01",
+        "races": 96
       },
       "athx": {
-        "checked_on": "2026-10-31",
+        "checked_on": "2026-11-01",
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-10-31",
+        "checked_on": "2026-11-01",
         "races": 21
       }
     }
@@ -115,28 +115,6 @@
       "lng": -99.1332,
       "cc": "MX",
       "venue": "Av. del Conscripto 311, Lomas de Sotelo, Hipódromo de las Américas, Miguel Hidalgo, 11610 Ciudad de México, CDMX"
-    },
-    {
-      "id": "hyrox-shanghai-1031",
-      "name": "ZhongAn HYROX Shanghai",
-      "city": {
-        "fr": "Shanghai",
-        "en": "Shanghai",
-        "de": "Shanghai"
-      },
-      "brand": "hyrox",
-      "continent": "asia-pacific",
-      "type": "adults",
-      "start": null,
-      "end": null,
-      "date_confirmed": false,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-shanghai-1031/",
-      "lat": 31.2304,
-      "lng": 121.4737,
-      "cc": "CN",
-      "venue": "No. 1099 Guozhan Road, Pudong New Area, Shanghai, China"
     },
     {
       "id": "hyrox-youngstars-birmingham",

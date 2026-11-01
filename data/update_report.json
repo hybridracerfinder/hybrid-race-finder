@@ -1,15 +1,14 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "brands": {
   "hyrox": {
    "ok": true,
-   "found": 97,
+   "found": 96,
    "added": [],
-   "updated": [
-    "HYROX Guangzhou",
-    "Decathlon HYROX Utrecht"
+   "updated": [],
+   "removed": [
+    "ZhongAn HYROX Shanghai"
    ],
-   "removed": [],
    "skipped": []
   },
   "athx": {
