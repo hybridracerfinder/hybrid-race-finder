@@ -8,136 +8,26 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 192,
+    "count": 191,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-01",
+    "updated_at": "2026-11-02",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-01",
-        "races": 96
+        "checked_on": "2026-11-02",
+        "races": 91
       },
       "athx": {
-        "checked_on": "2026-11-01",
+        "checked_on": "2026-11-02",
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-11-01",
-        "races": 21
+        "checked_on": "2026-11-02",
+        "races": 20
       }
     }
   },
   "races": [
-    {
-      "id": "hyrox-birmingham",
-      "name": "HYROX Birmingham",
-      "city": {
-        "fr": "Birmingham",
-        "en": "Birmingham",
-        "de": "Birmingham"
-      },
-      "brand": "hyrox",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2026-10-27",
-      "end": "2026-11-01",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-birmingham/",
-      "lat": 52.4862,
-      "lng": -1.8904,
-      "cc": "GB",
-      "venue": "NEC - Pendigo Way, Marston Green, Birmingham B40 1NT"
-    },
-    {
-      "id": "intersport-hyrox-hamburg",
-      "name": "INTERSPORT HYROX Hamburg",
-      "city": {
-        "fr": "Hambourg",
-        "en": "Hamburg",
-        "de": "Hamburg"
-      },
-      "brand": "hyrox",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2026-10-28",
-      "end": "2026-11-01",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/intersport-hyrox-hamburg/",
-      "lat": 53.5511,
-      "lng": 9.9937,
-      "cc": "DE",
-      "venue": "Hamburg Messe (B6), Karolinenstraße, Hamburg, Germany"
-    },
-    {
-      "id": "hyrox-nice-s26-27",
-      "name": "TRAINSWEATEAT HYROX NICE",
-      "city": {
-        "fr": "Nice",
-        "en": "Nice",
-        "de": "Nizza"
-      },
-      "brand": "hyrox",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2026-10-29",
-      "end": "2026-11-01",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-nice-s26-27/",
-      "lat": 43.7102,
-      "lng": 7.262,
-      "cc": "FR",
-      "venue": "Parv. de l'Europe, 06000 Nice"
-    },
-    {
-      "id": "hyrox-mexico-city",
-      "name": "COMMANDO HYROX Mexico City",
-      "city": {
-        "fr": "Mexico",
-        "en": "Mexico City",
-        "de": "Mexiko-Stadt"
-      },
-      "brand": "hyrox",
-      "continent": "north-america",
-      "type": "adults",
-      "start": "2026-10-29",
-      "end": "2026-11-01",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-mexico-city/",
-      "lat": 19.4326,
-      "lng": -99.1332,
-      "cc": "MX",
-      "venue": "Av. del Conscripto 311, Lomas de Sotelo, Hipódromo de las Américas, Miguel Hidalgo, 11610 Ciudad de México, CDMX"
-    },
-    {
-      "id": "hyrox-youngstars-birmingham",
-      "name": "HYROX Youngstars Birmingham",
-      "city": {
-        "fr": "Birmingham",
-        "en": "Birmingham",
-        "de": "Birmingham"
-      },
-      "brand": "hyrox",
-      "continent": "europe",
-      "type": "youngstars",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-youngstars-birmingham/",
-      "lat": 52.4862,
-      "lng": -1.8904,
-      "cc": "GB",
-      "venue": "NEC - Pendigo Way, Marston Green, Birmingham B40 1NT"
-    },
     {
       "id": "hyrox-dublin",
       "name": "HYROX Dublin",
@@ -1879,7 +1769,7 @@
       "end": "2027-05-09",
       "date_confirmed": true,
       "status": "announced",
-      "listing_cta": "find_out_more",
+      "listing_cta": "buy_tickets",
       "url": "https://hyrox.com/event/hyrox-krakow-26-27/",
       "lat": 50.0647,
       "lng": 19.945,
@@ -3077,27 +2967,6 @@
       "lat": 52.9225,
       "lng": -1.4746,
       "cc": "GB"
-    },
-    {
-      "id": "deka-alicante-2026",
-      "name": "Oct 31 - 01, 2026 DEKA ALICANTE 2026 Alicante, Comunidad Valenciana, ES DEKA MILE • DEKA F",
-      "city": {
-        "fr": "Alicante",
-        "en": "Alicante",
-        "de": "Alicante"
-      },
-      "brand": "deka",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "find_out_more",
-      "url": "https://es.spartan.com/en/races/deka-alicante",
-      "lat": 38.3452,
-      "lng": -0.481,
-      "cc": "ES"
     },
     {
       "id": "deka-tenerife-2026",
@@ -4597,6 +4466,151 @@
       "url": "https://www.spartan.com/en/deka",
       "lat": 40.6332,
       "lng": -3.1669,
+      "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-hyrox-gb-birmingham",
+      "name": "HYROX Birmingham",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Birmingham",
+        "en": "Birmingham",
+        "de": "Birmingham"
+      },
+      "cc": "GB",
+      "continent": "europe",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        10
+      ],
+      "last_edition": {
+        "start": "2026-10-27",
+        "end": "2026-11-01",
+        "venue": "NEC - Pendigo Way, Marston Green, Birmingham B40 1NT"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": 52.4862,
+      "lng": -1.8904,
+      "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-hyrox-de-hamburg",
+      "name": "HYROX Hambourg",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Hambourg",
+        "en": "Hamburg",
+        "de": "Hamburg"
+      },
+      "cc": "DE",
+      "continent": "europe",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        10
+      ],
+      "last_edition": {
+        "start": "2026-10-28",
+        "end": "2026-11-01",
+        "venue": "Hamburg Messe (B6), Karolinenstraße, Hamburg, Germany"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": 53.5511,
+      "lng": 9.9937,
+      "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-hyrox-fr-nice",
+      "name": "HYROX Nice",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Nice",
+        "en": "Nice",
+        "de": "Nizza"
+      },
+      "cc": "FR",
+      "continent": "europe",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        10
+      ],
+      "last_edition": {
+        "start": "2026-10-29",
+        "end": "2026-11-01",
+        "venue": "Parv. de l'Europe, 06000 Nice"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": 43.7102,
+      "lng": 7.262,
+      "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-hyrox-mx-mexico-city",
+      "name": "HYROX Mexico",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Mexico",
+        "en": "Mexico City",
+        "de": "Mexiko-Stadt"
+      },
+      "cc": "MX",
+      "continent": "north-america",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        10
+      ],
+      "last_edition": {
+        "start": "2026-10-29",
+        "end": "2026-11-01",
+        "venue": "Av. del Conscripto 311, Lomas de Sotelo, Hipódromo de las Américas, Miguel Hidalgo, 11610 Ciudad de México, CDMX"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-deka-es-alicante",
+      "name": "DEKA Alicante",
+      "brand": "deka",
+      "city": {
+        "fr": "Alicante",
+        "en": "Alicante",
+        "de": "Alicante"
+      },
+      "cc": "ES",
+      "continent": "europe",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        10
+      ],
+      "last_edition": {
+        "start": "2026-10-31",
+        "end": "2026-11-01",
+        "venue": null
+      },
+      "url": "https://www.spartan.com/en/deka",
+      "lat": 38.3452,
+      "lng": -0.481,
       "expected_month": "2027-10"
     }
   ]

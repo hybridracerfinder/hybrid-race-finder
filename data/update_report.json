@@ -1,14 +1,14 @@
 {
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "brands": {
   "hyrox": {
    "ok": true,
-   "found": 96,
+   "found": 91,
    "added": [],
-   "updated": [],
-   "removed": [
-    "ZhongAn HYROX Shanghai"
+   "updated": [
+    "HYROX KRAKÓW"
    ],
+   "removed": [],
    "skipped": []
   },
   "athx": {
@@ -21,7 +21,7 @@
   },
   "deka": {
    "ok": true,
-   "found": 21,
+   "found": 20,
    "added": [],
    "updated": [],
    "removed": [],
@@ -36,5 +36,12 @@
   "DEKA: new race not added, city not found: Sep 25 - 26, 2027 DEKA BARCELONA 2027 OTOÑO Barcelona, Cataluña, ES DEKA MILE • DEKA FIT T (https://es.spartan.com/en/races/deka-barcelona-otono)",
   "DEKA: new race not added, city not found: Oct 23 - 24, 2027 DEKA GUADALAJARA 2027 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE (https://es.spartan.com/en/race/detail/11767/overview)"
  ],
- "reconcile": []
+ "reconcile": [
+  "finished, now 'not announced': HYROX Birmingham",
+  "finished, now 'not announced': INTERSPORT HYROX Hamburg",
+  "finished, now 'not announced': TRAINSWEATEAT HYROX NICE",
+  "finished, now 'not announced': COMMANDO HYROX Mexico City",
+  "finished, removed: HYROX Youngstars Birmingham",
+  "finished, now 'not announced': Oct 31 - 01, 2026 DEKA ALICANTE 2026 Alicante, Comunidad Valenciana, ES DEKA MILE • DEKA F"
+ ]
 }
