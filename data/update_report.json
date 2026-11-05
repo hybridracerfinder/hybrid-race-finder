@@ -1,12 +1,14 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-05",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 91,
    "added": [],
    "updated": [
-    "Decathlon HYROX Rotterdam"
+    "BIOTHERM HYROX Ottawa",
+    "Factor_ HYROX Atlanta",
+    "HYROX Youngstars Atlanta"
    ],
    "removed": [],
    "skipped": []
@@ -15,7 +17,10 @@
    "ok": true,
    "found": 34,
    "added": [],
-   "updated": [],
+   "updated": [
+    "ATHX Los Angeles 2026",
+    "ATHX Finals 2026"
+   ],
    "removed": [],
    "skipped": []
   },
@@ -23,9 +28,7 @@
    "ok": true,
    "found": 22,
    "added": [],
-   "updated": [
-    "May 01 - 02, 2027 2027 DEKA FIT & Ultra - Anaheim, CA Anaheim, CA DEKA FIT"
-   ],
+   "updated": [],
    "removed": [],
    "skipped": [
     "Jan 30, 2027 2027 DEKA FIT Road Show - Laredo, TX Laredo, TX DEKA FIT (https://www.spartan.com/en/race/detail/11798/overview)",
