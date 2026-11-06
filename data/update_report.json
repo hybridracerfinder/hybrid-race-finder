@@ -1,15 +1,11 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 91,
    "added": [],
-   "updated": [
-    "BIOTHERM HYROX Ottawa",
-    "Factor_ HYROX Atlanta",
-    "HYROX Youngstars Atlanta"
-   ],
+   "updated": [],
    "removed": [],
    "skipped": []
   },
@@ -17,10 +13,7 @@
    "ok": true,
    "found": 34,
    "added": [],
-   "updated": [
-    "ATHX Los Angeles 2026",
-    "ATHX Finals 2026"
-   ],
+   "updated": [],
    "removed": [],
    "skipped": []
   },
