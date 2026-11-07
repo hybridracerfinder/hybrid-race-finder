@@ -8,21 +8,21 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 191,
+    "count": 192,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-06",
+    "updated_at": "2026-11-07",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-06",
+        "checked_on": "2026-11-07",
         "races": 91
       },
       "athx": {
-        "checked_on": "2026-11-06",
-        "races": 34
+        "checked_on": "2026-11-07",
+        "races": 35
       },
       "deka": {
-        "checked_on": "2026-11-06",
+        "checked_on": "2026-11-07",
         "races": 22
       }
     }
@@ -3202,6 +3202,27 @@
       "lat": -23.5505,
       "lng": -46.6333,
       "venue": "TBA"
+    },
+    {
+      "id": "athx-01krwygz93demx24426v8p3xr5",
+      "name": "ATHX Los Angeles 2027",
+      "brand": "athx",
+      "city": {
+        "fr": "Los Angeles",
+        "en": "Los Angeles",
+        "de": "Los Angeles"
+      },
+      "cc": "US",
+      "continent": "north-america",
+      "type": "adults",
+      "start": "2027-11-06",
+      "end": "2027-11-06",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "buy_tickets",
+      "url": "https://athxgames.com/events/01krwygz93demx24426v8p3xr5",
+      "lat": 33.7701,
+      "lng": -118.1937
     },
     {
       "id": "expected-st-gallen",

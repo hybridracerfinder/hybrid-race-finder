@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "brands": {
   "hyrox": {
    "ok": true,
@@ -11,8 +11,10 @@
   },
   "athx": {
    "ok": true,
-   "found": 34,
-   "added": [],
+   "found": 35,
+   "added": [
+    "ATHX Los Angeles 2027"
+   ],
    "updated": [],
    "removed": [],
    "skipped": []
