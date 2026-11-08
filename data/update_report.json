@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "brands": {
   "hyrox": {
    "ok": true,
@@ -11,12 +11,12 @@
   },
   "athx": {
    "ok": true,
-   "found": 35,
-   "added": [
-    "ATHX Los Angeles 2027"
-   ],
+   "found": 33,
+   "added": [],
    "updated": [],
-   "removed": [],
+   "removed": [
+    "ATHX Finals 2026"
+   ],
    "skipped": []
   },
   "deka": {
@@ -40,5 +40,7 @@
   "DEKA: new race not added, city not found: Oct 23 - 24, 2027 DEKA GUADALAJARA 2027 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE (https://es.spartan.com/en/race/detail/11767/overview)",
   "DEKA: new race not added, city not found: Oct 30 - 31, 2027 DEKA ALICANTE 2027 Alicante, Comunidad Valenciana, ES DEKA MILE • DEKA F (https://es.spartan.com/en/race/detail/11795/overview)"
  ],
- "reconcile": []
+ "reconcile": [
+  "finished, next edition already announced: ATHX Los Angeles 2026"
+ ]
 }

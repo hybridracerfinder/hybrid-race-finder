@@ -8,21 +8,21 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 192,
+    "count": 190,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-07",
+    "updated_at": "2026-11-08",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-07",
+        "checked_on": "2026-11-08",
         "races": 91
       },
       "athx": {
-        "checked_on": "2026-11-07",
-        "races": 35
+        "checked_on": "2026-11-08",
+        "races": 33
       },
       "deka": {
-        "checked_on": "2026-11-07",
+        "checked_on": "2026-11-08",
         "races": 22
       }
     }
@@ -2003,50 +2003,6 @@
       "lng": -74.006,
       "cc": "US",
       "venue": "VENUE INFORMATION COMING SOON"
-    },
-    {
-      "id": "athx-01k8b7nxgwcr70a86vqf2y6ck4",
-      "name": "ATHX Los Angeles 2026",
-      "city": {
-        "fr": "Amsterdam",
-        "en": "Amsterdam",
-        "de": "Amsterdam"
-      },
-      "brand": "athx",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "find_out_more",
-      "url": "https://athxgames.com/events/01k8b7nxgwcr70a86vqf2y6ck4",
-      "venue": "RAI Amsterdam",
-      "lat": 52.3676,
-      "lng": 4.9041,
-      "cc": "NL"
-    },
-    {
-      "id": "athx-01kxmxwwhpb0jatysf8kb8gz5a",
-      "name": "ATHX Finals 2026",
-      "city": {
-        "fr": "Los Angeles",
-        "en": "Los Angeles",
-        "de": "Los Angeles"
-      },
-      "brand": "athx",
-      "continent": "north-america",
-      "type": "adults",
-      "start": "2026-11-27",
-      "end": "2026-11-29",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "find_out_more",
-      "url": "https://athxgames.com/events/01kxmxwwhpb0jatysf8kb8gz5a",
-      "venue": "Long Beach Convention & Entertainment Center",
-      "lat": 33.7701,
-      "lng": -118.1937,
-      "cc": "US"
     },
     {
       "id": "athx-01kk1b7p4a1pzebw5dd7q2z7wn",
