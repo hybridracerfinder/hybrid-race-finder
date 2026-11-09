@@ -10,20 +10,20 @@
     },
     "count": 190,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-08",
+    "updated_at": "2026-11-09",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-09",
         "races": 91
       },
       "athx": {
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-09",
         "races": 33
       },
       "deka": {
-        "checked_on": "2026-11-08",
-        "races": 22
+        "checked_on": "2026-11-09",
+        "races": 21
       }
     }
   },
@@ -2702,27 +2702,6 @@
       "cc": "GB"
     },
     {
-      "id": "deka-atlanta-2026",
-      "name": "Nov 07 - 08, 2026 2026 DEKA FIT & Ultra - Atlanta Atlanta, GA DEKA FIT",
-      "city": {
-        "fr": "Atlanta",
-        "en": "Atlanta",
-        "de": "Atlanta"
-      },
-      "brand": "deka",
-      "continent": "north-america",
-      "type": "adults",
-      "start": "2026-11-07",
-      "end": "2026-11-08",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "find_out_more",
-      "url": "https://www.spartan.com/en/race/detail/10979/overview",
-      "lat": 33.749,
-      "lng": -84.388,
-      "cc": "US"
-    },
-    {
       "id": "deka-wc-2026",
       "name": "Dec 10 - 13, 2026 2026 DEKA World Championship Fort Worth, TX DEKA MILE • DEKA STRONG • DE",
       "city": {
@@ -4589,6 +4568,35 @@
       "lat": 38.3452,
       "lng": -0.481,
       "expected_month": "2027-10"
+    },
+    {
+      "id": "expected-deka-us-atlanta",
+      "name": "DEKA Atlanta",
+      "brand": "deka",
+      "city": {
+        "fr": "Atlanta",
+        "en": "Atlanta",
+        "de": "Atlanta"
+      },
+      "cc": "US",
+      "continent": "north-america",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        11
+      ],
+      "last_edition": {
+        "start": "2026-11-07",
+        "end": "2026-11-08",
+        "venue": null
+      },
+      "url": "https://www.spartan.com/en/deka",
+      "lat": 33.749,
+      "lng": -84.388,
+      "expected_month": "2027-11"
     }
   ]
 }

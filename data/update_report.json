@@ -1,5 +1,5 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "brands": {
   "hyrox": {
    "ok": true,
@@ -14,14 +14,12 @@
    "found": 33,
    "added": [],
    "updated": [],
-   "removed": [
-    "ATHX Finals 2026"
-   ],
+   "removed": [],
    "skipped": []
   },
   "deka": {
    "ok": true,
-   "found": 22,
+   "found": 21,
    "added": [],
    "updated": [],
    "removed": [],
@@ -41,6 +39,6 @@
   "DEKA: new race not added, city not found: Oct 30 - 31, 2027 DEKA ALICANTE 2027 Alicante, Comunidad Valenciana, ES DEKA MILE • DEKA F (https://es.spartan.com/en/race/detail/11795/overview)"
  ],
  "reconcile": [
-  "finished, next edition already announced: ATHX Los Angeles 2026"
+  "finished, now 'not announced': Nov 07 - 08, 2026 2026 DEKA FIT & Ultra - Atlanta Atlanta, GA DEKA FIT"
  ]
 }
