@@ -8,21 +8,21 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 190,
+    "count": 191,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-09",
+    "updated_at": "2026-11-10",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-09",
-        "races": 91
+        "checked_on": "2026-11-10",
+        "races": 92
       },
       "athx": {
-        "checked_on": "2026-11-09",
+        "checked_on": "2026-11-10",
         "races": 33
       },
       "deka": {
-        "checked_on": "2026-11-09",
+        "checked_on": "2026-11-10",
         "races": 21
       }
     }
@@ -228,7 +228,7 @@
     },
     {
       "id": "hyrox-rio-de-janeiro",
-      "name": "HYROX Rio de Janeiro",
+      "name": "Chevrolet HYROX Rio de Janeiro",
       "city": {
         "fr": "Rio de Janeiro",
         "en": "Rio de Janeiro",
@@ -3158,6 +3158,28 @@
       "url": "https://athxgames.com/events/01krwygz93demx24426v8p3xr5",
       "lat": 33.7701,
       "lng": -118.1937
+    },
+    {
+      "id": "hyrox-minneapolis-26-27",
+      "name": "HYROX Minneapolis",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Minneapolis",
+        "en": "Minneapolis",
+        "de": "Minneapolis"
+      },
+      "cc": "US",
+      "continent": "north-america",
+      "type": "adults",
+      "start": "2027-05-07",
+      "end": "2027-05-09",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "find_out_more",
+      "url": "https://hyrox.com/event/hyrox-minneapolis-26-27/",
+      "lat": 44.9773,
+      "lng": -93.2655,
+      "venue": "401 Chicago Ave, Minneapolis, MN 55415, USA"
     },
     {
       "id": "expected-st-gallen",

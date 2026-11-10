@@ -1,11 +1,15 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "brands": {
   "hyrox": {
    "ok": true,
-   "found": 91,
-   "added": [],
-   "updated": [],
+   "found": 92,
+   "added": [
+    "HYROX Minneapolis"
+   ],
+   "updated": [
+    "Chevrolet HYROX Rio de Janeiro"
+   ],
    "removed": [],
    "skipped": []
   },
@@ -38,7 +42,5 @@
   "DEKA: new race not added, city not found: Oct 23 - 24, 2027 DEKA GUADALAJARA 2027 Guadalajara, Castilla-La Mancha, ES DEKA MILE • DE (https://es.spartan.com/en/race/detail/11767/overview)",
   "DEKA: new race not added, city not found: Oct 30 - 31, 2027 DEKA ALICANTE 2027 Alicante, Comunidad Valenciana, ES DEKA MILE • DEKA F (https://es.spartan.com/en/race/detail/11795/overview)"
  ],
- "reconcile": [
-  "finished, now 'not announced': Nov 07 - 08, 2026 2026 DEKA FIT & Ultra - Atlanta Atlanta, GA DEKA FIT"
- ]
+ "reconcile": []
 }
