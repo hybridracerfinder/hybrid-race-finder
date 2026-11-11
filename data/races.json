@@ -10,19 +10,19 @@
     },
     "count": 191,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-10",
+    "updated_at": "2026-11-11",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-10",
+        "checked_on": "2026-11-11",
         "races": 92
       },
       "athx": {
-        "checked_on": "2026-11-10",
+        "checked_on": "2026-11-11",
         "races": 33
       },
       "deka": {
-        "checked_on": "2026-11-10",
+        "checked_on": "2026-11-11",
         "races": 21
       }
     }
@@ -717,7 +717,7 @@
     },
     {
       "id": "hyrox-helsinki-2",
-      "name": "HYROX HELSINKI",
+      "name": "HYROX HELSINKI I",
       "city": {
         "fr": "Helsinki",
         "en": "Helsinki",
@@ -1391,7 +1391,7 @@
       "brand": "hyrox",
       "continent": "africa",
       "type": "adults",
-      "start": "2027-03-26",
+      "start": "2027-03-25",
       "end": "2027-03-28",
       "date_confirmed": true,
       "status": "announced",
@@ -1646,7 +1646,7 @@
     },
     {
       "id": "hyrox-helsinki",
-      "name": "HYROX HELSINKI",
+      "name": "HYROX HELSINKI II",
       "city": {
         "fr": "Helsinki",
         "en": "Helsinki",

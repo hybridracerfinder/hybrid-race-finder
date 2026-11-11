@@ -1,14 +1,14 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 92,
-   "added": [
-    "HYROX Minneapolis"
-   ],
+   "added": [],
    "updated": [
-    "Chevrolet HYROX Rio de Janeiro"
+    "HYROX HELSINKI I",
+    "Virgin Active HYROX Cape Town ||",
+    "HYROX HELSINKI II"
    ],
    "removed": [],
    "skipped": []
