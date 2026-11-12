@@ -28,6 +28,14 @@ def test_dates():
     assert u.parse_deka_dates("Dec 30 - Jan 02, 2027") == ("2026-12-30", "2027-01-02")
 
 
+def test_deka_names():
+    assert u.clean_deka_name("Nov 28 - 29, 2026 2026 London West DEKA Trifecta Weekend Farnborough, Hampshire, GB DEKA M") \
+        == "London West DEKA Trifecta Weekend Farnborough"
+    assert u.clean_deka_name("2026 DEKA FIT & Ultra - Atlanta") == "DEKA FIT & Ultra - Atlanta"
+    assert u.clean_deka_name("DEKA VIGO 2027") == "DEKA VIGO"
+    assert u.clean_deka_name("2027 DEKA FIT East Midlands Mar 27, 2027 Derby, GB") == "DEKA FIT East Midlands"
+
+
 def test_city_names():
     assert u.hyrox_city("FITNESS PARK HYROX PARIS") == "Paris"
     assert u.hyrox_city("HYROX Youngstars London ExCeL") == "London Excel"
@@ -56,14 +64,14 @@ class FakeHttp:
 HYROX_LIST = """
 <div class="event"><a href="https://hyrox.com/event/hyrox-toulouse-s26-27/"><img src="x.jpg"></a><span>TLS</span>
 <h2><a href="https://hyrox.com/event/hyrox-toulouse-s26-27/">LUCIS HYROX TOULOUSE</a></h2>
-<p>3. Feb. 2027– 7. Feb. 2027</p><a href="https://hyrox.com/event/hyrox-toulouse-s26-27/">Buy Tickets</a></div>
+<p>3. Feb. 2030– 7. Feb. 2030</p><a href="https://hyrox.com/event/hyrox-toulouse-s26-27/">Buy Tickets</a></div>
 <div class="event"><span>NYC</span><h2><a href="https://hyrox.com/event/hyrox-new-york/">HYROX New York</a></h2>
 <p>Date coming soon!</p><a href="https://hyrox.com/event/hyrox-new-york/">Find out more</a></div>
 <div class="event"><h2><a href="https://hyrox.com/event/hyrox-strasbourg/">HYROX Strasbourg</a></h2>
-<p>10. Jun. 2027– 13. Jun. 2027</p><a href="https://hyrox.com/event/hyrox-strasbourg/">Find out more</a></div>
+<p>10. Jun. 2030– 13. Jun. 2030</p><a href="https://hyrox.com/event/hyrox-strasbourg/">Find out more</a></div>
 <div class="grid-item"><div class="media"><a href="https://hyrox.com/event/intersport-hyrox-hamburg/"><img src="h.jpg"></a></div>
 <div class="body"><div class="head"><span>HAM</span><h2><a href="https://hyrox.com/event/intersport-hyrox-hamburg/">INTERSPORT HYROX Hamburg</a></h2>
-<div class="date">28. Oct. 2026– 1. Nov. 2026</div></div>
+<div class="date">28. Oct. 2030– 1. Nov. 2030</div></div>
 <div class="buttons"><div class="btn-wrap"><a class="btn" href="https://hyrox.com/event/intersport-hyrox-hamburg/">Buy Tickets</a></div></div></div></div>
 <footer><a href="https://hyrox.com/faq/">FAQ</a> © HYROX</footer>
 """
@@ -81,13 +89,13 @@ def test_scrape_hyrox():
     }
     got = {r["slug"]: r for r in u.scrape_hyrox(FakeHttp(pages))}
     t = got["hyrox-toulouse-s26-27"]
-    assert (t["start"], t["end"], t["listing_cta"]) == ("2027-02-03", "2027-02-07", "buy_tickets")
+    assert (t["start"], t["end"], t["listing_cta"]) == ("2030-02-03", "2030-02-07", "buy_tickets")
     assert t["_soon"] is False and t["venue"] == "MEETT, Toulouse"
     assert got["hyrox-new-york"]["date_confirmed"] is False
     assert got["hyrox-strasbourg"]["_soon"] is True
     h = got["intersport-hyrox-hamburg"]
     assert (h["name"], h["start"], h["end"], h["listing_cta"], h["_soon"]) == (
-        "INTERSPORT HYROX Hamburg", "2026-10-28", "2026-11-01", "buy_tickets", False)
+        "INTERSPORT HYROX Hamburg", "2030-10-28", "2030-11-01", "buy_tickets", False)
 
 
 ATHX_LIST = """
@@ -98,6 +106,14 @@ ATHX_LIST = """
 <div class="card"><div class="top"><a href="/events/01krwy3qs5q0357mrpx9b4qxtf"><img alt=""></a></div>
 <div class="info"><a href="/events/01krwy3qs5q0357mrpx9b4qxtf"><h3>ATHX PARIS 2027</h3></a><p>13 - 14 Feb 2027</p>
 <p>Paris Event Centre</p><p>France</p></div><div class="actions"><button>Enter now</button></div></div>
+<section class="grid">
+<div class="card"><h3>ATHX HAMBURG 2027</h3><p>28 Aug 2027</p><p>Hamburg Messe</p><p>Germany</p>
+<a href="/events/01krwydvc664nvf2am0tdtkscp">Enter now</a></div>
+<div class="card"><h3>ATHX NEW YORK 2027</h3><p>28 Aug 2027</p><p>Javits Center</p><p>United States</p>
+<a href="/events/01m32wkpzn6npbb75agmenytbe">Enter now</a></div>
+<div class="card"><h3>ATHX ROME 2027</h3><p>04 Sep 2027</p><p>Fiera di Roma</p><p>Italy</p>
+<a href="/events/01m4r799gbhp53p6zjz8sayapk">More info</a></div>
+</section>
 """
 
 
@@ -107,6 +123,10 @@ def test_scrape_athx():
         ("ATHX London 2027", "2027-01-23", "buy_tickets", "GB"),
         ("ATHX Houston 2026", "2026-10-17", "find_out_more", "US"),
         ("ATHX Paris 2027", "2027-02-13", "buy_tickets", "FR"),
+        # title written before the link: each card must keep its own name, date and country
+        ("ATHX Hamburg 2027", "2027-08-28", "buy_tickets", "DE"),
+        ("ATHX New York 2027", "2027-08-28", "buy_tickets", "US"),
+        ("ATHX Rome 2027", "2027-09-04", "find_out_more", "IT"),
     ]
 
 

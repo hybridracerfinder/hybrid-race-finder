@@ -180,6 +180,32 @@ def event_segments(soup, link_re, url_of):
     return segs
 
 
+def event_cards(soup, link_re, url_of):
+    """One text block per event: the largest element around the event's link that contains links to
+    that event only (i.e. its whole card), whatever comes first in it, the title or the link.
+    Used for ATHX, whose cards show the name and date *before* the link: reading in document order
+    gave each race the name and date of the next card (e.g. Hamburg showed New York)."""
+    cards = {}
+    for a in soup.find_all("a", href=True):
+        href = a["href"].split("?")[0].split("#")[0]
+        if not link_re.search(href):
+            continue
+        url = url_of(href)
+        key = norm_url(url)
+        node = a
+        while node.parent is not None and node.parent.name not in ("body", "html", "[document]"):
+            keys = {norm_url(url_of(x["href"].split("?")[0].split("#")[0]))
+                    for x in node.parent.find_all("a", href=True)
+                    if link_re.search(x["href"].split("?")[0].split("#")[0])}
+            if len(keys) > 1:
+                break
+            node = node.parent
+        text = node.get_text(" ", strip=True)
+        if key not in cards or len(text) > len(cards[key]["text"]):
+            cards[key] = {"url": url, "text": text}
+    return cards
+
+
 # ---------------------------------------------------------------- date parsers (one per site format)
 
 def parse_hyrox_dates(text: str):
@@ -318,10 +344,10 @@ def hyrox_meta(http: Http, slug: str):
 def scrape_athx(http: Http, log=print):
     soup = soup_of(http.get(BRAND_PAGE["athx"]).text)
     link_re = re.compile(r"/events/[0-9a-z]{20,}$")
-    segs = event_segments(soup, link_re, lambda h: (h if h.startswith("http") else "https://athxgames.com" + h))
+    cards = event_cards(soup, link_re, lambda h: (h if h.startswith("http") else "https://athxgames.com" + h))
     out = []
-    for key, seg in segs.items():
-        text = " ".join(seg["titles"]) + " " + seg["text"]
+    for key, seg in cards.items():
+        text = seg["text"]
         m = re.search(r"\bATHX\s+[A-ZÀ-Ü][A-ZÀ-Ü .'\-]*?\s+(19|20)\d{2}\b", text, flags=re.I)
         if not m:
             continue
@@ -335,6 +361,19 @@ def scrape_athx(http: Http, log=print):
             "_cc": country,
         })
     return out
+
+
+def clean_deka_name(raw: str) -> str:
+    """'Nov 28 - 29, 2026 2026 London West DEKA Trifecta Weekend Farnborough, Hampshire, GB DEKA M'
+    -> 'London West DEKA Trifecta Weekend Farnborough'"""
+    s = re.sub(r"\s+", " ", raw).strip()
+    s = re.sub(r"^[A-Z][a-z]{2}\s+\d{1,2}(?:\s*[-–]\s*(?:[A-Z][a-z]{2}\s+)?\d{1,2})?,\s*\d{4}\s*", "", s)
+    s = re.sub(r"^(?:19|20)\d{2}\s+", "", s)
+    s = s.split(",")[0]                                   # drop the address ('…, Hampshire, GB')
+    s = re.split(r"\s+[A-Z][a-z]{2}\s+\d{1,2}\b", s)[0]   # drop a date that follows the name
+    s = re.sub(r"\s+(?:19|20)\d{2}$", "", s.strip())        # trailing year ('DEKA VIGO 2027')
+    s = s.strip(" -–•|")
+    return s[:60].rsplit(" ", 1)[0] if len(s) > 60 else s
 
 
 DEKA_PAGES = [
@@ -375,7 +414,7 @@ def scrape_deka(http: Http, log=print):
                 m = re.search(r"((?:19|20)\d{2}\s+)?[^|]*?DEKA[^|]*?(?=\s+[A-Z][a-z]{2}\s+\d{1,2}|$)", text)
                 name = m.group(0).strip() if m else text[:80]
             out.append({
-                "brand": "deka", "url": seg["url"], "name": re.sub(r"\s+", " ", name)[:90],
+                "brand": "deka", "url": seg["url"], "name": clean_deka_name(name),
                 "start": start, "end": end, "date_confirmed": True,
                 "listing_cta": "find_out_more" if re.search(r"sold out|coming soon", text, re.I)
                                else ("buy_tickets" if re.search(r"register|sign up|book", text, re.I) else "find_out_more"),
