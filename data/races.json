@@ -8,7 +8,7 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 191,
+    "count": 195,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
     "updated_at": "2026-11-12",
     "generator": "update_races",
@@ -19,7 +19,7 @@
       },
       "athx": {
         "checked_on": "2026-11-12",
-        "races": 33
+        "races": 34
       },
       "deka": {
         "checked_on": "2026-11-12",
@@ -2006,7 +2006,7 @@
     },
     {
       "id": "athx-01kk1b7p4a1pzebw5dd7q2z7wn",
-      "name": "ATHX London 2027",
+      "name": "ATHX Finals 2026",
       "city": {
         "fr": "Lisbonne",
         "en": "Lisbon",
@@ -2015,8 +2015,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-01-23",
-      "end": "2027-01-24",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "find_out_more",
@@ -2031,7 +2031,7 @@
     },
     {
       "id": "athx-01krwxxbqkjzzbhpdj52356qkc",
-      "name": "ATHX San Diego 2027",
+      "name": "ATHX London 2027",
       "city": {
         "fr": "Londres",
         "en": "London",
@@ -2041,7 +2041,7 @@
       "continent": "europe",
       "type": "adults",
       "start": "2027-01-23",
-      "end": "2027-01-23",
+      "end": "2027-01-24",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2053,7 +2053,7 @@
     },
     {
       "id": "athx-01m3q7jv27nmxge7qrghrkb0m4",
-      "name": "ATHX Las Vegas 2027",
+      "name": "ATHX San Diego 2027",
       "city": {
         "fr": "San Diego",
         "en": "San Diego",
@@ -2062,8 +2062,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-02-06",
-      "end": "2027-02-06",
+      "start": "2027-01-23",
+      "end": "2027-01-23",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2075,7 +2075,7 @@
     },
     {
       "id": "athx-01m3q8sdq1s3qr7fsjbf2rg18c",
-      "name": "ATHX Paris 2027",
+      "name": "ATHX Las Vegas 2027",
       "city": {
         "fr": "Las Vegas",
         "en": "Las Vegas",
@@ -2084,8 +2084,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-02-13",
-      "end": "2027-02-14",
+      "start": "2027-02-06",
+      "end": "2027-02-06",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2100,7 +2100,7 @@
     },
     {
       "id": "athx-01krwy3qs5q0357mrpx9b4qxtf",
-      "name": "ATHX Valencia 2027",
+      "name": "ATHX Paris 2027",
       "city": {
         "fr": "Paris",
         "en": "Paris",
@@ -2109,8 +2109,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-02-20",
-      "end": "2027-02-20",
+      "start": "2027-02-13",
+      "end": "2027-02-14",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2122,7 +2122,7 @@
     },
     {
       "id": "athx-01krwy548m3x7bt4j8bvvmr8j8",
-      "name": "ATHX Milan 2027",
+      "name": "ATHX Valencia 2027",
       "city": {
         "fr": "Valencia",
         "en": "Valencia",
@@ -2131,8 +2131,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-03-06",
-      "end": "2027-03-07",
+      "start": "2027-02-20",
+      "end": "2027-02-20",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2144,7 +2144,7 @@
     },
     {
       "id": "athx-01ktkx9y8tf4a4g88n2jrprvxb",
-      "name": "ATHX Denver 2027",
+      "name": "ATHX Milan 2027",
       "city": {
         "fr": "Milan",
         "en": "Milan",
@@ -2153,8 +2153,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-03-13",
-      "end": "2027-03-13",
+      "start": "2027-03-06",
+      "end": "2027-03-07",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2166,7 +2166,7 @@
     },
     {
       "id": "athx-01m3qb3fstj70qb6kgdxspt43f",
-      "name": "ATHX Brussels 2027",
+      "name": "ATHX Denver 2027",
       "city": {
         "fr": "Denver",
         "en": "Denver",
@@ -2175,8 +2175,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-03-20",
-      "end": "2027-03-20",
+      "start": "2027-03-13",
+      "end": "2027-03-13",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2191,7 +2191,7 @@
     },
     {
       "id": "athx-01krwy5v1j0w519tw157rjf94m",
-      "name": "ATHX St Gallen 2027",
+      "name": "ATHX Brussels 2027",
       "city": {
         "fr": "Bruxelles",
         "en": "Brussels",
@@ -2200,8 +2200,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-04-10",
-      "end": "2027-04-10",
+      "start": "2027-03-20",
+      "end": "2027-03-20",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2213,7 +2213,7 @@
     },
     {
       "id": "athx-01krwy682mdagrw81v49eryjfh",
-      "name": "ATHX Stuttgart 2027",
+      "name": "ATHX St Gallen 2027",
       "city": {
         "fr": "St-Gall",
         "en": "St. Gallen",
@@ -2222,8 +2222,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-04-17",
-      "end": "2027-04-17",
+      "start": "2027-04-10",
+      "end": "2027-04-10",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2235,7 +2235,7 @@
     },
     {
       "id": "athx-01krwy6n4pfbcrvdntsnxx1ve5",
-      "name": "ATHX Houston 2027",
+      "name": "ATHX Stuttgart 2027",
       "city": {
         "fr": "Stuttgart",
         "en": "Stuttgart",
@@ -2257,7 +2257,7 @@
     },
     {
       "id": "athx-01m52cq7h7hmngw4w6v1ptbfd9",
-      "name": "ATHX Vienna 2027",
+      "name": "ATHX Houston 2027",
       "city": {
         "fr": "Houston",
         "en": "Houston",
@@ -2266,8 +2266,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-04-24",
-      "end": "2027-04-24",
+      "start": "2027-04-17",
+      "end": "2027-04-17",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2279,7 +2279,7 @@
     },
     {
       "id": "athx-01krwy752qn8epq15qbfn1kjnm",
-      "name": "ATHX Madrid 2027",
+      "name": "ATHX Vienna 2027",
       "city": {
         "fr": "Vienne",
         "en": "Vienna",
@@ -2288,8 +2288,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-05-08",
-      "end": "2027-05-09",
+      "start": "2027-04-24",
+      "end": "2027-04-24",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2301,7 +2301,7 @@
     },
     {
       "id": "athx-01krwy7hrp6bp8ndj7p1487n0n",
-      "name": "ATHX Frankfurt 2027",
+      "name": "ATHX Madrid 2027",
       "city": {
         "fr": "Madrid",
         "en": "Madrid",
@@ -2310,8 +2310,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-05-22",
-      "end": "2027-05-22",
+      "start": "2027-05-08",
+      "end": "2027-05-09",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2323,7 +2323,7 @@
     },
     {
       "id": "athx-01krwy8bb5rcgrnwpbcczzbray",
-      "name": "ATHX Montpellier 2027",
+      "name": "ATHX Frankfurt 2027",
       "city": {
         "fr": "Francfort",
         "en": "Frankfurt",
@@ -2332,8 +2332,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-05-28",
-      "end": "2027-05-29",
+      "start": "2027-05-22",
+      "end": "2027-05-22",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2345,7 +2345,7 @@
     },
     {
       "id": "athx-01ktkxbvzg4bf5b0xp1vr4rgc9",
-      "name": "ATHX Glasgow 2027",
+      "name": "ATHX Montpellier 2027",
       "city": {
         "fr": "Montpellier",
         "en": "Montpellier",
@@ -2354,8 +2354,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-06-05",
-      "end": "2027-06-06",
+      "start": "2027-05-28",
+      "end": "2027-05-29",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2367,7 +2367,7 @@
     },
     {
       "id": "athx-01krwy8tkc67qrvhyxrkf7rr2a",
-      "name": "ATHX Dublin 2027",
+      "name": "ATHX Glasgow 2027",
       "city": {
         "fr": "Glasgow",
         "en": "Glasgow",
@@ -2376,8 +2376,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-06-12",
-      "end": "2027-06-13",
+      "start": "2027-06-05",
+      "end": "2027-06-06",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2389,7 +2389,7 @@
     },
     {
       "id": "athx-01krwy9mpydvy1btj6mg0n24d3",
-      "name": "ATHX Miami 2027",
+      "name": "ATHX Dublin 2027",
       "city": {
         "fr": "Dublin",
         "en": "Dublin",
@@ -2399,7 +2399,7 @@
       "continent": "europe",
       "type": "adults",
       "start": "2027-06-12",
-      "end": "2027-06-12",
+      "end": "2027-06-13",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2411,7 +2411,7 @@
     },
     {
       "id": "athx-01m49ena5z6exns2wbwhz0as69",
-      "name": "ATHX Lisbon 2027",
+      "name": "ATHX Miami 2027",
       "city": {
         "fr": "Miami Beach",
         "en": "Miami Beach",
@@ -2420,8 +2420,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-06-26",
-      "end": "2027-06-27",
+      "start": "2027-06-12",
+      "end": "2027-06-12",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2433,7 +2433,7 @@
     },
     {
       "id": "athx-01m4r73y2nbndczzrhkh09xccc",
-      "name": "ATHX Berlin 2027",
+      "name": "ATHX Malmö 2027",
       "city": {
         "fr": "Malmö",
         "en": "Malmö",
@@ -2442,8 +2442,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-08-14",
-      "end": "2027-08-15",
+      "start": "2027-07-31",
+      "end": "2027-07-31",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2455,7 +2455,7 @@
     },
     {
       "id": "athx-01krwybw82cd8h9reednq08rdy",
-      "name": "ATHX Nashville 2027",
+      "name": "ATHX Berlin 2027",
       "city": {
         "fr": "Berlin",
         "en": "Berlin",
@@ -2465,7 +2465,7 @@
       "continent": "europe",
       "type": "adults",
       "start": "2027-08-14",
-      "end": "2027-08-14",
+      "end": "2027-08-15",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2477,7 +2477,7 @@
     },
     {
       "id": "athx-01m3qe0s9k2yzb4grc3qs0149m",
-      "name": "ATHX Birmingham 2027",
+      "name": "ATHX Nashville 2027",
       "city": {
         "fr": "Nashville",
         "en": "Nashville",
@@ -2486,8 +2486,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-08-20",
-      "end": "2027-08-22",
+      "start": "2027-08-14",
+      "end": "2027-08-14",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2502,7 +2502,7 @@
     },
     {
       "id": "athx-01krwycnfs1czxhzqvvsqtcjhh",
-      "name": "ATHX Hamburg 2027",
+      "name": "ATHX Birmingham 2027",
       "city": {
         "fr": "Birmingham",
         "en": "Birmingham",
@@ -2511,8 +2511,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-08-28",
-      "end": "2027-08-28",
+      "start": "2027-08-20",
+      "end": "2027-08-22",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2524,7 +2524,7 @@
     },
     {
       "id": "athx-01krwydvc664nvf2am0tdtkscp",
-      "name": "ATHX New York 2027",
+      "name": "ATHX Hamburg 2027",
       "city": {
         "fr": "Hambourg",
         "en": "Hamburg",
@@ -2546,7 +2546,7 @@
     },
     {
       "id": "athx-01m32wkpzn6npbb75agmenytbe",
-      "name": "ATHX Rome 2027",
+      "name": "ATHX New York 2027",
       "city": {
         "fr": "New York",
         "en": "New York",
@@ -2555,8 +2555,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-09-04",
-      "end": "2027-09-04",
+      "start": "2027-08-28",
+      "end": "2027-08-28",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2568,7 +2568,7 @@
     },
     {
       "id": "athx-01m4r799gbhp53p6zjz8sayapk",
-      "name": "ATHX Marseille 2027",
+      "name": "ATHX Rome 2027",
       "city": {
         "fr": "Rome",
         "en": "Rome",
@@ -2577,8 +2577,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-09-10",
-      "end": "2027-09-11",
+      "start": "2027-09-04",
+      "end": "2027-09-04",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2590,7 +2590,7 @@
     },
     {
       "id": "athx-01krwye8tdjj9gscaw7xht2sme",
-      "name": "ATHX Chicago 2027",
+      "name": "ATHX Marseille 2027",
       "city": {
         "fr": "Marseille",
         "en": "Marseille",
@@ -2599,7 +2599,7 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-09-11",
+      "start": "2027-09-10",
       "end": "2027-09-11",
       "date_confirmed": true,
       "status": "announced",
@@ -2612,7 +2612,7 @@
     },
     {
       "id": "athx-01m3qf0k52z2eq2s87gjn3ea61",
-      "name": "ATHX Turin 2027",
+      "name": "ATHX Chicago 2027",
       "city": {
         "fr": "Chicago",
         "en": "Chicago",
@@ -2621,8 +2621,8 @@
       "brand": "athx",
       "continent": "north-america",
       "type": "adults",
-      "start": "2027-09-25",
-      "end": "2027-09-25",
+      "start": "2027-09-11",
+      "end": "2027-09-11",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2637,7 +2637,7 @@
     },
     {
       "id": "athx-01krwyezkbkvf4rdk2em6nj7z4",
-      "name": "ATHX Amsterdam 2027",
+      "name": "ATHX Turin 2027",
       "city": {
         "fr": "Turin",
         "en": "Turin",
@@ -2646,8 +2646,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-10-02",
-      "end": "2027-10-03",
+      "start": "2027-09-25",
+      "end": "2027-09-25",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2659,7 +2659,7 @@
     },
     {
       "id": "athx-01krwyg5j85v7nrbwh5eak1tb9",
-      "name": "ATHX Liverpool 2027",
+      "name": "ATHX Amsterdam 2027",
       "city": {
         "fr": "Amsterdam",
         "en": "Amsterdam",
@@ -2668,8 +2668,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-10-09",
-      "end": "2027-10-10",
+      "start": "2027-10-02",
+      "end": "2027-10-03",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2681,7 +2681,7 @@
     },
     {
       "id": "athx-01krwyfbxhpxxdyn42cas8bcd1",
-      "name": "ATHX Bilbao 2027",
+      "name": "ATHX Liverpool 2027",
       "city": {
         "fr": "Liverpool",
         "en": "Liverpool",
@@ -2690,8 +2690,8 @@
       "brand": "athx",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-11-06",
-      "end": "2027-11-06",
+      "start": "2027-10-09",
+      "end": "2027-10-10",
       "date_confirmed": true,
       "status": "announced",
       "listing_cta": "buy_tickets",
@@ -2703,7 +2703,7 @@
     },
     {
       "id": "deka-wc-2026",
-      "name": "Dec 10 - 13, 2026 2026 DEKA World Championship Fort Worth, TX DEKA MILE • DEKA STRONG • DE",
+      "name": "DEKA World Championship Fort Worth",
       "city": {
         "fr": "Fort Worth",
         "en": "Fort Worth",
@@ -2728,7 +2728,7 @@
     },
     {
       "id": "deka-new-york-2027",
-      "name": "Jan 01 - 31, 2027 2027 DEKA FIT & Ultra - New York DEKA FIT",
+      "name": "DEKA FIT & Ultra - New York DEKA FIT",
       "city": {
         "fr": "New York",
         "en": "New York",
@@ -2754,7 +2754,7 @@
     },
     {
       "id": "deka-denver-2027",
-      "name": "Mar 27, 2027 2027 DEKA FIT & Ultra - Denver Denver, CO DEKA FIT",
+      "name": "DEKA FIT & Ultra - Denver Denver",
       "city": {
         "fr": "Denver",
         "en": "Denver",
@@ -2775,7 +2775,7 @@
     },
     {
       "id": "deka-sacramento-2027",
-      "name": "Apr 24 - 25, 2027 2027 DEKA FIT & Ultra - Sacramento, CA Sacramento, CA DEKA FIT",
+      "name": "DEKA FIT & Ultra - Sacramento",
       "city": {
         "fr": "Sacramento",
         "en": "Sacramento",
@@ -2796,7 +2796,7 @@
     },
     {
       "id": "deka-anaheim-2027",
-      "name": "May 01 - 02, 2027 2027 DEKA FIT & Ultra - Anaheim, CA Anaheim, CA DEKA FIT",
+      "name": "DEKA FIT & Ultra - Anaheim",
       "city": {
         "fr": "Anaheim",
         "en": "Anaheim",
@@ -2817,7 +2817,7 @@
     },
     {
       "id": "deka-washington-2027",
-      "name": "Oct 01 - 03, 2027 2027 DEKA FIT & Ultra - Washington DC DEKA FIT",
+      "name": "DEKA FIT & Ultra - Washington DC DEKA FIT",
       "city": {
         "fr": "Washington",
         "en": "Washington, D.C.",
@@ -2838,7 +2838,7 @@
     },
     {
       "id": "deka-london-west-2026",
-      "name": "Nov 28 - 29, 2026 2026 London West DEKA Trifecta Weekend Farnborough, Hampshire, GB DEKA M",
+      "name": "London West DEKA Trifecta Weekend Farnborough",
       "city": {
         "fr": "Farnborough",
         "en": "Farnborough",
@@ -2859,7 +2859,7 @@
     },
     {
       "id": "deka-emea-2027",
-      "name": "May 28 - 30, 2027 2027 DEKA EMEA Championship Liverpool Waterfront, UK, GB DEKA MILE • DEK",
+      "name": "DEKA EMEA Championship Liverpool Waterfront",
       "city": {
         "fr": "Liverpool",
         "en": "Liverpool",
@@ -2884,7 +2884,7 @@
     },
     {
       "id": "deka-east-midlands-2027",
-      "name": "Sep 11 - 12, 2027 2027 DEKA FIT East Midlands Derby, GB DEKA FIT TEAM • DEKA FIT",
+      "name": "DEKA FIT East Midlands Derby",
       "city": {
         "fr": "Derby",
         "en": "Derby",
@@ -2905,7 +2905,7 @@
     },
     {
       "id": "deka-tenerife-2026",
-      "name": "Nov 21 - 22, 2026 DEKA TENERIFE 2026 Santa Cruz de Tenerife, Islas Canarias, ES DEKA MILE ",
+      "name": "DEKA TENERIFE 2026 Santa Cruz de Tenerife",
       "city": {
         "fr": "Tenerife",
         "en": "Tenerife",
@@ -2926,7 +2926,7 @@
     },
     {
       "id": "deka-torremolinos-2027",
-      "name": "Feb 27 - 28, 2027 DEKA TORREMOLINOS (MÁLAGA) 2027 Torremolinos, Andalucía, ES DEKA FIT TEA",
+      "name": "DEKA TORREMOLINOS (MÁLAGA) 2027 Torremolinos",
       "city": {
         "fr": "Torremolinos",
         "en": "Torremolinos",
@@ -2947,7 +2947,7 @@
     },
     {
       "id": "deka-toledo-2027",
-      "name": "Mar 06 - 07, 2027 DEKA TOLEDO - UNIVERSIDAD DE CASTILLA-LA MANCHA 2027 Toledo, Castilla-La",
+      "name": "DEKA TOLEDO - UNIVERSIDAD DE CASTILLA-LA MANCHA 2027 Toledo",
       "city": {
         "fr": "Tolède",
         "en": "Toledo",
@@ -2969,7 +2969,7 @@
     },
     {
       "id": "deka-barcelona-spring-2027",
-      "name": "Mar 20 - 21, 2027 DEKA BARCELONA 2027 PRIMAVERA Barcelona, Cataluña, ES DEKA MILE • DEKA S",
+      "name": "DEKA BARCELONA 2027 PRIMAVERA Barcelona",
       "city": {
         "fr": "Barcelone",
         "en": "Barcelona",
@@ -2990,7 +2990,7 @@
     },
     {
       "id": "deka-valencia-2027",
-      "name": "Apr 03 - 04, 2027 DEKA VALENCIA 2027 Valencia, Comunidad Valenciana, ES DEKA MILE • DEKA F",
+      "name": "DEKA VALENCIA 2027 Valencia",
       "city": {
         "fr": "Valencia",
         "en": "Valencia",
@@ -3011,7 +3011,7 @@
     },
     {
       "id": "deka-ibiza-2027",
-      "name": "Apr 17 - 18, 2027 DEKA IBIZA 2027 Sant Agustí des Vedrà, Islas Baleares, ES DEKA MILE • DE",
+      "name": "DEKA IBIZA 2027 Sant Agustí des Vedrà",
       "city": {
         "fr": "Ibiza",
         "en": "Ibiza",
@@ -3033,7 +3033,7 @@
     },
     {
       "id": "deka-vigo-2027",
-      "name": "Jun 26 - 27, 2027 DEKA VIGO 2027 Vigo, Galicia, ES DEKA MILE • DEKA FIT TEAM • DEKA FIT • ",
+      "name": "DEKA VIGO 2027 Vigo",
       "city": {
         "fr": "Vigo",
         "en": "Vigo",
@@ -3054,7 +3054,7 @@
     },
     {
       "id": "deka-madrid-2027",
-      "name": "Jul 10 - 11, 2027 DEKA MADRID 2027 Madrid, Comunidad de Madrid, ES DEKA MILE • DEKA STRONG",
+      "name": "DEKA MADRID 2027 Madrid",
       "city": {
         "fr": "Madrid",
         "en": "Madrid",
@@ -3096,27 +3096,6 @@
       "venue": "Asiaworld-Expo, 1 Airport Expo Blvd, Chek Lap Kok, Hong Kong"
     },
     {
-      "id": "athx-01m4r770hm4c8sv6pt8gy673fr",
-      "name": "ATHX Malmö 2027",
-      "brand": "athx",
-      "city": {
-        "fr": "Malmö",
-        "en": "Malmö",
-        "de": "Malmö"
-      },
-      "cc": "SE",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2027-07-31",
-      "end": "2027-07-31",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://athxgames.com/events/01m4r770hm4c8sv6pt8gy673fr",
-      "lat": 55.605,
-      "lng": 13.0038
-    },
-    {
       "id": "hyrox-sao-paulo",
       "name": "HYROX São Paulo",
       "brand": "hyrox",
@@ -3140,7 +3119,7 @@
     },
     {
       "id": "athx-01krwygz93demx24426v8p3xr5",
-      "name": "ATHX Los Angeles 2027",
+      "name": "ATHX Bilbao 2027",
       "brand": "athx",
       "city": {
         "fr": "Los Angeles",
@@ -3180,6 +3159,132 @@
       "lat": 44.9773,
       "lng": -93.2655,
       "venue": "401 Chicago Ave, Minneapolis, MN 55415, USA"
+    },
+    {
+      "id": "athx-01krwyacecyw2jbmn851f35kkt",
+      "name": "ATHX Lisbon 2027",
+      "brand": "athx",
+      "city": {
+        "fr": "Lisbonne",
+        "en": "Lisbon",
+        "de": "Lissabon"
+      },
+      "cc": "PT",
+      "continent": "europe",
+      "type": "adults",
+      "start": "2027-06-26",
+      "end": "2027-06-27",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "buy_tickets",
+      "url": "https://athxgames.com/events/01krwyacecyw2jbmn851f35kkt",
+      "lat": 38.7223,
+      "lng": -9.1393
+    },
+    {
+      "id": "athx-01m6rptkbqnbtepc5cwfzbgh6g",
+      "name": "ATHX Los Angeles 2027",
+      "brand": "athx",
+      "city": {
+        "fr": "Los Angeles",
+        "en": "Los Angeles",
+        "de": "Los Angeles"
+      },
+      "cc": "US",
+      "continent": "north-america",
+      "type": "adults",
+      "start": "2027-11-06",
+      "end": "2027-11-06",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "buy_tickets",
+      "url": "https://athxgames.com/events/01m6rptkbqnbtepc5cwfzbgh6g",
+      "lat": 33.7701,
+      "lng": -118.1937
+    },
+    {
+      "id": "deka-overview",
+      "name": "DEKA FIT Road Show - Laredo",
+      "brand": "deka",
+      "city": {
+        "fr": "Laredo",
+        "en": "Laredo",
+        "de": "Laredo"
+      },
+      "cc": "US",
+      "continent": "north-america",
+      "type": "adults",
+      "start": "2027-01-30",
+      "end": "2027-01-30",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "find_out_more",
+      "url": "https://www.spartan.com/en/race/detail/11798/overview",
+      "lat": 27.5079,
+      "lng": -99.507
+    },
+    {
+      "id": "deka-deka-barcelona-otono",
+      "name": "DEKA BARCELONA 2027 OTOÑO Barcelona",
+      "brand": "deka",
+      "city": {
+        "fr": "Barcelone",
+        "en": "Barcelona",
+        "de": "Barcelona"
+      },
+      "cc": "ES",
+      "continent": "europe",
+      "type": "adults",
+      "start": "2027-09-25",
+      "end": "2027-09-26",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "find_out_more",
+      "url": "https://es.spartan.com/en/races/deka-barcelona-otono",
+      "lat": 41.3826,
+      "lng": 2.1771
+    },
+    {
+      "id": "deka-deka-guadalajara",
+      "name": "DEKA GUADALAJARA 2027 Guadalajara",
+      "brand": "deka",
+      "city": {
+        "fr": "Guadalajara",
+        "en": "Guadalajara",
+        "de": "Guadalajara"
+      },
+      "cc": "ES",
+      "continent": "europe",
+      "type": "adults",
+      "start": "2027-10-23",
+      "end": "2027-10-24",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "find_out_more",
+      "url": "https://es.spartan.com/en/races/deka-guadalajara",
+      "lat": 40.6327,
+      "lng": -3.1646
+    },
+    {
+      "id": "deka-overview",
+      "name": "DEKA ALICANTE 2027 Alicante",
+      "brand": "deka",
+      "city": {
+        "fr": "Alicante",
+        "en": "Alicante",
+        "de": "Alicante"
+      },
+      "cc": "ES",
+      "continent": "europe",
+      "type": "adults",
+      "start": "2027-10-30",
+      "end": "2027-10-31",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "find_out_more",
+      "url": "https://es.spartan.com/en/race/detail/11795/overview",
+      "lat": 38.3436,
+      "lng": -0.4882
     },
     {
       "id": "expected-st-gallen",
@@ -4560,35 +4665,6 @@
       "url": "https://hyrox.com/find-my-race/",
       "lat": 19.4326,
       "lng": -99.1332,
-      "expected_month": "2027-10"
-    },
-    {
-      "id": "expected-deka-es-alicante",
-      "name": "DEKA Alicante",
-      "brand": "deka",
-      "city": {
-        "fr": "Alicante",
-        "en": "Alicante",
-        "de": "Alicante"
-      },
-      "cc": "ES",
-      "continent": "europe",
-      "type": "adults",
-      "start": null,
-      "end": null,
-      "date_confirmed": false,
-      "status": "expected",
-      "usual_months": [
-        10
-      ],
-      "last_edition": {
-        "start": "2026-10-31",
-        "end": "2026-11-01",
-        "venue": null
-      },
-      "url": "https://www.spartan.com/en/deka",
-      "lat": 38.3452,
-      "lng": -0.481,
       "expected_month": "2027-10"
     },
     {

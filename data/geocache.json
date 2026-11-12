@@ -15,5 +15,49 @@
   "lat": 44.9773,
   "lng": -93.2655,
   "continent": "north-america"
+ },
+ "Laredo|US": {
+  "city": {
+   "fr": "Laredo",
+   "en": "Laredo",
+   "de": "Laredo"
+  },
+  "cc": "US",
+  "lat": 27.5079,
+  "lng": -99.507,
+  "continent": "north-america"
+ },
+ "Barcelona Barcelona|ES": {
+  "city": {
+   "fr": "Barcelone",
+   "en": "Barcelona",
+   "de": "Barcelona"
+  },
+  "cc": "ES",
+  "lat": 41.3826,
+  "lng": 2.1771,
+  "continent": "europe"
+ },
+ "Guadalajara Guadalajara|ES": {
+  "city": {
+   "fr": "Guadalajara",
+   "en": "Guadalajara",
+   "de": "Guadalajara"
+  },
+  "cc": "ES",
+  "lat": 40.6327,
+  "lng": -3.1646,
+  "continent": "europe"
+ },
+ "Alicante Alicante|ES": {
+  "city": {
+   "fr": "Alicante",
+   "en": "Alicante",
+   "de": "Alicante"
+  },
+  "cc": "ES",
+  "lat": 38.3436,
+  "lng": -0.4882,
+  "continent": "europe"
  }
 }
