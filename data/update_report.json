@@ -1,10 +1,12 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "brands": {
   "hyrox": {
    "ok": true,
-   "found": 92,
-   "added": [],
+   "found": 93,
+   "added": [
+    "HYROX Santiago"
+   ],
    "updated": [],
    "removed": [],
    "skipped": []
@@ -12,84 +14,21 @@
   "athx": {
    "ok": true,
    "found": 34,
-   "added": [
-    "ATHX Lisbon 2027",
-    "ATHX Los Angeles 2027"
-   ],
-   "updated": [
-    "ATHX Finals 2026",
-    "ATHX London 2027",
-    "ATHX San Diego 2027",
-    "ATHX Las Vegas 2027",
-    "ATHX Paris 2027",
-    "ATHX Valencia 2027",
-    "ATHX Milan 2027",
-    "ATHX Denver 2027",
-    "ATHX Brussels 2027",
-    "ATHX St Gallen 2027",
-    "ATHX Stuttgart 2027",
-    "ATHX Houston 2027",
-    "ATHX Vienna 2027",
-    "ATHX Madrid 2027",
-    "ATHX Frankfurt 2027",
-    "ATHX Montpellier 2027",
-    "ATHX Glasgow 2027",
-    "ATHX Dublin 2027",
-    "ATHX Miami 2027",
-    "ATHX Malmö 2027",
-    "ATHX Berlin 2027",
-    "ATHX Nashville 2027",
-    "ATHX Birmingham 2027",
-    "ATHX Hamburg 2027",
-    "ATHX New York 2027",
-    "ATHX Rome 2027",
-    "ATHX Marseille 2027",
-    "ATHX Chicago 2027",
-    "ATHX Turin 2027",
-    "ATHX Amsterdam 2027",
-    "ATHX Liverpool 2027",
-    "ATHX Bilbao 2027"
-   ],
-   "removed": [
-    "ATHX Malmö 2027"
-   ],
+   "added": [],
+   "updated": [],
+   "removed": [],
    "skipped": []
   },
   "deka": {
    "ok": true,
    "found": 21,
-   "added": [
-    "DEKA FIT Road Show - Laredo",
-    "DEKA BARCELONA 2027 OTOÑO Barcelona",
-    "DEKA GUADALAJARA 2027 Guadalajara",
-    "DEKA ALICANTE 2027 Alicante"
-   ],
-   "updated": [
-    "DEKA World Championship Fort Worth",
-    "DEKA FIT & Ultra - New York DEKA FIT",
-    "DEKA FIT & Ultra - Denver Denver",
-    "DEKA FIT & Ultra - Sacramento",
-    "DEKA FIT & Ultra - Anaheim",
-    "DEKA FIT & Ultra - Washington DC DEKA FIT",
-    "London West DEKA Trifecta Weekend Farnborough",
-    "DEKA EMEA Championship Liverpool Waterfront",
-    "DEKA FIT East Midlands Derby",
-    "DEKA TENERIFE 2026 Santa Cruz de Tenerife",
-    "DEKA TORREMOLINOS (MÁLAGA) 2027 Torremolinos",
-    "DEKA TOLEDO - UNIVERSIDAD DE CASTILLA-LA MANCHA 2027 Toledo",
-    "DEKA BARCELONA 2027 PRIMAVERA Barcelona",
-    "DEKA VALENCIA 2027 Valencia",
-    "DEKA IBIZA 2027 Sant Agustí des Vedrà",
-    "DEKA VIGO 2027 Vigo",
-    "DEKA MADRID 2027 Madrid"
-   ],
+   "added": [],
+   "updated": [],
    "removed": [],
    "skipped": []
   }
  },
  "errors": [],
  "warnings": [],
- "reconcile": [
-  "announced again, removed from 'not announced': DEKA Alicante"
- ]
+ "reconcile": []
 }

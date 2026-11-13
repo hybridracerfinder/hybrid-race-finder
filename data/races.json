@@ -8,21 +8,21 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 195,
+    "count": 196,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-12",
+    "updated_at": "2026-11-13",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-12",
-        "races": 92
+        "checked_on": "2026-11-13",
+        "races": 93
       },
       "athx": {
-        "checked_on": "2026-11-12",
+        "checked_on": "2026-11-13",
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-11-12",
+        "checked_on": "2026-11-13",
         "races": 21
       }
     }
@@ -3285,6 +3285,33 @@
       "url": "https://es.spartan.com/en/race/detail/11795/overview",
       "lat": 38.3436,
       "lng": -0.4882
+    },
+    {
+      "id": "hyrox-santiago",
+      "name": "HYROX Santiago",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Santiago",
+        "en": "Santiago",
+        "de": "Santiago"
+      },
+      "cc": "CR",
+      "continent": "south-america",
+      "type": "adults",
+      "start": "2027-03-06",
+      "end": "2027-03-06",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "find_out_more",
+      "url": "https://hyrox.com/event/hyrox-santiago/",
+      "lat": 9.8695,
+      "lng": -83.7981,
+      "venue": "TBA",
+      "ticket_info": {
+        "fr": "Ouverture de la billetterie prochainement (liste d'attente)",
+        "en": "Ticket sales opening soon (waitlist)",
+        "de": "Ticketverkauf startet bald (Warteliste)"
+      }
     },
     {
       "id": "expected-st-gallen",

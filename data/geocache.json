@@ -59,5 +59,16 @@
   "lat": 38.3436,
   "lng": -0.4882,
   "continent": "europe"
+ },
+ "Santiago|": {
+  "city": {
+   "fr": "Santiago",
+   "en": "Santiago",
+   "de": "Santiago"
+  },
+  "cc": "CR",
+  "lat": 9.8695,
+  "lng": -83.7981,
+  "continent": "north-america"
  }
 }
