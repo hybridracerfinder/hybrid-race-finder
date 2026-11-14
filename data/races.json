@@ -8,21 +8,21 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 196,
+    "count": 195,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-13",
+    "updated_at": "2026-11-14",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-14",
         "races": 93
       },
       "athx": {
-        "checked_on": "2026-11-13",
-        "races": 34
+        "checked_on": "2026-11-14",
+        "races": 33
       },
       "deka": {
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-14",
         "races": 21
       }
     }
@@ -805,7 +805,7 @@
     },
     {
       "id": "hyrox-manchester",
-      "name": "HYROX Manchester",
+      "name": "Creapure HYROX Manchester",
       "city": {
         "fr": "Manchester",
         "en": "Manchester",
@@ -1615,7 +1615,7 @@
       "end": "2027-04-18",
       "date_confirmed": true,
       "status": "announced",
-      "listing_cta": "find_out_more",
+      "listing_cta": "buy_tickets",
       "url": "https://hyrox.com/event/hyrox-malaga/",
       "lat": 36.7213,
       "lng": -4.4214,
@@ -2071,31 +2071,6 @@
       "venue": "San Diego Convention Center",
       "lat": 32.7157,
       "lng": -117.1611,
-      "cc": "US"
-    },
-    {
-      "id": "athx-01m3q8sdq1s3qr7fsjbf2rg18c",
-      "name": "ATHX Las Vegas 2027",
-      "city": {
-        "fr": "Las Vegas",
-        "en": "Las Vegas",
-        "de": "Las Vegas"
-      },
-      "brand": "athx",
-      "continent": "north-america",
-      "type": "adults",
-      "start": "2027-02-06",
-      "end": "2027-02-06",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://athxgames.com/events/01m3q8sdq1s3qr7fsjbf2rg18c",
-      "venue": "Expo at World Market Center",
-      "lat": 36.1699,
-      "lng": -115.1398,
-      "tags": [
-        "founders"
-      ],
       "cc": "US"
     },
     {
