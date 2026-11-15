@@ -1,14 +1,11 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 93,
    "added": [],
-   "updated": [
-    "Creapure HYROX Manchester",
-    "HYROX Málaga"
-   ],
+   "updated": [],
    "removed": [],
    "skipped": []
   },
@@ -17,17 +14,19 @@
    "found": 33,
    "added": [],
    "updated": [],
-   "removed": [
-    "ATHX Las Vegas 2027"
-   ],
+   "removed": [],
    "skipped": []
   },
   "deka": {
    "ok": true,
    "found": 21,
-   "added": [],
+   "added": [
+    "DEKA ALICANTE 2027 Alicante"
+   ],
    "updated": [],
-   "removed": [],
+   "removed": [
+    "DEKA ALICANTE 2027 Alicante"
+   ],
    "skipped": []
   }
  },

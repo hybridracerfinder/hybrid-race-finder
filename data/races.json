@@ -10,19 +10,19 @@
     },
     "count": 195,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-14",
+    "updated_at": "2026-11-15",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "races": 93
       },
       "athx": {
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "races": 33
       },
       "deka": {
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "races": 21
       }
     }
@@ -3241,27 +3241,6 @@
       "lng": -3.1646
     },
     {
-      "id": "deka-overview",
-      "name": "DEKA ALICANTE 2027 Alicante",
-      "brand": "deka",
-      "city": {
-        "fr": "Alicante",
-        "en": "Alicante",
-        "de": "Alicante"
-      },
-      "cc": "ES",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2027-10-30",
-      "end": "2027-10-31",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "find_out_more",
-      "url": "https://es.spartan.com/en/race/detail/11795/overview",
-      "lat": 38.3436,
-      "lng": -0.4882
-    },
-    {
       "id": "hyrox-santiago",
       "name": "HYROX Santiago",
       "brand": "hyrox",
@@ -3287,6 +3266,27 @@
         "en": "Ticket sales opening soon (waitlist)",
         "de": "Ticketverkauf startet bald (Warteliste)"
       }
+    },
+    {
+      "id": "deka-deka-alicante",
+      "name": "DEKA ALICANTE 2027 Alicante",
+      "brand": "deka",
+      "city": {
+        "fr": "Alicante",
+        "en": "Alicante",
+        "de": "Alicante"
+      },
+      "cc": "ES",
+      "continent": "europe",
+      "type": "adults",
+      "start": "2027-10-30",
+      "end": "2027-10-31",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "find_out_more",
+      "url": "https://es.spartan.com/en/races/deka-alicante",
+      "lat": 38.3436,
+      "lng": -0.4882
     },
     {
       "id": "expected-st-gallen",
