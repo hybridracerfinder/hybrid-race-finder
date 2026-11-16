@@ -1,9 +1,9 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "brands": {
   "hyrox": {
    "ok": true,
-   "found": 93,
+   "found": 87,
    "added": [],
    "updated": [],
    "removed": [],
@@ -20,17 +20,20 @@
   "deka": {
    "ok": true,
    "found": 21,
-   "added": [
-    "DEKA ALICANTE 2027 Alicante"
-   ],
+   "added": [],
    "updated": [],
-   "removed": [
-    "DEKA ALICANTE 2027 Alicante"
-   ],
+   "removed": [],
    "skipped": []
   }
  },
  "errors": [],
  "warnings": [],
- "reconcile": []
+ "reconcile": [
+  "finished, now 'not announced': HYROX Dublin",
+  "finished, now 'not announced': EDEKA HYROX Düsseldorf",
+  "finished, now 'not announced': Leapmotor HYROX Barcelona",
+  "finished, now 'not announced': The Feed HYROX Denver",
+  "finished, now 'not announced': AirAsia HYROX Seoul",
+  "finished, now 'not announced': HYROX Cairo"
+ ]
 }
