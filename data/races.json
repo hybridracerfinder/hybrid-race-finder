@@ -8,21 +8,21 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 195,
+    "count": 196,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-16",
+    "updated_at": "2026-11-17",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-16",
-        "races": 87
+        "checked_on": "2026-11-17",
+        "races": 88
       },
       "athx": {
-        "checked_on": "2026-11-16",
+        "checked_on": "2026-11-17",
         "races": 33
       },
       "deka": {
-        "checked_on": "2026-11-16",
+        "checked_on": "2026-11-17",
         "races": 21
       }
     }
@@ -3155,6 +3155,28 @@
       "url": "https://es.spartan.com/en/races/deka-alicante",
       "lat": 38.3436,
       "lng": -0.4882
+    },
+    {
+      "id": "hyrox-london-olympia-2",
+      "name": "Original Source HYROX London Olympia",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Olympia",
+        "en": "Olympia",
+        "de": "Messe London-Olympia"
+      },
+      "cc": "GB",
+      "continent": "europe",
+      "type": "adults",
+      "start": "2027-04-24",
+      "end": "2027-05-02",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "find_out_more",
+      "url": "https://hyrox.com/event/hyrox-london-olympia-2/",
+      "lat": 51.4963,
+      "lng": -0.2106,
+      "venue": "Olympia London, Hammersmith Road, London, W14 8UX"
     },
     {
       "id": "expected-st-gallen",

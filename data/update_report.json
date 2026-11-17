@@ -1,10 +1,12 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "brands": {
   "hyrox": {
    "ok": true,
-   "found": 87,
-   "added": [],
+   "found": 88,
+   "added": [
+    "Original Source HYROX London Olympia"
+   ],
    "updated": [],
    "removed": [],
    "skipped": []
@@ -28,12 +30,5 @@
  },
  "errors": [],
  "warnings": [],
- "reconcile": [
-  "finished, now 'not announced': HYROX Dublin",
-  "finished, now 'not announced': EDEKA HYROX Düsseldorf",
-  "finished, now 'not announced': Leapmotor HYROX Barcelona",
-  "finished, now 'not announced': The Feed HYROX Denver",
-  "finished, now 'not announced': AirAsia HYROX Seoul",
-  "finished, now 'not announced': HYROX Cairo"
- ]
+ "reconcile": []
 }

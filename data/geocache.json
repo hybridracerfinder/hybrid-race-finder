@@ -70,5 +70,16 @@
   "lat": 9.8695,
   "lng": -83.7981,
   "continent": "north-america"
+ },
+ "London Olympia|": {
+  "city": {
+   "fr": "Olympia",
+   "en": "Olympia",
+   "de": "Messe London-Olympia"
+  },
+  "cc": "GB",
+  "lat": 51.4963,
+  "lng": -0.2106,
+  "continent": "europe"
  }
 }
