@@ -1,13 +1,16 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 88,
-   "added": [
-    "Original Source HYROX London Olympia"
+   "added": [],
+   "updated": [
+    "HYROX Cancun",
+    "HYROX Guadalajara",
+    "HYROX Monterrey",
+    "EōS Fitness HYROX San Diego"
    ],
-   "updated": [],
    "removed": [],
    "skipped": []
   },
