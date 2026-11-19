@@ -1,23 +1,24 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 88,
    "added": [],
    "updated": [
-    "HYROX Cancun",
-    "HYROX Guadalajara",
-    "HYROX Monterrey",
-    "EōS Fitness HYROX San Diego"
+    "HYROX Bilbao",
+    "Virgin Active HYROX Cape Town ||",
+    "all inclusive Fitness HYROX Cologne"
    ],
    "removed": [],
    "skipped": []
   },
   "athx": {
    "ok": true,
-   "found": 33,
-   "added": [],
+   "found": 34,
+   "added": [
+    "ATHX Mexico City 2027"
+   ],
    "updated": [],
    "removed": [],
    "skipped": []

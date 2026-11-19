@@ -8,21 +8,21 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 196,
+    "count": 197,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-18",
+    "updated_at": "2026-11-19",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-18",
+        "checked_on": "2026-11-19",
         "races": 88
       },
       "athx": {
-        "checked_on": "2026-11-18",
-        "races": 33
+        "checked_on": "2026-11-19",
+        "races": 34
       },
       "deka": {
-        "checked_on": "2026-11-18",
+        "checked_on": "2026-11-19",
         "races": 21
       }
     }
@@ -841,7 +841,7 @@
       "brand": "hyrox",
       "continent": "europe",
       "type": "adults",
-      "start": "2027-02-06",
+      "start": "2027-02-05",
       "end": "2027-02-07",
       "date_confirmed": true,
       "status": "announced",
@@ -1263,7 +1263,7 @@
       "end": "2027-03-28",
       "date_confirmed": true,
       "status": "announced",
-      "listing_cta": "find_out_more",
+      "listing_cta": "buy_tickets",
       "url": "https://hyrox.com/event/virgin-active-hyrox-cape-town/",
       "lat": -33.9249,
       "lng": 18.4241,
@@ -1461,7 +1461,7 @@
       "end": "2027-04-11",
       "date_confirmed": true,
       "status": "announced",
-      "listing_cta": "find_out_more",
+      "listing_cta": "buy_tickets",
       "url": "https://hyrox.com/event/all-inclusive-fitness-hyrox-cologne/",
       "lat": 50.9375,
       "lng": 6.9603,
@@ -3177,6 +3177,27 @@
       "lat": 51.4963,
       "lng": -0.2106,
       "venue": "Olympia London, Hammersmith Road, London, W14 8UX"
+    },
+    {
+      "id": "athx-01m3qd6fzn88yx2e6zvt6h41c6",
+      "name": "ATHX Mexico City 2027",
+      "brand": "athx",
+      "city": {
+        "fr": "Mexico",
+        "en": "Mexico City",
+        "de": "Mexiko-Stadt"
+      },
+      "cc": "MX",
+      "continent": "north-america",
+      "type": "adults",
+      "start": "2027-05-15",
+      "end": "2027-05-15",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "buy_tickets",
+      "url": "https://athxgames.com/events/01m3qd6fzn88yx2e6zvt6h41c6",
+      "lat": 19.4326,
+      "lng": -99.1332
     },
     {
       "id": "expected-st-gallen",
