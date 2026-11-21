@@ -1,12 +1,10 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "brands": {
   "hyrox": {
    "ok": true,
    "found": 89,
-   "added": [
-    "HYROX Youngstars Lyon"
-   ],
+   "added": [],
    "updated": [],
    "removed": [],
    "skipped": []
