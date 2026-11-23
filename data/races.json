@@ -8,114 +8,26 @@
       "athx": "https://athxgames.com/events",
       "deka": "https://www.spartan.com/en/deka"
     },
-    "count": 198,
+    "count": 199,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-22",
+    "updated_at": "2026-11-23",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-22",
-        "races": 89
+        "checked_on": "2026-11-23",
+        "races": 85
       },
       "athx": {
-        "checked_on": "2026-11-22",
+        "checked_on": "2026-11-23",
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-11-22",
+        "checked_on": "2026-11-23",
         "races": 21
       }
     }
   },
   "races": [
-    {
-      "id": "hyrox-dallas",
-      "name": "HYROX Dallas",
-      "city": {
-        "fr": "Dallas",
-        "en": "Dallas",
-        "de": "Dallas"
-      },
-      "brand": "hyrox",
-      "continent": "north-america",
-      "type": "adults",
-      "start": "2026-11-18",
-      "end": "2026-11-22",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-dallas/",
-      "lat": 32.7767,
-      "lng": -96.797,
-      "cc": "US",
-      "venue": "650 S Griffin St, Dallas, Texas 75202 | Halls B & C"
-    },
-    {
-      "id": "hyrox-poznan",
-      "name": "BOSS PARFUMS HYROX POZNAŃ",
-      "city": {
-        "fr": "Poznań",
-        "en": "Poznań",
-        "de": "Posen"
-      },
-      "brand": "hyrox",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2026-11-20",
-      "end": "2026-11-22",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-poznan/",
-      "lat": 52.4064,
-      "lng": 16.9252,
-      "cc": "PL",
-      "venue": "Poznań International Fair, Głogowska 14 street, 60-734 Poznań"
-    },
-    {
-      "id": "hyrox-guangzhou",
-      "name": "Simplove HYROX Guangzhou",
-      "city": {
-        "fr": "Canton",
-        "en": "Guangzhou",
-        "de": "Guangzhou"
-      },
-      "brand": "hyrox",
-      "continent": "asia-pacific",
-      "type": "adults",
-      "start": "2026-11-20",
-      "end": "2026-11-22",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-guangzhou/",
-      "lat": 23.1291,
-      "lng": 113.2644,
-      "cc": "CN",
-      "venue": "No. 1000 Xinggang East Road, Haizhu District, Guangzhou, China"
-    },
-    {
-      "id": "hyrox-rio-de-janeiro",
-      "name": "Chevrolet HYROX Rio de Janeiro",
-      "city": {
-        "fr": "Rio de Janeiro",
-        "en": "Rio de Janeiro",
-        "de": "Rio de Janeiro"
-      },
-      "brand": "hyrox",
-      "continent": "south-america",
-      "type": "adults",
-      "start": "2026-11-21",
-      "end": "2026-11-22",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "buy_tickets",
-      "url": "https://hyrox.com/event/hyrox-rio-de-janeiro/",
-      "lat": -22.9068,
-      "lng": -43.1729,
-      "cc": "BR",
-      "venue": "Av. Salvador Allende, 6555 - Barra Olímpica, Rio de Janeiro - RJ, 22783-127"
-    },
     {
       "id": "aia-hyrox-singapore",
       "name": "AIA HYROX Singapore",
@@ -2747,27 +2659,6 @@
       "cc": "GB"
     },
     {
-      "id": "deka-tenerife-2026",
-      "name": "DEKA TENERIFE 2026 Santa Cruz de Tenerife",
-      "city": {
-        "fr": "Tenerife",
-        "en": "Tenerife",
-        "de": "Teneriffa"
-      },
-      "brand": "deka",
-      "continent": "europe",
-      "type": "adults",
-      "start": "2026-11-21",
-      "end": "2026-11-22",
-      "date_confirmed": true,
-      "status": "announced",
-      "listing_cta": "find_out_more",
-      "url": "https://es.spartan.com/en/races/deka-tenerife",
-      "lat": 28.4636,
-      "lng": -16.2518,
-      "cc": "ES"
-    },
-    {
       "id": "deka-torremolinos-2027",
       "name": "DEKA TORREMOLINOS (MÁLAGA) 2027 Torremolinos",
       "city": {
@@ -3220,6 +3111,27 @@
       "lat": 45.764,
       "lng": 4.8357,
       "venue": "Bd de l'Europe, 69680 Chassieu"
+    },
+    {
+      "id": "deka-overview",
+      "name": "DEKA TENERIFE 2027 Santa Cruz de Tenerife",
+      "brand": "deka",
+      "city": {
+        "fr": "Santa Cruz de Ténérife",
+        "en": "Santa Cruz de Tenerife",
+        "de": "Santa Cruz de Tenerife"
+      },
+      "cc": "ES",
+      "continent": "europe",
+      "type": "adults",
+      "start": "2027-11-20",
+      "end": "2027-11-21",
+      "date_confirmed": true,
+      "status": "announced",
+      "listing_cta": "find_out_more",
+      "url": "https://es.spartan.com/en/race/detail/11866/overview",
+      "lat": 28.4672,
+      "lng": -16.2508
     },
     {
       "id": "expected-st-gallen",
@@ -4803,6 +4715,151 @@
       "url": "https://hyrox.com/find-my-race/",
       "lat": 30.0444,
       "lng": 31.2357,
+      "expected_month": "2027-11"
+    },
+    {
+      "id": "expected-hyrox-us-dallas",
+      "name": "HYROX Dallas",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Dallas",
+        "en": "Dallas",
+        "de": "Dallas"
+      },
+      "cc": "US",
+      "continent": "north-america",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        11
+      ],
+      "last_edition": {
+        "start": "2026-11-18",
+        "end": "2026-11-22",
+        "venue": "650 S Griffin St, Dallas, Texas 75202 | Halls B & C"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": 32.7767,
+      "lng": -96.797,
+      "expected_month": "2027-11"
+    },
+    {
+      "id": "expected-hyrox-pl-pozna-",
+      "name": "HYROX Poznań",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Poznań",
+        "en": "Poznań",
+        "de": "Posen"
+      },
+      "cc": "PL",
+      "continent": "europe",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        11
+      ],
+      "last_edition": {
+        "start": "2026-11-20",
+        "end": "2026-11-22",
+        "venue": "Poznań International Fair, Głogowska 14 street, 60-734 Poznań"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": 52.4064,
+      "lng": 16.9252,
+      "expected_month": "2027-11"
+    },
+    {
+      "id": "expected-hyrox-cn-guangzhou",
+      "name": "HYROX Canton",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Canton",
+        "en": "Guangzhou",
+        "de": "Guangzhou"
+      },
+      "cc": "CN",
+      "continent": "asia-pacific",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        11
+      ],
+      "last_edition": {
+        "start": "2026-11-20",
+        "end": "2026-11-22",
+        "venue": "No. 1000 Xinggang East Road, Haizhu District, Guangzhou, China"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": 23.1291,
+      "lng": 113.2644,
+      "expected_month": "2027-11"
+    },
+    {
+      "id": "expected-hyrox-br-rio-de-janeiro",
+      "name": "HYROX Rio de Janeiro",
+      "brand": "hyrox",
+      "city": {
+        "fr": "Rio de Janeiro",
+        "en": "Rio de Janeiro",
+        "de": "Rio de Janeiro"
+      },
+      "cc": "BR",
+      "continent": "south-america",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        11
+      ],
+      "last_edition": {
+        "start": "2026-11-21",
+        "end": "2026-11-22",
+        "venue": "Av. Salvador Allende, 6555 - Barra Olímpica, Rio de Janeiro - RJ, 22783-127"
+      },
+      "url": "https://hyrox.com/find-my-race/",
+      "lat": -22.9068,
+      "lng": -43.1729,
+      "expected_month": "2027-11"
+    },
+    {
+      "id": "expected-deka-es-tenerife",
+      "name": "DEKA Tenerife",
+      "brand": "deka",
+      "city": {
+        "fr": "Tenerife",
+        "en": "Tenerife",
+        "de": "Teneriffa"
+      },
+      "cc": "ES",
+      "continent": "europe",
+      "type": "adults",
+      "start": null,
+      "end": null,
+      "date_confirmed": false,
+      "status": "expected",
+      "usual_months": [
+        11
+      ],
+      "last_edition": {
+        "start": "2026-11-21",
+        "end": "2026-11-22",
+        "venue": null
+      },
+      "url": "https://www.spartan.com/en/deka",
+      "lat": 28.4636,
+      "lng": -16.2518,
       "expected_month": "2027-11"
     }
   ]

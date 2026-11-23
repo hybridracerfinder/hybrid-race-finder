@@ -81,5 +81,16 @@
   "lat": 51.4963,
   "lng": -0.2106,
   "continent": "europe"
+ },
+ "Tenerife Santa Cruz De Tenerife|ES": {
+  "city": {
+   "fr": "Santa Cruz de Ténérife",
+   "en": "Santa Cruz de Tenerife",
+   "de": "Santa Cruz de Tenerife"
+  },
+  "cc": "ES",
+  "lat": 28.4672,
+  "lng": -16.2508,
+  "continent": "europe"
  }
 }
