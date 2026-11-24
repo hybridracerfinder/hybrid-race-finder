@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "brands": {
   "hyrox": {
    "ok": true,
@@ -20,9 +20,7 @@
   "deka": {
    "ok": true,
    "found": 21,
-   "added": [
-    "DEKA TENERIFE 2027 Santa Cruz de Tenerife"
-   ],
+   "added": [],
    "updated": [],
    "removed": [],
    "skipped": []
@@ -30,11 +28,5 @@
  },
  "errors": [],
  "warnings": [],
- "reconcile": [
-  "finished, now 'not announced': HYROX Dallas",
-  "finished, now 'not announced': BOSS PARFUMS HYROX POZNAŃ",
-  "finished, now 'not announced': Simplove HYROX Guangzhou",
-  "finished, now 'not announced': Chevrolet HYROX Rio de Janeiro",
-  "finished, now 'not announced': DEKA TENERIFE 2026 Santa Cruz de Tenerife"
- ]
+ "reconcile": []
 }
