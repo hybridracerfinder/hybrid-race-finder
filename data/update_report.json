@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "brands": {
   "hyrox": {
    "ok": true,
@@ -10,12 +10,8 @@
    "skipped": []
   },
   "athx": {
-   "ok": true,
-   "found": 34,
-   "added": [],
-   "updated": [],
-   "removed": [],
-   "skipped": []
+   "ok": false,
+   "found": 0
   },
   "deka": {
    "ok": true,
@@ -26,7 +22,9 @@
    "skipped": []
   }
  },
- "errors": [],
+ "errors": [
+  "ATHX: only 0 races found instead of about 34 (the site layout has probably changed); data left unchanged"
+ ],
  "warnings": [],
  "reconcile": []
 }
