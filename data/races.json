@@ -10,11 +10,11 @@
     },
     "count": 199,
     "notes": "status=announced : courses officiellement annoncées ; status=expected : villes ayant accueilli une course en 2026 sans édition annoncée. Coordonnées au niveau de la ville. listing_cta = bouton affiché sur la liste officielle (indicatif, à vérifier sur la fiche).",
-    "updated_at": "2026-11-27",
+    "updated_at": "2026-11-28",
     "generator": "update_races",
     "sources": {
       "hyrox": {
-        "checked_on": "2026-11-27",
+        "checked_on": "2026-11-28",
         "races": 85
       },
       "athx": {
@@ -22,7 +22,7 @@
         "races": 34
       },
       "deka": {
-        "checked_on": "2026-11-27",
+        "checked_on": "2026-11-28",
         "races": 21
       }
     }
